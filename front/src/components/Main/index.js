@@ -2,7 +2,8 @@ import BgImg from '@pictures/main.jpg';
 
 const Main = () => {
   return (
-    <main className="backgrounImg"
+    <main
+      className="backgrounImg"
       style={{ backgroundImage: `url(${BgImg})`}}
     >
       {/* ICI */}
