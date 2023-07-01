@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import Logo from '@pictures/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faPersonHiking, faAt, faBed, faBinoculars, faCamera } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faPersonHiking, faAt, faBed, faBinoculars, faCamera, faSailboat } from '@fortawesome/free-solid-svg-icons';
 import Toggle from '@utils/toggle.js';
 
 const Navigation = () => {
@@ -32,6 +32,10 @@ const Navigation = () => {
           <li className={isHovered ? 'hovered' : ''}>
           <FontAwesomeIcon icon={faUser} className='iconNav' />
             {isHovered && <span>{ t('nav.about')}</span>}
+          </li>
+          <li className={isHovered ? 'hovered' : ''}>
+            <FontAwesomeIcon icon={faSailboat} className='iconNav' />
+            {isHovered && <span>{ t('nav.boat')}</span>}
           </li>
           <li className={isHovered ? 'hovered' : ''}>
             <FontAwesomeIcon icon={faPersonHiking} className='iconNav' />

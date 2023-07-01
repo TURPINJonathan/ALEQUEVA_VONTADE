@@ -8,7 +8,12 @@
     "contacts": "Contacts",
     "french": "Afficher le site en français",
     "portuguese": "Mostrar o site em português / Afficher le site en portuguais",
-    "english": "Show website in english / Afficher le site en anglais"
+    "english": "Show website in english / Afficher le site en anglais",
+    "boat": "Notre bâteau"
   },
-  "logo": "Logo de Alqueva à Vontage"
+  "logo": "Logo de Alqueva à Vontage",
+  "home": {
+    "title": "Promenades en bateau sur l'Alqueva",
+    "subtitle": "Découvrez le lac d' Alqueva et ses paysages aussi surprenants que magiques, une invitation au voyage en famille ou entre amis."
+  }
 }

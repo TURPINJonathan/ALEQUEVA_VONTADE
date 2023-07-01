@@ -15,8 +15,8 @@ const resources = {
 // Configuration de i18next
 i18n.use(initReactI18next).init({
   resources,
-  lng: 'fr', // Langue par défaut
-  fallbackLng: 'fr', // Langue de secours si la traduction n'est pas disponible
+  lng: 'pt', // Langue par défaut
+  fallbackLng: 'pt', // Langue de secours si la traduction n'est pas disponible
   interpolation: {
     escapeValue: false,
   },
