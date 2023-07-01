@@ -1,13 +1,18 @@
+@use 'utils/colors';
 @import 'utils/_reset.css';
 @import '@fortawesome/fontawesome-svg-core/styles.css';
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora&family=Marck+Script&display=swap');
+
 
 @import 'utils/toggle';
 
 @import 'components/navigation.scss';
+@import 'components/main';
 
 html {
   height: 100vh;
   width: calc(100vw - (100vw - 100%));
+  font-family: 'EB Garamond', serif;
 
   body {
     margin: 0;

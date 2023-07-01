@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "about": "About us",
+    "walking": "Our tours",
+    "doing": "What can you do ?",
+    "sleeping": "Where can I sleep ?",
+    "galery": "Picture gallery",
+    "contacts": "Contacts",
+    "french": "Afficher le site en français / Show website in french",
+    "portuguese": "Mostrar o site em português / Show website in portuguese",
+    "english": "Show website in english",
+    "boat": "Our boat"
+  },
+  "logo": "Logo of Alqueva à Vontage",
+  "home": {
+    "title": "Boat trips on the Alqueva lake",
+    "subtitle": "Discover the Alqueva lake and its surpsising and magical landscape, an invitation to travel with your family or friends"
+  }
+}

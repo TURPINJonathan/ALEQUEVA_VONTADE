@@ -9,20 +9,23 @@ import './sass/index.scss';
 //? COMPONENTS
 import Main from '@components/Main';
 import Navigation from '@components/Layout/navigation';
+import TranslationProvider from './TranslationProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navigation />
-    <Router>
-      <Routes>
-        <Route
-          path='/'
-          element={<Main />}
-          exact
-        />
-      </Routes>
-    </Router>
+    <TranslationProvider>
+      <Navigation />
+      <Router>
+        <Routes>
+          <Route
+            path='/'
+            element={<Main />}
+            exact
+          />
+        </Routes>
+      </Router>
+    </TranslationProvider>
   </React.StrictMode>
 );
 
