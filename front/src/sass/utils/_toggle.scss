@@ -1,0 +1,17 @@
+#toggle {
+  display: flex;
+  justify-content: space-around;
+
+  img {
+    width: 30px;
+    margin: 0 !important;
+  }
+
+  .off {
+    filter: brightness(0.5)
+  }
+
+  .hidden {
+    display: none;
+  }
+}

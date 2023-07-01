@@ -13,10 +13,18 @@ module.exports = override(
   addBabelPlugin([
     'babel-plugin-root-import',
     {
-      rootPathSuffix: 'src/assets',
-      rootPathPrefix: '@assets/',
+      rootPathSuffix: 'src/assets/pictures',
+      rootPathPrefix: '@pictures/',
     },
-    'assets'
+    'pictures'
+  ]),
+  addBabelPlugin([
+    'babel-plugin-root-import',
+    {
+      rootPathSuffix: 'src/assets/translations',
+      rootPathPrefix: '@translations/',
+    },
+    'translations'
   ]),
   addBabelPlugin([
     'babel-plugin-root-import',
@@ -25,6 +33,14 @@ module.exports = override(
       rootPathPrefix: '@hooks/',
     },
     'hooks'
+  ]),
+  addBabelPlugin([
+    'babel-plugin-root-import',
+    {
+      rootPathSuffix: 'src/utils',
+      rootPathPrefix: '@utils/',
+    },
+    'utils'
   ]),
   addWebpackAlias({
     '@assets': path.resolve(__dirname, 'src/assets'),

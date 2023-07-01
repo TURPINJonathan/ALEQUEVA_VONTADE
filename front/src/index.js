@@ -8,10 +8,12 @@ import './sass/index.scss';
 
 //? COMPONENTS
 import Main from '@components/Main';
+import Navigation from '@components/Layout/navigation';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Navigation />
     <Router>
       <Routes>
         <Route
