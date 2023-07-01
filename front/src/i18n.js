@@ -3,11 +3,13 @@ import { initReactI18next } from 'react-i18next';
 
 import Fr from '@translations/fr.json';
 import Pt from '@translations/pt.json';
+import En from '@translations/en.json';
 
 // Traductions pour différentes langues
 const resources = {
-  pt: { translation: Fr },
-  fr: { translation: Pt },
+  pt: { translation: Pt },
+  fr: { translation: Fr },
+  en: { translation: En },
 };
 
 // Configuration de i18next
