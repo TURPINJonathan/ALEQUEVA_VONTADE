@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import TranslationProvider from './TranslationProvider';
 
 //? STYLES
 import './sass/index.scss';
@@ -9,18 +10,23 @@ import './sass/index.scss';
 //? COMPONENTS
 import Main from '@components/Main';
 import Navigation from '@components/Layout/navigation';
-import TranslationProvider from './TranslationProvider';
+import About from '@components/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <TranslationProvider>
-      <Navigation />
       <Router>
+        <Navigation />
         <Routes>
           <Route
             path='/'
             element={<Main />}
+            exact
+          />
+          <Route
+            path='/about'
+            element={<About />}
             exact
           />
         </Routes>
