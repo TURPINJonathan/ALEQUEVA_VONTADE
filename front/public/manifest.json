@@ -1,0 +1,26 @@
+{
+  "short_name": "Alequeva a Vontade",
+  "name": "Alequeva a Vontade",
+  "author": "TURPIN Jonathan",
+  "icons": [
+    {
+      "src": "Alequeva_a_vontade.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo_thin_bg--tsp.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo_thin_bg--tsp.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
