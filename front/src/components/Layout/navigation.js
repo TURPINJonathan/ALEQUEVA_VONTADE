@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 import Logo from '@pictures/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faPersonHiking, faAt, faBed, faBinoculars, faCamera, faSailboat } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faAnchor, faAt, faBed, faBinoculars, faCamera, faSailboat } from '@fortawesome/free-solid-svg-icons';
 import Toggle from '@utils/toggle.js';
 import { NavLink } from 'react-router-dom';
 
@@ -41,11 +41,11 @@ const Navigation = () => {
             </NavLink>
           </li>
           <li className={isHovered ? 'hovered' : ''}>
-            <FontAwesomeIcon icon={faSailboat} className='iconNav' />
+            <FontAwesomeIcon icon={faAnchor} className='iconNav' />
             {isHovered && <span>{ t('nav.boat')}</span>}
           </li>
           <li className={isHovered ? 'hovered' : ''}>
-            <FontAwesomeIcon icon={faPersonHiking} className='iconNav' />
+            <FontAwesomeIcon icon={faSailboat} className='iconNav' />
             {isHovered && <span>{ t('nav.walking')}</span>}
           </li>
           <li className={isHovered ? 'hovered' : ''}>
