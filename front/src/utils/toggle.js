@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 const Toggle = ({ isHovered }) => {
   const { t } = useTranslation();
 
-  const [activeLang, setActiveLang] = useState('fr');
+  const [activeLang, setActiveLang] = useState('pt');
 
   const handleToggle = (lang) => {
     if (lang !== activeLang) {
