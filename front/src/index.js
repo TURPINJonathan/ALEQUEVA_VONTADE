@@ -11,6 +11,8 @@ import './sass/index.scss';
 import Main from '@components/Main';
 import Navigation from '@components/Layout/navigation';
 import About from '@components/About';
+import Galery from '@components/Galery';
+import Boat from '@components/Boat';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -27,6 +29,16 @@ root.render(
           <Route
             path='/about'
             element={<About />}
+            exact
+          />
+          <Route
+            path='/galery'
+            element={<Galery />}
+            exact
+          />
+          <Route
+            path='/boat'
+            element={<Boat />}
             exact
           />
         </Routes>

@@ -1,0 +1,116 @@
+// .parent {
+// display: grid;
+// grid-template-columns: repeat(12, 1fr);
+// grid-template-rows: repeat(12, 1fr);
+// grid-column-gap: 0px;
+// grid-row-gap: 0px;
+// }
+
+// .div1 { grid-area: 1 / 1 / 5 / 5; }
+// .div2 { grid-area: 9 / 1 / 13 / 5; }
+// .div3 { grid-area: 5 / 1 / 9 / 3; }
+// .div4 { grid-area: 5 / 3 / 9 / 5; }
+// .div5 { grid-area: 4 / 5 / 10 / 7; }
+// .div6 { grid-area: 1 / 5 / 4 / 7; }
+// .div7 { grid-area: 10 / 5 / 13 / 7; }
+// .div8 { grid-area: 1 / 7 / 7 / 10; }
+// .div9 { grid-area: 7 / 7 / 13 / 10; }
+// .div10 { grid-area: 1 / 10 / 7 / 13; }
+// .div11 { grid-area: 7 / 10 / 10 / 13; }
+// .div12 { grid-area: 10 / 10 / 13 / 13; }
+
+
+#galery {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.galery_container {
+  border: 2px solid blue;
+  max-width: 80vw;
+  max-height: 100vh;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+
+
+	&>* {
+		object-fit: cover;
+		object-position: 50% 50%;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		border: 2px solid colors.$white-xs--tsp;
+		border-radius: 4px;
+  }
+
+  #relaxation {
+    grid-area: 1 / 7 / 7 / 10;
+  }
+  #discovery {
+    grid-area: 10 / 5 / 13 / 7;
+  }
+  #acostage {
+    grid-area: 4 / 5 / 10 / 7;
+  }
+  #escape {
+    grid-area: 7 / 10 / 10 / 13;
+  }
+  #sunset {
+    grid-area: 5 / 3 / 9 / 5;
+  }
+  #marina {
+    grid-area: 9 / 1 / 13 / 5;
+  }
+  #romantic {
+    grid-area: 7 / 7 / 13 / 10;
+  }
+  #swimming {
+    grid-area: 1 / 5 / 4 / 7;
+  }
+  #contemplation {
+    grid-area: 10 / 10 / 13 / 13;
+  }
+  #immensity {
+    grid-area: 1 / 10 / 7 / 13;
+  }
+  #conviviality {
+    grid-area: 5 / 1 / 9 / 3;
+  }
+  #made_to_mesure {
+    grid-area: 1 / 1 / 5 / 5;
+  }
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+}
+.modal-close {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
