@@ -29,6 +29,14 @@ module.exports = override(
   addBabelPlugin([
     'babel-plugin-root-import',
     {
+      rootPathSuffix: 'src/assets/pictures/galery',
+      rootPathPrefix: '@galery/',
+    },
+    'galery'
+  ]),
+  addBabelPlugin([
+    'babel-plugin-root-import',
+    {
       rootPathSuffix: 'src/hooks',
       rootPathPrefix: '@hooks/',
     },

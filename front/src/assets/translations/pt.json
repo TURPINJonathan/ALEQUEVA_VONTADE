@@ -21,5 +21,42 @@
     "greetings": "Ola, somos Frederic e Sofia",
     "comment": "Filha de imigrantes, nasci e cresci na França, mas sempre gostei imenso de Portugal. Amor que o Frederic tambem sentiu desde que viajou em terras portuguesas, à mais de 20 anos. Nosso gosto pela calma e pelos espaços naturais levou-nos atè ao Alentejo, e mais precisamente ao lago de Alqueva, o maior lago artificial de Europa! Com os seus 250km2, 1160km de margens, 426 ilhas e 7 aldeias ribeirinas a albufeira de Alqueva tem muito para oferecer! Hoje o nosso objetivo è levar as pessoas à bordo do \"Sam and Jo\" ( nome dos nossos gémeos Samuel e Joana) para que disfrutem da melhor maneira das paisagems deslumbrantes desta região de Portugal!",
     "picture": "Frederic e Sofia"
+  },
+  "galery": {
+    "title": {
+      "relaxation": "descando",
+      "discovery": "descoberta",
+      "acostage": "acostagem",
+      "escape": "evas&atilde;o",
+      "sunset": "pôr do sol",
+      "marina": "marina de amieira",
+      "romantic": "romantismo",
+      "swimming": "mergulho",
+      "contemplation": "contemplaç&atilde;o",
+      "immensity": "imensidade",
+      "conviviality": "convivialidade",
+      "made_to_mesure": "Personalisado"
+    },
+    "description": {
+      "relaxation": "Disfrute da calma de um passeio privado.",
+      "discovery": "Grandes variedades de paisagems.",
+      "acostage": "Muitos ponto&#7869;s a proximidade das praias.",
+      "escape": "Visite a Africa, a Bretanha pela C&oacute;rsega.",
+      "sunset": "Um aperitivo com cordes magnificas.",
+      "marina": "Um dos pontos de partida dos passeios.",
+      "romantic": "O por do sol s&oacute; para v&oacute;s.",
+      "swimming": "Equipamentos previstos para as atividades aquaticas.",
+      "contemplation": "Passeios feitos com calma, para contemplar a naturcza.",
+      "immensity": "O mais grande lago artificial de Europa.",
+      "conviviality": "Prove os nossos petiscos.",
+      "made_to_mesure": "Moveis modulaveis ao seu gosto."
+    }
+  },
+  "boat": {
+    "welcome": "Bem vindos a bordo !",
+    "content": "O \"Sam and Jo\" foi pensado como um terraço flutuante, destinado a disfrutar de toda a beleza do maior lago artificial de Europa. Nossos passeios permitem sentir toda a calma da natureza ! Nosso objectivo ? Que passem um memento privilegiado !",
+    "sunshade": "Para-sol removivel.",
+    "change_room": "Banheiro e cabine de cambio.",
+    "front_door": "Porta de frente facilitando o acesso para pessoas com mobilidade condicionada."
   }
 }
