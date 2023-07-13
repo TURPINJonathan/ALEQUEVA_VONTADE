@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import HoverableElement from '@utils/gridPicture';
 
 // Picture
-import Welcome from '@pictures/boat.png';
+import Welcome from '@galery/marina.jpg';
 import Sunshade from '@pictures/sunshade.png';
 import ChangeRoom from '@pictures/change_room.png';
 import FrontDoor from '@pictures/boat.png';
