@@ -1,7 +1,7 @@
 {
   "nav": {
     "about": "About us",
-    "walking": "Our tours",
+    "tour": "Our tours",
     "doing": "What can you do ?",
     "sleeping": "Where can I sleep ?",
     "galery": "Picture gallery",
@@ -58,5 +58,57 @@
     "sunshade": "Removable sunshade.",
     "change_room": "Toilets and changing room.",
     "front_door": "Front door for easy access by the disabled."
+  },
+  "tour": {
+    "guests": "guests",
+    "hour": {
+      "from_price": "from 60€",
+      "tour_type": "Discovery tour",
+      "picture_description": "TODO",
+      "tour_subtype": "Private tour",
+      "duration": "duration: 1:00",
+      "itinerary_tour": "Departure from Amieira marina or Amieira beach.",
+      "from_to_tour": "From 11:00 am to 8:00 pm (9:00 pm in summer)",
+      "included": "1 drink included"
+    },
+    "hour_and_half": {
+      "from_price": "from 80€",
+      "tour_type": "Discovery tour",
+      "picture_description": "TODO",
+      "tour_subtype": "Private tour",
+      "duration": "duration: 1:30",
+      "itinerary_tour": "Departure from Amieira marina or Amieira beach.",
+      "from_to_tour": "From 11:00 am to 8:00 pm (9:00 pm in summer)",
+      "included": "1 drink included"
+    },
+    "two_hours": {
+      "from_price": "from 100€",
+      "tour_type": "Discovery tour",
+      "picture_description": "TODO",
+      "tour_subtype": "Private tour",
+      "duration": "duration: 2:00",
+      "itinerary_tour": "Departure from Amieira marina or Amieira beach.",
+      "from_to_tour": "From 11:00 am to 8:00 pm (9:00 pm in summer)",
+      "included": "drinks and snacks included",
+      "special": "swimming possible in summer"
+    },
+    "three_hours": {
+      "from_price": "from 140€",
+      "tour_type": "Discovery tour",
+      "picture_description": "TODO",
+      "tour_subtype": "Private tour",
+      "duration": "duration: 3:00",
+      "itinerary_tour": "Departure from Amieira marina or Amieira beach.",
+      "from_to_tour": "From 11:00 am to 8:00 pm (9:00 pm in summer)",
+      "included": "drinks and snacks included",
+      "special": "swimming and paddling possible in summer"
+    },
+    "private": {
+      "tour_type": "Discovery tour",
+      "picture_description": "TODO",
+      "tour_subtype": "On quotation only *",
+      "itinerary_tour": "Family, friends or colleagues? We will help you to imagine and create a unique, made-to-measure event: itineraries, duration, activities, music - you will be the protagonist of an event that reflects your image!",
+      "from_to_tour": "* limited to 10 guests."
+    }
   }
 }

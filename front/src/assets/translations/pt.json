@@ -1,7 +1,7 @@
 {
   "nav": {
     "about": "Quem somos",
-    "walking": "Passeios",
+    "tour": "Passeios",
     "doing": "Que fazer ?",
     "sleeping": "Onde dormir ?",
     "galery": "Galeria de fotos",
@@ -38,7 +38,7 @@
       "made_to_mesure": "Personalisado"
     },
     "description": {
-      "relaxation": "Disfrute da calma de um passeio privado.",
+      "relaxation": "Disfrute da calma de um Passeio privado.",
       "discovery": "Grandes variedades de paisagems.",
       "acostage": "Muitos ponto&#7869;s a proximidade das praias.",
       "escape": "Visite a Africa, a Bretanha pela C&oacute;rsega.",
@@ -58,5 +58,57 @@
     "sunshade": "Para-sol removivel.",
     "change_room": "Banheiro e cabine de cambio.",
     "front_door": "Porta de frente facilitando o acesso para pessoas com mobilidade condicionada."
+  },
+  "tour": {
+    "guests": "pessoas",
+    "hour": {
+      "from_price": "a partir de 60€",
+      "tour_type": "Passeio de descoberta",
+      "picture_description": "TODO",
+      "tour_subtype": "Passeio privado",
+      "duration": "durée: 1:00",
+      "itinerary_tour": "Saida da marina de Amieira ou da praia de Amieira.",
+      "from_to_tour": "A partir das 11:00 e atè as 20:00 (21:00 no verão)",
+      "included": "1 bebida incluida"
+    },
+    "hour_and_half": {
+      "from_price": "a partir de 80€",
+      "tour_type": "Passeio de descoberta",
+      "picture_description": "TODO",
+      "tour_subtype": "Passeio privado",
+      "duration": "durée: 1:30",
+      "itinerary_tour": "Saida da marina de Amieira ou da praia de Amieira.",
+      "from_to_tour": "A partir das 11:00 e atè as 20:00 (21:00 no verão)",
+      "included": "1 bebida incluida"
+    },
+    "two_hours": {
+      "from_price": "a partir de 100€",
+      "tour_type": "Lazer e mergulho",
+      "picture_description": "TODO",
+      "tour_subtype": "Passeio privado",
+      "duration": "durée: 2:00",
+      "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
+      "from_to_tour": "A partir das 11:00 e atè as 20:00 (21:00 no verão)",
+      "included": "bebidas e petiscos incluidos",
+      "special": "mergulho possivel no verão"
+    },
+    "three_hours": {
+      "from_price": "a partir de 140€",
+      "tour_type": "Ao longo da àgua",
+      "picture_description": "TODO",
+      "tour_subtype": "Passeio privado",
+      "duration": "durée: 3:00",
+      "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
+      "from_to_tour": "A partir das 11:00 e atè as 20:00 (21:00 no verão)",
+      "included": "bebidas e petiscos incluidos",
+      "special": "mergulho e paddle possivel no verão"
+    },
+    "private": {
+      "tour_type": "Passeio personalisado",
+      "picture_description": "TODO",
+      "tour_subtype": "Preço sob consulta *",
+      "itinerary_tour": "Evento familial, entre amigos ou colegas de trabalho? estamos consigo para imaginar e criar um momento unico e personalisado! Percurso, duração, atividades, musica, seja o ator de um evento à sua imagem!",
+      "from_to_tour": "* limitado a 10 pessoas."
+    }
   }
 }
