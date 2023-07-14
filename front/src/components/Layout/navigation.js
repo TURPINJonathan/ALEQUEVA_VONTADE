@@ -3,7 +3,16 @@ import { useTranslation } from 'react-i18next';
 
 import Logo from '@pictures/logo.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faAnchor, faAt, faBed, faBinoculars, faCamera, faSailboat } from '@fortawesome/free-solid-svg-icons';
+import {
+  faUser,
+  faAnchor,
+  faAt,
+  faBed,
+  faBinoculars,
+  faCamera,
+  faSailboat,
+  faUtensils
+} from '@fortawesome/free-solid-svg-icons';
 import Toggle from '@utils/toggle.js';
 import { NavLink } from 'react-router-dom';
 
@@ -37,7 +46,7 @@ const Navigation = () => {
           <li className={isHovered ? 'hovered' : ''}>
             <NavLink to="/about" end>
               <FontAwesomeIcon icon={faUser} className='iconNav' />
-                {isHovered && <span>{ t('nav.about')}</span>}
+              {isHovered && <span>{ t('nav.about')}</span>}
             </NavLink>
           </li>
           <li className={isHovered ? 'hovered' : ''}>
@@ -48,13 +57,19 @@ const Navigation = () => {
           </li>
           <li className={isHovered ? 'hovered' : ''}>
             <NavLink to="/tour" end>
-            <FontAwesomeIcon icon={faSailboat} className='iconNav' />
+              <FontAwesomeIcon icon={faSailboat} className='iconNav' />
               {isHovered && <span>{ t('nav.tour')}</span>}
             </NavLink>
           </li>
           <li className={isHovered ? 'hovered' : ''}>
             <FontAwesomeIcon icon={faBinoculars} className='iconNav' />
             {isHovered && <span>{ t('nav.doing')}</span>}
+          </li>
+          <li className={isHovered ? 'hovered' : ''}>
+            <NavLink to="/eat" end>
+              <FontAwesomeIcon icon={faUtensils} className='iconNav' />
+              {isHovered && <span>{ t('nav.eat')}</span>}
+            </NavLink>
           </li>
           <li className={isHovered ? 'hovered' : ''}>
             <FontAwesomeIcon icon={faBed} className='iconNav' />

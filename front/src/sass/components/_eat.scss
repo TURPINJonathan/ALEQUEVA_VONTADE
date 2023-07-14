@@ -1,0 +1,129 @@
+#eat {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	.eat_container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+		height: 95vh;
+		width: 95vw;
+		margin-right: 5vw;
+
+		&>* {
+			border: colors.$white-xs--tsp 1px solid;
+			padding: 0.3rem;
+
+			.restaurant {
+				width: 100%;
+				height: 100%;
+				background-color: colors.$white-xs--tsp;
+				position: relative;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				// justify-content: center;
+
+				.restaurant_name {
+					font-family: 'Marck Script', cursive;
+					text-transform: capitalize;
+					font-size: 1.6rem;
+					text-align: center;
+					margin: 3rem 0 1rem 0;
+					max-width: 60%;
+				}
+
+				.icons {
+					font-size: 2rem;
+				}
+
+				.picture {
+					width: 230px;
+					height: 230px;
+					display: block;
+					margin-bottom: 0;
+					position: absolute;
+				}
+
+				.restaurants_elements {
+					margin: 0.8rem 0;
+				}
+			}
+		}
+	
+		.restaurant_sao-pedro {
+			grid-area: 1 / 2 / 2 / 3;
+
+			img {
+				border-radius: 50rem 0 0 0;
+				bottom: 0;
+				right: 0;
+				border-top: colors.$blue-lt 2px solid;
+				padding-top: 0.3rem;
+				padding-left: 0.3rem;
+			}
+		}
+	
+		.restaurant_xares-monsarez {
+			grid-area: 1 / 3 / 2 / 4;
+
+			img {
+				border-radius: 0 50rem 0 0;
+				bottom: 0;
+				left: 0;
+				border-top: colors.$blue-lt 2px solid;
+				padding-top: 0.3rem;
+				padding-right: 0.3rem;
+			}
+		}
+	
+		.restaurant_liberato-moura {
+			grid-area: 2 / 3 / 3 / 4;
+
+			.restaurant {
+				justify-content: end;
+			}
+
+			img {
+				border-radius: 0 0 50rem 0;
+				top: 0;
+				left: 0;
+				border-bottom: colors.$blue-lt 2px solid;
+				padding-bottom: 0.3rem;
+				padding-right: 0.3rem;
+			}
+		}
+	
+		.restaurant_aficionado-amieira {
+			grid-area: 2 / 2 / 3 / 3;
+
+			.restaurant {
+				justify-content: end;
+			}
+
+			img {
+				border-radius: 0 0 0 50rem;
+				top: 0;
+				right: 0;
+				border-bottom: colors.$blue-lt 2px solid;
+				padding-bottom: 0.3rem;
+				padding-left: 0.3rem;
+			}
+		}
+
+		.eat_title {
+			grid-area: 2 / 1 / 3 / 2;
+			border: none;
+			display: flex;
+			justify-content: end;
+			align-items: center;
+			font-family: 'Marck Script', cursive;
+			text-transform: capitalize;
+			font-size: 3rem;
+			color: colors.$white-xs--tsp;
+			text-align: right;
+		}
+	}
+}

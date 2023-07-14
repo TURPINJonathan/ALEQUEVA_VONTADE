@@ -1,8 +1,11 @@
 {
+  "logo": "Logo de Alqueva à Vontage",
+  "restaurants": "Notre sélection de restaurants",
   "nav": {
     "about": "A propos",
     "tour": "Nos promenades",
     "doing": "Que faire ?",
+    "eat": "Où manger ?",
     "sleeping": "Où dormir ?",
     "galery": "Galerie photos",
     "contacts": "Contacts",
@@ -11,7 +14,6 @@
     "english": "Show website in english / Afficher le site en anglais",
     "boat": "Notre bâteau"
   },
-  "logo": "Logo de Alqueva à Vontage",
   "home": {
     "title": "Promenades en bateau sur l'Alqueva",
     "subtitle": "Découvrez le lac d' Alqueva et ses paysages aussi surprenants que magiques, une invitation au voyage en famille ou entre amis."
