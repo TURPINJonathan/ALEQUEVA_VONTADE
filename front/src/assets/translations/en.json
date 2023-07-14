@@ -1,8 +1,11 @@
 {
+  "logo": "Logo of Alqueva à Vontage",
+  "restaurants": "Our restaurant selection",
   "nav": {
     "about": "About us",
     "tour": "Our tours",
     "doing": "What can you do ?",
+    "eat": "Where to eat ?",
     "sleeping": "Where can I sleep ?",
     "galery": "Picture gallery",
     "contacts": "Contacts",
@@ -11,7 +14,6 @@
     "english": "Show website in english",
     "boat": "Our boat"
   },
-  "logo": "Logo of Alqueva à Vontage",
   "home": {
     "title": "Boat trips on the Alqueva lake",
     "subtitle": "Discover the Alqueva lake and its surpsising and magical landscape, an invitation to travel with your family or friends"

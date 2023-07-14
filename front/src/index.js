@@ -14,6 +14,7 @@ import About from '@components/About';
 import Galery from '@components/Galery';
 import Boat from '@components/Boat';
 import Tour from '@components/Tour';
+import Eat from '@components/Eat';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -45,6 +46,11 @@ root.render(
           <Route
             path='/tour'
             element={<Tour />}
+            exact
+          />
+          <Route
+            path='/eat'
+            element={<Eat />}
             exact
           />
         </Routes>

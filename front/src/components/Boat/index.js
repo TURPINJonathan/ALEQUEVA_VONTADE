@@ -36,7 +36,6 @@ const Boat = () => {
           picture={FrontDoor}
           element="boat_door"
         />
-        {/* Other HoverableElement components */}
       </div>
     </main>
   );

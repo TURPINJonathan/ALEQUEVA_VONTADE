@@ -1,8 +1,11 @@
 {
+  "logo": "Logotipo Alqueva à vontade",
+  "restaurants": "A nossa seleção de restaurantes",
   "nav": {
     "about": "Quem somos",
     "tour": "Passeios",
     "doing": "Que fazer ?",
+    "eat": "Onde comer ?",
     "sleeping": "Onde dormir ?",
     "galery": "Galeria de fotos",
     "contacts": "Contato",
@@ -11,7 +14,6 @@
     "english": "Show website in english / Mostrar o site em inglês",
     "boat": "Nosso barco"
   },
-  "logo": "Logotipo Alqueva à vontade",
   "home": {
     "title": "Passeios de barco no Alqueva",
     "subtitle": "Descubra o lago de Alqueva e desfrute da natureza e de paisagens envolventes em familia ou entre amigos."
