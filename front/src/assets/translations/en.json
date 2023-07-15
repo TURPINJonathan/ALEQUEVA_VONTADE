@@ -210,5 +210,13 @@
       },
       "picture_description": "TODO"
     }
+  },
+  "sleep": {
+    "casa_da_teresa": {
+      "title": "The Teresa' s house",
+      "content": "Located in Portel, in the Alentejo region, Teresa's house is a great alternative for exploring the region. It offers every comfort for 4-5 guests, and its terrace overlooking the village of Portel is enchanting! Think of it for your next stay.",
+      "picture_terrace_description": "TODO",
+      "picture_inside_description": "TODO"
+    }
   }
 }

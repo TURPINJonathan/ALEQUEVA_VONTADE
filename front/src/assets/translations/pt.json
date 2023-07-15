@@ -210,5 +210,13 @@
       },
       "picture_description": "TODO"
     }
+  },
+  "sleep": {
+    "casa_da_teresa": {
+      "title": "Casa da Teresa",
+      "content": "Situada em Portel, no Alentejo, a casa da Teresa è uma fantastica opçao para descobrir a regiao. Tem todo o conforto para 4-5 pessoas, e tem um terraço com vista deslumbrante sobre Portel ! Nao perca.",
+      "picture_terrace_description": "TODO",
+      "picture_inside_description": "TODO"
+    }
   }
 }
