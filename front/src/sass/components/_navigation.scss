@@ -2,6 +2,11 @@
   z-index: 99;
   position: absolute;
 
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
   #logo {
     height: 270px;
     width: 270px;

@@ -112,5 +112,103 @@
       "itinerary_tour": "Evènement familial, entre amis ou entre collègues ? Nous vous accompagnons pour imaginer et créer un moment unique, sur mesure : parcours, durée, activités, musique, soyez l'acteur d'un évènement à votre image !",
       "from_to_tour": "* limité à 10 personnes."
     }
+  },
+  "activities": {
+    "website": "Rendez-vous sur ",
+    "main": {
+      "title": "Une région qui reste dans le coeur",
+      "content": {
+        "first": "Vous aimez les grands espaces, la nature, les villes et villages à taille humaine, le calme et la paix ?  Le centre de l'Alentejo est fait pour vous !",
+        "second": "Découvrez toute la beauté d'Evora et Monsaraz. La singularité des villages  comme Luz ou Estrela. Profitez des plages fluviales d'Amieira ou d'Alqueva. promenez-vous dans les rues de Portel jusqu'au Château, ou dans les rues fleuries de Moura. Dormez dans un logement local. Découvrez la gastronomie  pleine de saveurs incroyables et respirez les parfums d'orangers et d'amandiers. C'est l'ALENTEJO !"
+      },
+      "picture_description": "TODO"
+    },
+    "evora": {
+      "title": "Evora",
+      "content": {
+        "first": "Boire un café ou un rafraichissement sur une esplanade de la place du Giraldo, contempler l'église de santo Antão et  la fontaine du Giraldo.",
+        "second": "Visiter la cathédrale d'Evora. Monter sur la terrace de la  cathédrale (3,50€)pour la  vue panoramique sur la ville, ça vaut le coup !",
+        "third": "Contempler le temple Romain de \"Diana\", le temple le mieux préservé de la peninsule iberique !",
+        "fourth": "Marcher dans la  rua 5 de outubro,avec  ses boutiques  de souvenirs et artisants.",
+        "fifth": "Voir l'église de la misericordia, un des monuments les plus anciens d'Evora.",
+        "sixth": "Se relaxer dans le  jardin publique d' Evora, voir les paons en liberté."
+      },
+      "picture_description": "TODO"
+    },
+    "monsaraz": {
+      "title": "Monsaraz",
+      "content": {
+        "first": "Passer par une des 4 entrées du Village médiéval( la porte principale est la \"porta da vila\").",
+        "second": "Marcher le long des murailles jusqu'au Chateau.",
+        "third": "Monter sur les murailles et contempler le lac d'Alqueva, Quelle vue incroyable !",
+        "fourth": "Marcher dans les rues, entrer dans une boutique d'artisanat( découvrez les couvertures, spécialité de Monsaraz).",
+        "fifth": "Assister au coucher de soleil, assis sur une  muraille."
+      },
+      "picture_description": "TODO"
+    },
+    "aldeia_da_luz": {
+      "title": "Aldeia da Luz",
+      "content": {
+        "first": "Sentir l'atmosphère particulière du village de Luz, l'unique village à avoir disparu sous l'eau lors du remplissage du lac, et reconstruit à l'identique à quelques KM.",
+        "second": "Visiter le musée de Luz et apprendre l' histoire du village.",
+        "third": "Marcher sur le long ponton au bout du village, et arriver au bord de l'eau !",
+        "fourth": "Observer la nature, profiter de la paix et du  calme ambient !"
+      },
+      "picture_description": "TODO"
+    },
+    "portel": {
+      "title": "Portel",
+      "content": {
+        "first": "Découvrir la praça Dom Nuno alvares Pereira et la Mairie de Portel.",
+        "second": "Visiter l'église da misericordia.",
+        "third": "Monter et faire le tour des murailles du Chateau(l'intérieur est inaccessible).",
+        "fourth": "Descendre les rues jusqu'au  parc da Matriz. Se promener dans le jardin Doutor Santiago. Entrer dans l'église  manueline de São Jão Batista, découvrir à l' interieur des azulejos sevillans du XVII siècle.",
+        "fifth": "Monter jusqu'au  Chateau et a sa forteresse maure, ainsi qu'à la tour de la montre.",
+        "sixth": "Marcher dans  les rues fleuries et piétonnières. Découvrir la magnifique façade de l'hotel de Moura et de  la casa do azeite."
+      },
+      "picture_description": "TODO"
+    },
+    "beach": {
+      "title": "Plages d' Amieira | Plages d' Alqueva",
+      "content": {
+        "first": "Infrastructures :",
+        "second": "Bar/Restaurant avec terrasse sous la plage.",
+        "third": "Plages accessibles, parking pour  caravanes.",
+        "fourth": "Eau avec une excellente température, toujours autour de 28º en été !",
+        "fifth": "Parasols en paille sur la pelouse.",
+        "sixth": "Plages drapeau bleu."
+      },
+      "picture_description": "TODO"
+    },
+    "fishing": {
+      "title": "Alqueva Predator Fishing",
+      "content": {
+        "first": "Vous êtes en quête d’aventures pour votre prochain voyage de pêche de carnassiers au Portugal ?Ici, place aux rêves et à la démesure, votre terrain de jeu 25 000 ha et plus de 1200 km de rives.",
+        "second": "Avec ALQUEVA PREDATOR FISHING vous serez seul ou presque (aucune pression de pêche comme en Espagne) sur ce lac artificiel, le plus grand d’Europe, ALQUEVA, appelé aussi par certains pécheurs français de carnassiers déjà sous le charme.",
+        "third": "Pêcher avec ALQUEVA PREDATOR FISHING c’est rêver un voyage de pêche des carnassiers hors normes et sans limites !"
+      },
+      "picture_description": "TODO"
+    },
+    "museum": {
+      "title": "Musée de Medronho",
+      "content": {
+        "first": "La Distillerie :",
+        "second": "Grâce à des visites programmées et pendant la saison de maturation des fruits, il est possible de suivre et d'observer les différentes étapes de l'élaboration du distillat : de la cueillette du fruit, à la fermentation, la distillation et la mise en bouteille.",
+        "third": "L'exposition :",
+        "fourth": "Le musée présente une exposition permanente qui vise à faire connaître le Medronho : Une caractérisation de la plante et du fruit, son cycle de vie, sa valeur économique et écologique et sa foresterie qui se terminera par le processus de distillation du fruit et de son produit - le bien- eau-de-vie d'arbousier connue.",
+        "fifth": "Le Cognac :",
+        "sixth": "Les eaux-de-vie de Medronho produites dans la distillerie du musée sont en vente à la boutique toute l'année. Vous pouvez cependant les goûter et certifier la qualité des spiritueux avant de l'acheter."
+      },
+      "picture_description": "TODO"
+    },
+    "dark_sky": {
+      "title": "Dark Sky",
+      "content": {
+        "first": "Imaginez un endroit où vous avez au-dessus de la tête un magnifique ciel étoilé. Cette sensation est indescriptible et normalement seulement possible de façon artificielle, dans un planétarium, où vous êtes confortablement assis pour assister à un cours sur les étoiles. Au Portugal, vous avez la chance d'avoir cette sensation en plein air.",
+        "second": "Au coeur de l'Alentejo, le merveilleux ciel d'Alqueva ressemble à un immense manteau en velours foncé parsemé d'étoiles. C'est une zone protégée et certifiée internationalement, inscrite comme réserve Dark Sky, ou « Starlight Tourism Destination », qui s'étend sur une surface d'environ 10 000 kilomètres carrés.",
+        "third": "Cet endroit ayant été reconnu comme destination préférentielle pour observer le ciel, les municipalités qui entourent le lac d'Alqueva – Alandroal, Reguengos de Monsaraz, Portel, Mourão, Moura et Barrancos - ont joint leurs efforts pour préserver cette caractéristique spéciale et, par conséquent, réduisent le plus possible l'éclairage public la nuit, pour que tout le monde puisse profiter au maximum de ce phénomène de la nature."
+      },
+      "picture_description": "TODO"
+    }
   }
 }

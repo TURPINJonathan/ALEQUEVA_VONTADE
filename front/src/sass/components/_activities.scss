@@ -1,0 +1,56 @@
+#activities {
+	display: flex;
+	justify-content: end;
+
+	#activities_container {
+		width: 70%;
+		overflow-y: auto;
+		padding: 0.5rem 0.5rem 0.5rem 0;
+
+		.activities_element {
+			border: colors.$white-xs--tsp 1px solid;
+			padding: 0.3rem;
+			margin-bottom: 1rem;
+
+			.picture_left {
+				flex-direction: row-reverse;
+			}
+
+			.inside_element {
+				background-color: colors.$white-xs--tsp;
+				display: flex;
+				justify-content: space-between;
+
+				.element_content {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-evenly;
+					padding: 1rem;
+					width: 65%;
+
+					h1 {
+						font-size: 2.5rem;
+						text-align: center;
+						font-family: 'Marck Script', cursive;
+					}
+
+					h2 {
+						font-size: 2rem;
+						text-align: center;
+						font-family: 'Marck Script', cursive;
+					}
+
+					p {
+						margin: 1rem;
+					}
+				}
+	
+				img {
+					max-width: 35%;
+					max-height: 50vh;
+				}
+			}
+		}
+
+	}
+}
