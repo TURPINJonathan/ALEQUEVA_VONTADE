@@ -16,6 +16,7 @@ import Boat from '@components/Boat';
 import Tour from '@components/Tour';
 import Eat from '@components/Eat';
 import Activities from '@components/Activities';
+import Sleep from '@components/Sleep';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -57,6 +58,11 @@ root.render(
           <Route
             path='/activities'
             element={<Activities />}
+            exact
+          />
+          <Route
+            path='/sleep'
+            element={<Sleep />}
             exact
           />
         </Routes>

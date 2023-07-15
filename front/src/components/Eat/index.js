@@ -8,12 +8,12 @@ import { faSquareFacebook } from '@fortawesome/free-brands-svg-icons'
 
 // PICTURES
 import SaoPedro from '@pictures/restaurants/Sao_Pedro.png';
-import XaresEmMonsarez from '@pictures/restaurants/Xares_em_Monsarez.jpg'; 
+import XaresEmMonsarez from '@pictures/restaurants/Xares_em_Monsarez.jpg';
 import LiberatoMoura from '@pictures/restaurants/Liberato_em_Moura.jpg';
 import AficionadoAmieira from '@pictures/restaurants/Aficionado_em_Amieira.jpg'
 
 const Eat = () => {
-  const { t } = useTranslation();
+	const { t } = useTranslation();
 
 	const restaurants = [
 		{
@@ -73,12 +73,12 @@ const Eat = () => {
 		}
 	]
 
-  return (
+	return (
 		<main id="eat" style={{ backgroundImage: `url(${BgImg})` }}>
 			<div className='eat_container'>
 				{restaurants.map((restaurant, index) => (
-					<div className={restaurant.class} key={index}>
-						<div className='restaurant'>
+					<div className={`card_border ${restaurant.class}`} key={index}>
+						<div className='restaurant card_background'>
 							<div className='restaurant_name'>{restaurant.name}</div>
 
 							<a
@@ -109,7 +109,7 @@ const Eat = () => {
 								alt={restaurant.pictureDescription}
 								className='picture'
 							/>
-							
+
 							<div className='restaurants_elements'>
 								<a
 									href={restaurant.facebookLink}
@@ -117,7 +117,7 @@ const Eat = () => {
 								>
 									<FontAwesomeIcon
 										icon={faSquareFacebook}
-										style={{color: "#3982e4",}}
+										style={{ color: "#3982e4", }}
 										className='icons facebook_icon'
 									/>
 								</a>
@@ -125,10 +125,10 @@ const Eat = () => {
 						</div>
 					</div>
 				))}
-				<h1 className='eat_title'>{ t('restaurants') }</h1>
+				<h1 className='eat_title'>{t('restaurants')}</h1>
 			</div>
 		</main>
-  );
+	);
 };
 
 export default Eat;

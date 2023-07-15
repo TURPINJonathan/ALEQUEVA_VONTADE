@@ -210,5 +210,24 @@
       },
       "picture_description": "TODO"
     }
+  },
+  "sleep": {
+    "casa_da_teresa": {
+      "title": "La maison de Teresa",
+      "content": "Située à Portel,en Alentejo, la maison de Teresa est une super alternative de séjour pour découvrir la région. Elle offre tout le confort pour 4-5 personnes, et sa terrasse surplombant le village de Portel est un enchantement ! Pensez-y pour votre prochain séjour.",
+      "picture_terrace_content": "Vue depuis la terrasse",
+      "picture_inside_content": "Intérrieur de la maison",
+      "picture_terrace_description": "TODO",
+      "picture_inside_description": "TODO"
+    },
+    "herdade": {
+      "title": "Herdade Do Rio Torto",
+      "content": "Au cœur d'Alqueva, à 5 km de Portel, un nouvel et petit espace rural renaît. Cet espace combine la tradition et les coutumes d'une région de grande valeur paysagère, offrant à tous ses hôtes une expérience intégrale de tranquillité et d'harmonie. La décoration a été pensée dans les moindres détails et l'équilibre entre l'intérieur typique et l'extérieur simple et parfait. Elle dispose de 5 chambres, 5 appartements avec cuisine équipée, un salon, une salle de jeux et une piscine extérieure. Dans un espace où presque tous les objets ont été fabriqués à la main.",
+      "link": "Rendez-vous sur Herdade Do Rio Torto",
+      "picture_terrace_content": "Vue depuis l'une des terrasses",
+      "picture_inside_content": "Intérrieur d'une des locations disponible",
+      "picture_terrace_description": "TODO",
+      "picture_inside_description": "TODO"
+    }
   }
 }

@@ -17,8 +17,8 @@ const Rate = ({
   const { t } = useTranslation();
 
   return (
-    <div className='card' id={isMainCard ? 'tour_first' : ''}>
-      { isPrices && (<span className='tour_fromPrice'>{fromPrice}</span>)}
+    <div className='card card_border' id={isMainCard ? 'tour_first' : ''}>
+      {isPrices && (<span className='tour_fromPrice'>{fromPrice}</span>)}
       <img className='tour_picture' src={picture} alt={pictureDescription} />
 
       <div className={`tour_type ${!isMainCard ? 'tour_type-small' : ''}`}>
@@ -28,7 +28,7 @@ const Rate = ({
       </div>
 
 
-      <div className={`tour_content ${!isMainCard ? 'tour_content-small' : ''}`}>
+      <div className={`tour_content card_background ${!isMainCard ? 'tour_content-small' : ''}`}>
         <h1 className={`tour_content-title ${!isMainCard ? 'tour_content-title--small' : ''}`}>
           {tourSubType}
           {duration !== null && (<span className='duration'>({duration})</span>)}
@@ -47,7 +47,7 @@ const Rate = ({
             <tbody>
               {prices.map((price, index) => (
                 <tr key={index}>
-                  <td>{price.personCount} { t('tour.guests') }</td>
+                  <td>{price.personCount} {t('tour.guests')}</td>
                   <td>
                     {price.price}&nbsp;
                     {price.included && (<small>{price.included}</small>)}
@@ -59,25 +59,25 @@ const Rate = ({
           </table>
         ) : isMainCard && (
           <table>
-          <tbody>
-            <tr>
-              <td>2  { t('tour.guests') }</td>
-              <td>60 €</td>
-            </tr>
-            <tr>
-              <td>4  { t('tour.guests') }</td>
-              <td>80 € <small>{ t('tour.hour_and_half.included') }</small></td>
-            </tr>
-            <tr>
-              <td>6  { t('tour.guests') }</td>
-              <td>100 €</td>
-            </tr>
-            <tr>
-              <td>8  { t('tour.guests') }</td>
-              <td>120 €</td>
-            </tr>
-          </tbody>
-        </table>
+            <tbody>
+              <tr>
+                <td>2  {t('tour.guests')}</td>
+                <td>60 €</td>
+              </tr>
+              <tr>
+                <td>4  {t('tour.guests')}</td>
+                <td>80 € <small>{t('tour.hour_and_half.included')}</small></td>
+              </tr>
+              <tr>
+                <td>6  {t('tour.guests')}</td>
+                <td>100 €</td>
+              </tr>
+              <tr>
+                <td>8  {t('tour.guests')}</td>
+                <td>120 €</td>
+              </tr>
+            </tbody>
+          </table>
         )}
       </div>
     </div>

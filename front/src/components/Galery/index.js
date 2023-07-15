@@ -31,7 +31,7 @@ const Galery = () => {
     setSelectedPicture(null);
     setModalIsOpen(false);
   };
-  
+
 
   const pictures = [
     {
@@ -118,14 +118,14 @@ const Galery = () => {
       description: t('galery.description.made_to_mesure'),
       key: 'made_to_mesure'
     }
-    
+
   ]
 
   return (
     <main id="galery" style={{ backgroundImage: `url(${BgImg})` }}>
       <div className="galery_container">
-          {pictures.map((picture, index) => (
-            <>
+        {pictures.map((picture, index) => (
+          <>
             <img
               key={index}
               id={picture.key}
@@ -133,8 +133,8 @@ const Galery = () => {
               src={picture.path} alt={picture.description}
               className='galery_item'
             />
-            </>
-          ))}
+          </>
+        ))}
       </div>
       {/* <Modal
         isOpen={modalIsOpen}

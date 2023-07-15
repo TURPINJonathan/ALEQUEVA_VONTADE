@@ -14,6 +14,7 @@
 @import 'components/tour';
 @import 'components/eat';
 @import 'components/activities';
+@import 'components/sleep';
 
 html {
   height: 100vh;
@@ -22,6 +23,7 @@ html {
 
   body {
     margin: 0;
+
     #root {
       main {
         margin: 0;
@@ -35,43 +37,78 @@ html {
         height: 100vh;
         width: 100%;
         filter: brightness(0.75);
-        overflow: hidden;
+        overflow: auto;
 
-        /* Pour Mozilla Firefox */
+        .card_border {
+          border: colors.$white-xs--tsp 1px solid;
+          padding: 0.3rem;
 
-        scrollbar {
-          width: 8px; /* Largeur de la barre de défilement */
+          .card_background {
+            background-color: colors.$white-xs--tsp;
+          }
         }
 
-        scrollbar-track {
-          background-color: #f1f1f100; /* Couleur de fond de la barre de défilement */
+        .card_border-blue {
+          border: colors.$blue-lt 1px solid;
+          padding: 0.3rem;
+
+          .card_background-blue {
+            background-color: colors.$blue-lt;
+          }
         }
 
-        scrollbar-thumb {
-          background-color: #888; /* Couleur de la poignée */
-        }
+        .card_border-green {
+          border: colors.$green-lt 1px solid;
+          padding: 0.3rem;
 
-        scrollbar-thumb:hover {
-          background-color: #555; /* Couleur de la poignée au survol */
+          .card_background-green {
+            background-color: colors.$green-lt;
+          }
         }
+      }
 
-        /* Pour Google Chrome et Safari */
+      /* Pour Mozilla Firefox */
 
-        ::-webkit-scrollbar {
-          width: 8px; /* Largeur de la barre de défilement */
-        }
+      scrollbar {
+        width: 8px;
+        /* Largeur de la barre de défilement */
+      }
 
-        ::-webkit-scrollbar-track {
-          background-color: #f1f1f100; /* Couleur de fond de la barre de défilement */
-        }
+      scrollbar-track {
+        background-color: #f1f1f100;
+        /* Couleur de fond de la barre de défilement */
+      }
 
-        ::-webkit-scrollbar-thumb {
-          background-color: colors.$white-xs--tsp; /* Couleur de la poignée */
-        }
+      scrollbar-thumb {
+        background-color: #888;
+        /* Couleur de la poignée */
+      }
 
-        ::-webkit-scrollbar-thumb:hover {
-          background-color: colors.$white-xs; /* Couleur de la poignée au survol */
-        }
+      scrollbar-thumb:hover {
+        background-color: #555;
+        /* Couleur de la poignée au survol */
+      }
+
+      /* Pour Google Chrome et Safari */
+
+      ::-webkit-scrollbar {
+        width: 8px;
+        /* Largeur de la barre de défilement */
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: #f1f1f100;
+        /* Couleur de fond de la barre de défilement */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: colors.$white-xs--tsp;
+        /* Couleur de la poignée */
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background-color: colors.$white-xs;
+        /* Couleur de la poignée au survol */
       }
     }
   }

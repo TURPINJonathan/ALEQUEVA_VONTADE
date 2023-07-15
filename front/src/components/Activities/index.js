@@ -18,7 +18,7 @@ import DarkSky from '@pictures/activities/dark_sky.png';
 import AlquevaPredatorFishing from '@pictures/activities/alqueva_predator_fishing.png';
 
 const Activities = () => {
-  const { t } = useTranslation();
+	const { t } = useTranslation();
 
 	const activities = [
 		{
@@ -149,21 +149,21 @@ const Activities = () => {
 		},
 	]
 
-  return (
+	return (
 		<main id="activities" style={{ backgroundImage: `url(${BgImg})` }}>
 			<div id='activities_container'>
 				{activities.map((activitie, index) => (
-					<div key={index} className='activities_element'>
+					<div key={index} className='activities_element card_border'>
 						<div className={`inside_element ${activitie.direction === 'left' ? 'picture_left' : ''}`}>
-							<div className='element_content'>
+							<div className='element_content card_background'>
 								{activitie.name === 'main' ? (
-									<h1>{ activitie.title }</h1>
+									<h1>{activitie.title}</h1>
 								) : (
-									<h2>{ activitie.title }</h2>
+									<h2>{activitie.title}</h2>
 								)}
 								<div>
 									{activitie.content.map((content, index) => (
-										<p key={index}>{ content }</p>
+										<p key={index}>{content}</p>
 									))}
 								</div>
 								{activitie.website && (
@@ -172,7 +172,7 @@ const Activities = () => {
 											href={activitie.website}
 											target='_blank'
 										>
-											<span>{ t('activities.website') }</span><span>{ activitie.title }</span>
+											<span>{t('activities.website')}</span><span>{activitie.title}</span>
 										</a>
 									</p>
 								)}
@@ -186,7 +186,7 @@ const Activities = () => {
 				))}
 			</div>
 		</main>
-  );
+	);
 };
 
 export default Activities;
