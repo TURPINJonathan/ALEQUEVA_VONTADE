@@ -112,5 +112,103 @@
       "itinerary_tour": "Evento familial, entre amigos ou colegas de trabalho? estamos consigo para imaginar e criar um momento unico e personalisado! Percurso, duração, atividades, musica, seja o ator de um evento à sua imagem!",
       "from_to_tour": "* limitado a 10 pessoas."
     }
+  },
+  "activities": {
+    "website": "Visitar ",
+    "main": {
+      "title": "Uma região que fica no coração",
+      "content": {
+        "first": "Gosta de grandes espaços, da natureza, de cidades e aldeias a escala humana, de calma e paz?  o Alentejo central è para si !",
+        "second": "Descubra toda beleza de Evora,de Monsaraz. a singularidade das aldeias ribeirinhas do lago como Luz ou Estrela. Disfrute das praias fluviais de Amieira ou Alqueva. percorra as ruas de Portel atè ao Castelo, ou as ruas floridas de Moura. Durma num alojamento local. Conheça a gastronomia local cheia de sabores incriveis e respire os aromas das laranjeiras e amendoeiras. Isto è ALENTEJO !"
+      },
+      "picture_description": "TODO"
+    },
+    "evora": {
+      "title": "Evora",
+      "content": {
+        "first": "Beber um cafè ou um refresco numa esplanada da praça do Giraldo, ter uma vista sobre a igreja de santo Antão e sobre a fonte do Giraldo.",
+        "second": "Visitar a catedral de Evora.subir ao terraço da catedral(3,50€)para ter uma vista panoràmica sobre a cidade.Vale a pena !",
+        "third": "Contemplar o templo Romano de \"Diana\", o templo mais bem preservado da peninsula iberica !",
+        "fourth": "Andar pela rua 5 de outubro, com as suas lojas de lembranças e artesanato.",
+        "fifth": "Ver a igreja da misericordia, um dos monumentos mais antigos da cidade.",
+        "sixth": "Relaxar no jardim publico de Evora, ver os pavões em liberdade."
+      },
+      "picture_description": "TODO"
+    },
+    "monsaraz": {
+      "title": "Monsaraz",
+      "content": {
+        "first": "Passar por uma das 4 entradas da Aldeia medieval( a principal è a porta da vila).",
+        "second": "Caminhar ao longa das muralhas atè chegar ao Castelo.",
+        "third": "Subir as muralhas e contemplar o lago de Alqueva, Que Vista espetacular !",
+        "fourth": "Andar pelas ruas, entrar numa loja de artesanato( vejam as mantas, especialidade de Monsaraz).",
+        "fifth": "Assistir ao pôr do sol, sentado numa muralha."
+      },
+      "picture_description": "TODO"
+    },
+    "aldeia_da_luz": {
+      "title": "Aldeia da Luz",
+      "content": {
+        "first": "Sentir a atmosfera particular da aldeia da Luz, unica aldeia que foi submersa pelo enchimento do lago, e construida de novo a poucos KM da primeira.",
+        "second": "Visitar o museu da Luz e conhecer a historia da aldeia.",
+        "third": "Caminhar pelo passadiço, atè chegar ao unico pontão.",
+        "fourth": "Observar a natureza, disfrutar da paz e calma ambiente !"
+      },
+      "picture_description": "TODO"
+    },
+    "portel": {
+      "title": "Portel",
+      "content": {
+        "first": "Descobrir a praça Dom Nuno alvares Pereira e a câmara municipal.",
+        "second": "Visitar a igreja da misericordia.",
+        "third": "Subir a dar a volta àa muralhas do Castelo(o interior não è assecivel).",
+        "fourth": "Descer as ruas atè chegar ao parque da Matriz e fazer uma fotografia em frente das letras Portel com vista para o Castelo. Visitar o lindo jardim Doutor Santiago. Entrar na igreja manuelina de São Jão Batista, descobrir no interior azulejos sevillanos do sèculo XVII.",
+        "fifth": "Subir ao Castelo e a sua fortaleza moura, assim que à Torre do relogio.",
+        "sixth": "Percorrer as ruas floridas e pedonais. Ver a magnifica fachada do hotel de Moura e da casa do azeite."
+      },
+      "picture_description": "TODO"
+    },
+    "beach": {
+      "title": "Praia de Amieira | Praia de Alqueva",
+      "content": {
+        "first": "Infrastructuras :",
+        "second": "Bar/Restaurante com esplanada sob a praia",
+        "third": "Praias acessíveis, parque de estacionamento para caravanas.",
+        "fourth": "Água com temperatura excelente, sempre a rondar os 28º no  verao",
+        "fifth": "Chapéus de Sol de palha na zona de relvado",
+        "sixth": "praias com bandeira azul"
+      },
+      "picture_description": "TODO"
+    },
+    "fishing": {
+      "title": "Alqueva Predator Fishing",
+      "content": {
+        "first": "Se procura aventura na sua próxima viagem de pesca predatória a Portugal, este é o lugar dos sonhos e dos excessos, com 25.000 hectares e mais de 1.200 km de costa para brincar.",
+        "second": "With ALQUEVA PREDATOR FISHING you will be alone or almost alone (no fishing pressure as in Spain) on this artificial lake, the largest in Europe, ALQUEVA, also called by some French carnivore anglers already under the spell.",
+        "third": "Pescar com a ALQUEVA PREDATOR FISHING é sonhar com uma viagem de pesca de predadores sem paralelo e sem limites !"
+      },
+      "picture_description": "TODO"
+    },
+    "museum": {
+      "title": "Museu do Medronho",
+      "content": {
+        "first": "A destilaria :",
+        "second": "As visitas programadas durante a época de maturação da fruta permitem aos visitantes acompanhar e observar as várias fases do processo de fabrico do destilado, desde a apanha da fruta até à fermentação, destilação e engarrafamento.",
+        "third": "A exposição :",
+        "fourth": "O museu tem uma exposição permanente que tem como objetivo dar a conhecer o Medronho: Uma caraterização da planta e do fruto, o seu ciclo de vida, valor económico e ecológico e silvicultura que terminará no processo de destilação do fruto e do seu produto - a conhecida aguardente de medronho.",
+        "fifth": "O Brandy :",
+        "sixth": "As aguardentes de medronho produzidas na destilaria do museu estão à venda na loja durante todo o ano. Pode, no entanto, prová-las e certificar-se da qualidade da aguardente antes de a comprar."
+      },
+      "picture_description": "TODO"
+    },
+    "dark_sky": {
+      "title": "Dark Sky",
+      "content": {
+        "first": "Imaginemos um lugar onde nos sentimos cobertos por um majestoso céu estrelado.",
+        "second": "A sensação é indescritível e normalmente apenas possível de forma artificial, num planetário, onde nos sentamos confortavelmente para uma lição sobre as estrelas. Em Portugal, temos a sorte de ter essa sensação ao ar livre.",
+        "third": "No meio do Alentejo, o maravilhoso céu do Alqueva parece um veludo escuro revestido por um imenso manto de estrelas. É uma área protegida e certificada internacionalmente, registada como uma reserva Dark Sky, ou “Starlight Tourism Destination”, que se estende por uma área de cerca de 10.000 quilómetros quadrados."
+      },
+      "picture_description": "TODO"
+    }
   }
 }

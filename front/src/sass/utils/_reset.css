@@ -139,13 +139,9 @@ html {
   box-sizing: inherit;
 }
 
-a,
 del,
 ins {
   text-decoration: none;
-}
-a {
-  color: inherit;
 }
 
 label,

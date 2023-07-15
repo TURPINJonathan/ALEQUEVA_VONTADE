@@ -112,5 +112,103 @@
       "itinerary_tour": "Family, friends or colleagues? We will help you to imagine and create a unique, made-to-measure event: itineraries, duration, activities, music - you will be the protagonist of an event that reflects your image!",
       "from_to_tour": "* limited to 10 guests."
     }
+  },
+  "activities": {
+    "website": "Visit ",
+    "main": {
+      "title": "A region close to our hearts",
+      "content": {
+        "first": "Do you love wide open spaces, nature, small towns and villages, peace and quiet?  Then the centre of Alentejo is the place for you !",
+        "second": "Discover the beauty of Evora and Monsaraz. The uniqueness of villages such as Luz and Estrela. Enjoy the river beaches of Amieira or Alqueva. Stroll through the streets of Portel to the Castle, or through the flower-filled streets of Moura. Stay in local accommodation. Discover a gastronomy full of incredible flavours and breathe in the scents of orange and almond trees. This is the ALENTEJO !"
+      },
+      "picture_description": "TODO"
+    },
+    "evora": {
+      "title": "Evora",
+      "content": {
+        "first": "Drink a coffee or refreshment on the esplanade of the Giraldo square, gaze at the church of Santo Antão and the Giraldo fountain.",
+        "second": "Visit Evora Cathedral. Climb the cathedral terrace (€3.50) for a panoramic view of the city - it's worth it !",
+        "third": "Contemplate the Roman temple of \"Diana\", the best preserved temple on the Iberian peninsula !",
+        "fourth": "Walk along the rua 5 de outubro, with its souvenir and craft shops.",
+        "fifth": "See the Church of the Misericordia, one of Evora's oldest monuments.",
+        "sixth": "Relax in Evora's public garden and see the peacocks in the wild."
+      },
+      "picture_description": "TODO"
+    },
+    "monsaraz": {
+      "title": "Monsaraz",
+      "content": {
+        "first": "Go through one of the 4 entrances to the medieval village (the main gate is the \"porta da vila\")",
+        "second": "Walk along the walls to the Castle.",
+        "third": "Climb the walls and gaze out over Lake Alqueva - what an incredible view !",
+        "fourth": "Walking through the streets, entering a craft shop (discover the blankets, a speciality of Monsaraz).",
+        "fifth": "Watching the sun go down, sitting on a wall."
+      },
+      "picture_description": "TODO"
+    },
+    "aldeia_da_luz": {
+      "title": "Aldeia da Luz",
+      "content": {
+        "first": "Feel the special atmosphere of the village of Luz, the only village to have disappeared under water when the lake filled up, and rebuilt identically just a few kilometres away.",
+        "second": "Visit the Luz museum and learn about the history of the village.",
+        "third": "Walk along the long pontoon at the end of the village to the water's edge !",
+        "fourth": "Observing nature, enjoying the peace and quiet of the surroundings !"
+      },
+      "picture_description": "TODO"
+    },
+    "portel": {
+      "title": "Portel",
+      "content": {
+        "first": "Discover the Praça Dom Nuno alvares Pereira and Portel Town Hall.",
+        "second": "Visit the church of misericordia.",
+        "third": "Climb up and walk around the castle walls (the inside is inaccessible).",
+        "fourth": "Walk down the streets to Parque da Matriz. Stroll through the Doutor Santiago garden. Enter the Manueline church of São Jão Batista and discover the 17th-century Sevillian azulejos inside.",
+        "fifth": "Climb up to the castle and its Moorish fortress, as well as the watch tower.",
+        "sixth": "Walk along the flower-filled, pedestrianised streets. Discover the magnificent façade of the Hotel de Moura and the Casa do Azeite."
+      },
+      "picture_description": "TODO"
+    },
+    "beach": {
+      "title": "Beaches of Amieira | Beaches of Alqueva",
+      "content": {
+        "first": "Infrastructure :",
+        "second": "Bar/Restaurant with terrace under the beach.",
+        "third": "Accessible beaches, caravan park.",
+        "fourth": "Excellent water temperature, always around 28º in summer !",
+        "fifth": "Straw parasols on the lawn.",
+        "sixth": "Blue Flag beaches."
+      },
+      "picture_description": "TODO"
+    },
+    "fishing": {
+      "title": "Alqueva Predator Fishing",
+      "content": {
+        "first": "If you're looking for adventure on your next predator fishing trip to Portugal, this is the place for dreams and excess, with 25,000 hectares and over 1,200 km of shoreline to play on.",
+        "second": "With ALQUEVA PREDATOR FISHING you will be alone or almost alone (no fishing pressure as in Spain) on this artificial lake, the largest in Europe, ALQUEVA, also called by some French carnivore anglers already under the spell.",
+        "third": "To fish with ALQUEVA PREDATOR FISHING is to dream of an unparalleled and limitless fishing trip for predators !"
+      },
+      "picture_description": "TODO"
+    },
+    "museum": {
+      "title": "Medronho museum",
+      "content": {
+        "first": "The Distillery :",
+        "second": "With scheduled visits and during the fruit ripening season, it is possible to monitor and watch the various stages of the production of the distillate: from picking the fruit, to fermentation, distillation and bottling.",
+        "third": "The Exposure :",
+        "fourth": "The museum has a permanent exhibition that aims to make the Medronho known: A characterization of the plant and the fruit, its life cycle, economic and ecological value  and forestry that will end in the process of distilling the fruit and its product - the well-known arbutus brandy.",
+        "fifth": "The Brandy :",
+        "sixth": "Medronho brandies produced in the museum's distillery are on sale at the store year-round. You can, however, taste them and certify the quality of the spirits before buying it."
+      },
+      "picture_description": "TODO"
+    },
+    "dark_sky": {
+      "title": "Dark Sky",
+      "content": {
+        "first": "Imagine a place where we feel covered by a majestic starry sky.",
+        "second": "The feeling is indescribable, and usually only possible artificially, in a planetarium, where we sit comfortably for a lesson on the stars. In Portugal, we are lucky to have that feeling in the open air.",
+        "third": "Right in the middle of Alentejo, the wonderful Alqueva sky is like dark velvet cloaked by a huge blanket of stars. It is a protected area and internationally certified as a Dark Sky Reserve, or \"Starlight Tourism Destination\", which extends over an area of about 10.000 square kilometres."
+      },
+      "picture_description": "TODO"
+    }
   }
 }
