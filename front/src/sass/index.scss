@@ -23,6 +23,7 @@ html {
 
   body {
     margin: 0;
+
     #root {
       main {
         margin: 0;
@@ -69,37 +70,45 @@ html {
       /* Pour Mozilla Firefox */
 
       scrollbar {
-        width: 8px; /* Largeur de la barre de défilement */
+        width: 8px;
+        /* Largeur de la barre de défilement */
       }
 
       scrollbar-track {
-        background-color: #f1f1f100; /* Couleur de fond de la barre de défilement */
+        background-color: #f1f1f100;
+        /* Couleur de fond de la barre de défilement */
       }
 
       scrollbar-thumb {
-        background-color: #888; /* Couleur de la poignée */
+        background-color: #888;
+        /* Couleur de la poignée */
       }
 
       scrollbar-thumb:hover {
-        background-color: #555; /* Couleur de la poignée au survol */
+        background-color: #555;
+        /* Couleur de la poignée au survol */
       }
 
       /* Pour Google Chrome et Safari */
 
       ::-webkit-scrollbar {
-        width: 8px; /* Largeur de la barre de défilement */
+        width: 8px;
+        /* Largeur de la barre de défilement */
       }
 
       ::-webkit-scrollbar-track {
-        background-color: #f1f1f100; /* Couleur de fond de la barre de défilement */
+        background-color: #f1f1f100;
+        /* Couleur de fond de la barre de défilement */
       }
 
       ::-webkit-scrollbar-thumb {
-        background-color: colors.$white-xs--tsp; /* Couleur de la poignée */
+        background-color: colors.$white-xs--tsp;
+        /* Couleur de la poignée */
       }
 
       ::-webkit-scrollbar-thumb:hover {
-        background-color: colors.$white-xs; /* Couleur de la poignée au survol */
+        background-color: colors.$white-xs;
+        /* Couleur de la poignée au survol */
       }
     }
   }

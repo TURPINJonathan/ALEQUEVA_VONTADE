@@ -1,17 +1,17 @@
 #boat {
-  display: flex;
-  align-items: center;
-  padding: 3rem 5rem;
+	display: flex;
+	align-items: center;
+	padding: 3rem 5rem;
 }
 
 #boat_container {
-  display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: repeat(7, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  width: 100%;
-  height: 100%;
+	display: grid;
+	grid-template-columns: repeat(11, 1fr);
+	grid-template-rows: repeat(7, 1fr);
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	width: 100%;
+	height: 100%;
 
 	&>* {
 		object-fit: cover;
@@ -34,13 +34,12 @@
 		color: colors.$white-xs--tsp;
 		text-align: center;
 		background: rgb(0, 0, 0);
-		background: linear-gradient(
-			180deg,
-			rgba(0, 0, 0, 0.726) 0%,
-			rgba(0, 0, 0, 0.726) 80%,
-			rgba(0, 0, 0, 0.85) 95%,
-			rgba(0, 0, 0, 0) 100%,
-		);
+		background: linear-gradient(180deg,
+				rgba(0, 0, 0, 0.726) 0%,
+				rgba(0, 0, 0, 0.726) 80%,
+				rgba(0, 0, 0, 0.85) 95%,
+				rgba(0, 0, 0, 0) 100%,
+			);
 
 		h1 {
 			font-size: 3rem;
@@ -84,17 +83,17 @@
 }
 
 .hoverable-element .element-content h2 {
-  opacity: 0;
-  transform: translateY(-100%);
-  transition: opacity 0.5s, transform 0.5s;
+	opacity: 0;
+	transform: translateY(-100%);
+	transition: opacity 0.5s, transform 0.5s;
 }
 
 .hoverable-element.hovered .element-content h2 {
-  opacity: 1;
-  transform: translateY(0);
+	opacity: 1;
+	transform: translateY(0);
 }
 
 .hoverable-element.hovered .element-content {
-  opacity: 1;
-  transform: translateY(0);
+	opacity: 1;
+	transform: translateY(0);
 }

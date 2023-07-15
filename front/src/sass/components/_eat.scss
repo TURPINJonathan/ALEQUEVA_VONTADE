@@ -2,6 +2,7 @@
 	display: flex;
 	justify-content: end;
 	align-items: center;
+
 	.eat_container {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
@@ -48,7 +49,7 @@
 				}
 			}
 		}
-	
+
 		.restaurant_sao-pedro {
 			grid-area: 1 / 2 / 2 / 3;
 
@@ -61,7 +62,7 @@
 				padding-left: 0.3rem;
 			}
 		}
-	
+
 		.restaurant_xares-monsarez {
 			grid-area: 1 / 3 / 2 / 4;
 
@@ -74,7 +75,7 @@
 				padding-right: 0.3rem;
 			}
 		}
-	
+
 		.restaurant_liberato-moura {
 			grid-area: 2 / 3 / 3 / 4;
 
@@ -91,7 +92,7 @@
 				padding-right: 0.3rem;
 			}
 		}
-	
+
 		.restaurant_aficionado-amieira {
 			grid-area: 2 / 2 / 3 / 3;
 

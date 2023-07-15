@@ -22,7 +22,7 @@
 				flex-direction: column;
 				justify-content: space-evenly;
 				padding: 1rem;
-				
+
 				h1,
 				h2 {
 					font-size: 2.5rem;
@@ -39,6 +39,7 @@
 				&>* {
 					margin: 0.3rem;
 				}
+
 				.picture_container {
 					display: flex;
 					justify-content: space-between;

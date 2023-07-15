@@ -2,31 +2,31 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  
+
   #about_container {
     background-color: colors.$white-xs--tsp;
     margin-right: 4rem;
     text-align: center;
     max-width: 45vw;
-    box-shadow: -8px -7px 27px -6px rgba(0,0,0,1);
-    -webkit-box-shadow: -8px -7px 27px -6px rgba(0,0,0,1);
-    -moz-box-shadow: -8px -7px 27px -6px rgba(0,0,0,1);
+    box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1);
 
     #about_subcontainer {
       position: relative;
       padding: 2rem;
       width: 100%;
       height: 100%;
-      box-shadow: -8px -7px 27px -6px rgba(0,0,0,1) inset;
-      -webkit-box-shadow: -8px -7px 27px -6px rgba(0,0,0,1) inset;
-      -moz-box-shadow: -8px -7px 27px -6px rgba(0,0,0,1) inset;
-  
+      box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1) inset;
+      -webkit-box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1) inset;
+      -moz-box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1) inset;
+
       h1 {
         font-size: 3rem;
         margin: 2rem;
         font-family: 'Lora', serif;
       }
-  
+
       h2 {
         font-size: 1.8rem;
         margin: 2rem;

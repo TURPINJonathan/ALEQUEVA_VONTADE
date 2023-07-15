@@ -9,13 +9,13 @@ const About = () => {
   return (
     <main
       id="about"
-      style={{ backgroundImage: `url(${BgImg})`}}
+      style={{ backgroundImage: `url(${BgImg})` }}
     >
       <div id='about_container'>
         <div id="about_subcontainer">
-          <h1>{ t('about.history') }</h1>
+          <h1>{t('about.history')}</h1>
           <img src={FS} alt={t('about.picture')} />
-          <h2>{ t('about.greetings') }</h2>
+          <h2>{t('about.greetings')}</h2>
           <div>
             {contents.map((content, index) => (
               <p key={index}>{content}</p>
