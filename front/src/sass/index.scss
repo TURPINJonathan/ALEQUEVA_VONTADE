@@ -14,6 +14,7 @@
 @import 'components/tour';
 @import 'components/eat';
 @import 'components/activities';
+@import 'components/sleep';
 
 html {
   height: 100vh;
@@ -35,7 +36,17 @@ html {
         height: 100vh;
         width: 100%;
         filter: brightness(0.75);
-        overflow: hidden;
+        overflow: auto;
+
+        .card_border {
+          border: colors.$white-xs--tsp 1px solid;
+          padding: 0.3rem;
+
+          .card_background {
+            background-color: colors.$white-xs--tsp;
+
+          }
+        }
 
         /* Pour Mozilla Firefox */
 

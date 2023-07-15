@@ -74,8 +74,10 @@ const Navigation = () => {
             </NavLink>
           </li>
           <li className={isHovered ? 'hovered' : ''}>
-            <FontAwesomeIcon icon={faBed} className='iconNav' />
-            {isHovered && <span>{ t('nav.sleeping')}</span>}
+            <NavLink to={'/sleep'} end>
+              <FontAwesomeIcon icon={faBed} className='iconNav' />
+              {isHovered && <span>{ t('nav.sleeping')}</span>}
+            </NavLink>
           </li>
           <li className={isHovered ? 'hovered' : ''}>
             {/* <NavLink to={'/galery'} end> */}

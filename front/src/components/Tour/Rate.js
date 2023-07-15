@@ -17,7 +17,7 @@ const Rate = ({
   const { t } = useTranslation();
 
   return (
-    <div className='card' id={isMainCard ? 'tour_first' : ''}>
+    <div className='card card_border' id={isMainCard ? 'tour_first' : ''}>
       { isPrices && (<span className='tour_fromPrice'>{fromPrice}</span>)}
       <img className='tour_picture' src={picture} alt={pictureDescription} />
 
@@ -28,7 +28,7 @@ const Rate = ({
       </div>
 
 
-      <div className={`tour_content ${!isMainCard ? 'tour_content-small' : ''}`}>
+      <div className={`tour_content card_background ${!isMainCard ? 'tour_content-small' : ''}`}>
         <h1 className={`tour_content-title ${!isMainCard ? 'tour_content-title--small' : ''}`}>
           {tourSubType}
           {duration !== null && (<span className='duration'>({duration})</span>)}

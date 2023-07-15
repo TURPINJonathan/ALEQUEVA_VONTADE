@@ -153,9 +153,9 @@ const Activities = () => {
 		<main id="activities" style={{ backgroundImage: `url(${BgImg})` }}>
 			<div id='activities_container'>
 				{activities.map((activitie, index) => (
-					<div key={index} className='activities_element'>
+					<div key={index} className='activities_element card_border'>
 						<div className={`inside_element ${activitie.direction === 'left' ? 'picture_left' : ''}`}>
-							<div className='element_content'>
+							<div className='element_content card_background'>
 								{activitie.name === 'main' ? (
 									<h1>{ activitie.title }</h1>
 								) : (

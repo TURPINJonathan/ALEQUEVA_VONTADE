@@ -77,8 +77,8 @@ const Eat = () => {
 		<main id="eat" style={{ backgroundImage: `url(${BgImg})` }}>
 			<div className='eat_container'>
 				{restaurants.map((restaurant, index) => (
-					<div className={restaurant.class} key={index}>
-						<div className='restaurant'>
+					<div className={`card_border ${restaurant.class}`} key={index}>
+						<div className='restaurant card_background'>
 							<div className='restaurant_name'>{restaurant.name}</div>
 
 							<a
