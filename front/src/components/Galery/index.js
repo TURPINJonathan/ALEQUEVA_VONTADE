@@ -15,7 +15,7 @@ import Romantic from "@galery/romantic.jpg";
 import Sunset from "@galery/sunset.jpg";
 import Swimming from "@galery/swimming.jpg";
 
-const Galery = () => {
+const PictureGallery = () => {
   const { t } = useTranslation();
 
   const pictures = [
@@ -179,7 +179,6 @@ const Galery = () => {
     <main id="galery" style={{ backgroundImage: `url(${BgImg})` }}>
       <div className="galery_container">
         <Gallery
-          className="gallery"
           images={pictures}
           enableImageSelection={false}
           rowHeight="250px"
@@ -188,4 +187,4 @@ const Galery = () => {
     </main>
   );
 };
-export default Galery;
+export default PictureGallery;

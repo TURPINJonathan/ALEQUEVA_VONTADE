@@ -11,12 +11,13 @@ import './sass/index.scss';
 import Main from '@components/Main';
 import Navigation from '@components/Layout/navigation';
 import About from '@components/About';
-import Galery from '@components/Galery';
 import Boat from '@components/Boat';
 import Tour from '@components/Tour';
 import Eat from '@components/Eat';
 import Activities from '@components/Activities';
 import Sleep from '@components/Sleep';
+import Contact from '@components/Contact';
+import PictureGallery from '@components/Galery';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,18 +27,13 @@ root.render(
         <Navigation />
         <Routes>
           <Route
-            path='/'
-            element={<Main />}
-            exact
-          />
-          <Route
             path='/about'
             element={<About />}
             exact
           />
           <Route
-            path='/galery'
-            element={<Galery />}
+            path='/gallery'
+            element={<PictureGallery />}
             exact
           />
           <Route
@@ -63,6 +59,16 @@ root.render(
           <Route
             path='/sleep'
             element={<Sleep />}
+            exact
+          />
+          <Route
+            path='/contact'
+            element={<Contact />}
+            exact
+          />
+          <Route
+            path='/'
+            element={<Main />}
             exact
           />
         </Routes>
