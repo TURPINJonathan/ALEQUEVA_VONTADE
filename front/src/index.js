@@ -1,76 +1,40 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import TranslationProvider from './TranslationProvider';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import TranslationProvider from "./TranslationProvider";
 
 //? STYLES
-import './sass/index.scss';
+import "./sass/index.scss";
 
 //? COMPONENTS
-import Main from '@components/Main';
-import Navigation from '@components/Layout/navigation';
-import About from '@components/About';
-import Boat from '@components/Boat';
-import Tour from '@components/Tour';
-import Eat from '@components/Eat';
-import Activities from '@components/Activities';
-import Sleep from '@components/Sleep';
-import Contact from '@components/Contact';
-import PictureGallery from '@components/Galery';
+import Main from "@components/Main";
+import Navigation from "@components/Layout/navigation";
+import About from "@components/About";
+import Boat from "@components/Boat";
+import Tour from "@components/Tour";
+import Eat from "@components/Eat";
+import Activities from "@components/Activities";
+import Sleep from "@components/Sleep";
+import Contact from "@components/Contact";
+import PictureGallery from "@components/PictureGallery";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <TranslationProvider>
       <Router>
         <Navigation />
         <Routes>
-          <Route
-            path='/about'
-            element={<About />}
-            exact
-          />
-          <Route
-            path='/gallery'
-            element={<PictureGallery />}
-            exact
-          />
-          <Route
-            path='/boat'
-            element={<Boat />}
-            exact
-          />
-          <Route
-            path='/tour'
-            element={<Tour />}
-            exact
-          />
-          <Route
-            path='/eat'
-            element={<Eat />}
-            exact
-          />
-          <Route
-            path='/activities'
-            element={<Activities />}
-            exact
-          />
-          <Route
-            path='/sleep'
-            element={<Sleep />}
-            exact
-          />
-          <Route
-            path='/contact'
-            element={<Contact />}
-            exact
-          />
-          <Route
-            path='/'
-            element={<Main />}
-            exact
-          />
+          <Route path="/about" element={<About />} exact />
+          <Route path="/gallery" element={<PictureGallery />} exact />
+          <Route path="/boat" element={<Boat />} exact />
+          <Route path="/tour" element={<Tour />} exact />
+          <Route path="/eat" element={<Eat />} exact />
+          <Route path="/activities" element={<Activities />} exact />
+          <Route path="/sleep" element={<Sleep />} exact />
+          <Route path="/contact" element={<Contact />} exact />
+          <Route path="/" element={<Main />} exact />
         </Routes>
       </Router>
     </TranslationProvider>

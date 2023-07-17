@@ -1,5 +1,5 @@
 import React from 'react';
-import BgImg from '@galery/swimming.jpg';
+import BgImg from '@gallery/swimming.jpg';
 import { useTranslation } from 'react-i18next';
 
 // Pictures
@@ -8,6 +8,7 @@ import HourAndHalfPicture from '@pictures/tours/hour_and_half.jpg';
 import TwoHoursPicture from '@pictures/tours/two_hours.jpg';
 import ThreeHoursPicure from '@pictures/tours/three_hours.jpg';
 import PersonnalizedPicure from '@pictures/tours/personnalized.jpg';
+
 import Rate from '@components/Tour/Rate';
 
 const Tour = () => {

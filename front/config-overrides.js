@@ -1,58 +1,58 @@
-const { override, addBabelPlugin, addWebpackAlias } = require('customize-cra');
-const path = require('path');
+const { override, addBabelPlugin, addWebpackAlias } = require("customize-cra");
+const path = require("path");
 
 module.exports = override(
   addBabelPlugin([
-    'babel-plugin-root-import',
+    "babel-plugin-root-import",
     {
-      rootPathSuffix: 'src/components',
-      rootPathPrefix: '@components/',
+      rootPathSuffix: "src/components",
+      rootPathPrefix: "@components/",
     },
-    'components'
+    "components",
   ]),
   addBabelPlugin([
-    'babel-plugin-root-import',
+    "babel-plugin-root-import",
     {
-      rootPathSuffix: 'src/assets/pictures',
-      rootPathPrefix: '@pictures/',
+      rootPathSuffix: "src/assets/pictures",
+      rootPathPrefix: "@pictures/",
     },
-    'pictures'
+    "pictures",
   ]),
   addBabelPlugin([
-    'babel-plugin-root-import',
+    "babel-plugin-root-import",
     {
-      rootPathSuffix: 'src/assets/translations',
-      rootPathPrefix: '@translations/',
+      rootPathSuffix: "src/assets/translations",
+      rootPathPrefix: "@translations/",
     },
-    'translations'
+    "translations",
   ]),
   addBabelPlugin([
-    'babel-plugin-root-import',
+    "babel-plugin-root-import",
     {
-      rootPathSuffix: 'src/assets/pictures/galery',
-      rootPathPrefix: '@galery/',
+      rootPathSuffix: "src/assets/pictures/gallery",
+      rootPathPrefix: "@gallery/",
     },
-    'galery'
+    "gallery",
   ]),
   addBabelPlugin([
-    'babel-plugin-root-import',
+    "babel-plugin-root-import",
     {
-      rootPathSuffix: 'src/hooks',
-      rootPathPrefix: '@hooks/',
+      rootPathSuffix: "src/hooks",
+      rootPathPrefix: "@hooks/",
     },
-    'hooks'
+    "hooks",
   ]),
   addBabelPlugin([
-    'babel-plugin-root-import',
+    "babel-plugin-root-import",
     {
-      rootPathSuffix: 'src/utils',
-      rootPathPrefix: '@utils/',
+      rootPathSuffix: "src/utils",
+      rootPathPrefix: "@utils/",
     },
-    'utils'
+    "utils",
   ]),
   addWebpackAlias({
-    '@assets': path.resolve(__dirname, 'src/assets'),
-    '@fixtures': path.resolve(__dirname, 'src/tests/fixtures'),
-    '@hooks': path.resolve(__dirname, 'src/hooks'),
+    "@assets": path.resolve(__dirname, "src/assets"),
+    "@fixtures": path.resolve(__dirname, "src/tests/fixtures"),
+    "@hooks": path.resolve(__dirname, "src/hooks"),
   })
 );
