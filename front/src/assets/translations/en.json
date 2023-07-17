@@ -229,5 +229,24 @@
       "picture_terrace_description": "TODO",
       "picture_inside_description": "TODO"
     }
+  },
+  "contact": {
+    "link": {
+      "question": "A question ?",
+      "reservation": "You want to reserve ?",
+      "contact": "Contact us !",
+      "social": "You can also follow us on social networks !"
+    },
+    "form": {
+      "complete": "Or complete the form belox",
+      "lastname": "Lastname",
+      "firstname": "Firstname",
+      "email": "Email",
+      "email_placeholder": "Your message ...",
+      "submit": "Send"
+    },
+    "map": {
+      "where": "Where can you find us ?"
+    }
   }
 }

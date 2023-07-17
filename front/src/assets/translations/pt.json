@@ -229,5 +229,24 @@
       "picture_terrace_description": "TODO",
       "picture_inside_description": "TODO"
     }
+  },
+  "contact": {
+    "link": {
+      "question": "Une question ?",
+      "reservation": "Vous souhaitez faire une réservation ?",
+      "contact": "Contactez-nous !",
+      "social": "Retrouvez-nous également sur les réseaux sociaux !"
+    },
+    "form": {
+      "complete": "Ou complétez le formulaire ci-dessous",
+      "lastname": "Nom",
+      "firstname": "Prénom",
+      "email": "Email",
+      "email_placeholder": "Votre message ...",
+      "submit": "Envoyer"
+    },
+    "map": {
+      "where": "Où nous trouver ?"
+    }
   }
 }
