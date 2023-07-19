@@ -1,9 +1,9 @@
-import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
 
-import Fr from '@translations/fr.json';
-import Pt from '@translations/pt.json';
-import En from '@translations/en.json';
+import Fr from "@translations/fr.json";
+import Pt from "@translations/pt.json";
+import En from "@translations/en.json";
 
 // Traductions pour différentes langues
 const resources = {
@@ -15,8 +15,8 @@ const resources = {
 // Configuration de i18next
 i18n.use(initReactI18next).init({
   resources,
-  lng: 'pt', // Langue par défaut
-  fallbackLng: 'pt', // Langue de secours si la traduction n'est pas disponible
+  lng: "pt", // Langue par défaut
+  fallbackLng: "pt", // Langue de secours si la traduction n'est pas disponible
   interpolation: {
     escapeValue: false,
   },

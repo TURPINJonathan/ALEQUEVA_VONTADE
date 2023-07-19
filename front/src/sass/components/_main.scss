@@ -1,37 +1,30 @@
 #home {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 
   #home_container {
-    background-color: colors.$white-xs--tsp;
     margin-right: 4rem;
     margin-top: 12rem;
     text-align: center;
     max-width: 45vw;
-    box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1);
-    -webkit-box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1);
-    -moz-box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1);
 
     #home_subcontainer {
       padding: 2rem;
       width: 100%;
       height: 100%;
-      box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1) inset;
-      -webkit-box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1) inset;
-      -moz-box-shadow: -8px -7px 27px -6px rgba(0, 0, 0, 1) inset;
 
       h1 {
         font-size: 3rem;
         margin: 2rem;
-        font-family: 'Lora', serif;
+        font-family: fonts.$h1;
       }
 
       h2 {
         font-size: 1.8rem;
         margin: 2rem;
         line-height: 2.3rem;
-        font-family: 'Marck Script', cursive;
+        font-family: fonts.$h2;
       }
     }
   }

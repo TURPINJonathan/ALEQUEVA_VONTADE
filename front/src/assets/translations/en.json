@@ -7,7 +7,7 @@
     "doing": "What can you do ?",
     "eat": "Where to eat ?",
     "sleeping": "Where can I sleep ?",
-    "galery": "Picture gallery",
+    "gallery": "Picture gallery",
     "contacts": "Contacts",
     "french": "Afficher le site en français / Show website in french",
     "portuguese": "Mostrar o site em português / Show website in portuguese",
@@ -24,7 +24,7 @@
     "comment": "Daughter of immigrants, I was born and grew up in France, but I have always kept Portugal un my heart. A love that Frederic shared from his first trip over 20 years ago. Our taste for peace and quiet natural spaces led us to the Alentejo, and more specifically to the lake Alqueva, the largest man-made lake in Europe. With its 250 km2; 1160 km of coastline, 426 islands and 7 coastal villages, the Alqueva has a lot to offer. Our aim is to take you on the \"Sam and Jo\" (a nod to our twins, Samuel and Joana) to help you discorver the incredible landscapes of this region of Portugal !",
     "picture": "Frederic and Sophie"
   },
-  "galery": {
+  "gallery": {
     "title": {
       "relaxation": "relaxation",
       "discovery": "discovery",
@@ -238,7 +238,7 @@
       "social": "You can also follow us on social networks !"
     },
     "form": {
-      "complete": "Or complete the form belox",
+      "complete": "Or complete the form below",
       "lastname": "Lastname",
       "firstname": "Firstname",
       "email": "Email",
