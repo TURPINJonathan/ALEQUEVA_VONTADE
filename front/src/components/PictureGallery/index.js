@@ -1,3 +1,4 @@
+import { useState } from "react";
 import BgImg from "@pictures/about.jpg";
 import { useTranslation } from "react-i18next";
 import { Gallery } from "react-grid-gallery";
@@ -15,10 +16,23 @@ import Romantic from "@gallery/romantic.jpg";
 import Sunset from "@gallery/sunset.jpg";
 import Swimming from "@gallery/swimming.jpg";
 
+import ImageFullScreen from "@components/PictureGallery/PictureFullScreen";
+
 const PictureGallery = () => {
   const { t } = useTranslation();
 
-  const test = [
+  const [fullscreenImage, setFullscreenImage] = useState(null);
+
+  const handleImageClick = (index) => {
+    console.log('je suis la');
+    setFullscreenImage(pictures[index]);
+  };
+
+  const closeFullscreenImage = () => {
+    setFullscreenImage(null);
+  };
+
+  const pictures = [
     {
       id: 1,
       src: Relaxation,
@@ -179,11 +193,21 @@ const PictureGallery = () => {
     <main id="gallery" style={{ backgroundImage: `url(${BgImg})` }}>
       <div className="gallery_container">
         <Gallery
-          images={test}
+          images={pictures}
           enableImageSelection={false}
           rowHeight="250px"
+          onClick={(index) => handleImageClick(index)}
         />
       </div>
+
+      {fullscreenImage && (
+        <ImageFullScreen
+          image={fullscreenImage.src}
+          description={fullscreenImage.alt}
+          onClose={closeFullscreenImage}
+          title={fullscreenImage.caption}
+        />
+      )}
     </main>
   );
 };

@@ -3,6 +3,7 @@
   justify-content: flex-end;
   width: 80vw;
   height: 100vh;
+  position: relative;
 
   .gallery_container {
     width: 80%;
@@ -14,6 +15,45 @@
       text-align: center;
       padding: 0.2rem;
       text-transform: capitalize;
+    }
+  }
+
+  .fullscreen-overlay {
+    position: absolute;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    background-color: colors.$black-lg--tsp;
+
+    .fullscreen-content {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        padding: 0.3rem;
+        border: colors.$white-xs--tsp solid 1px;
+      }
+
+      .fullscreen-description {
+        color: colors.$white-xs--tsp;
+        text-align: center;
+        margin: 0.5rem auto;
+        font-family: fonts.$h1;
+
+        h2 {
+          font-size: 1.3rem;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+
+        p {
+          font-style: italic;
+        }
+      }
     }
   }
 }
