@@ -21,7 +21,7 @@
   "about": {
     "history": "Our story",
     "greetings": "Hello, we are Frédéric and Sophie",
-    "comment": "Daughter of immigrants, I was born and grew up in France, but I have always kept Portugal un my heart. A love that Frederic shared from his first trip over 20 years ago. Our taste for peace and quiet natural spaces led us to the Alentejo, and more specifically to the lake Alqueva, the largest man-made lake in Europe. With its 250 km2; 1160 km of coastline, 426 islands and 7 coastal villages, the Alqueva has a lot to offer. Our aim is to take you on the \"Sam and Jo\" (a nod to our twins, Samuel and Joana) to help you discorver the incredible landscapes of this region of Portugal !",
+    "comment": "Daughter of immigrants, I was born and grew up in France, but I have always kept Portugal in my heart. A love that Frederic shared from his first trip over 20 years ago. Our taste for peace and quiet natural spaces led us to the Alentejo, and more specifically to the lake Alqueva, the largest man-made lake in Europe. With its 250 km2; 1160 km of coastline, 426 islands and 7 coastal villages, the Alqueva has a lot to offer. Our aim is to take you on the \"Sam and Jo\" (a nod to our twins, Samuel and Joana) to help you discorver the incredible landscapes of this region of Portugal !",
     "picture": "Frederic and Sophie"
   },
   "gallery": {
@@ -63,8 +63,9 @@
   },
   "tour": {
     "guests": "guests",
+    "precision": "* minimum 2 guests",
     "hour": {
-      "from_price": "from 60€",
+      "from_price": "from 30€*/pers",
       "tour_type": "Discovery tour",
       "picture_description": "TODO",
       "tour_subtype": "Private tour",
@@ -74,7 +75,7 @@
       "included": "1 drink included"
     },
     "hour_and_half": {
-      "from_price": "from 80€",
+      "from_price": "from 40€*/pers",
       "tour_type": "Discovery tour",
       "picture_description": "TODO",
       "tour_subtype": "Private tour",
@@ -84,7 +85,7 @@
       "included": "1 drink included"
     },
     "two_hours": {
-      "from_price": "from 100€",
+      "from_price": "from 50€*/pers",
       "tour_type": "Discovery tour",
       "picture_description": "TODO",
       "tour_subtype": "Private tour",
@@ -95,7 +96,7 @@
       "special": "swimming possible in summer"
     },
     "three_hours": {
-      "from_price": "from 140€",
+      "from_price": "from 70€*/pers",
       "tour_type": "Discovery tour",
       "picture_description": "TODO",
       "tour_subtype": "Private tour",

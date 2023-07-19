@@ -63,47 +63,48 @@
   },
   "tour": {
     "guests": "personnes",
+    "precision": "* minimum 2 personnes",
     "hour": {
-      "from_price": "à partir de 60€",
+      "from_price": "A partir de 30€/pers*",
       "tour_type": "Circuit découverte",
       "picture_description": "TODO",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 1:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "1 boisson incluse"
+      "included": "Boisson et grignotages inclus !"
     },
     "hour_and_half": {
-      "from_price": "à partir de 80€",
+      "from_price": "A partir de 40€/pers*",
       "tour_type": "Circuit découverte",
       "picture_description": "TODO",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 1:30",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "1 boisson incluse"
+      "included": "Boisson et grignotages inclus !"
     },
     "two_hours": {
-      "from_price": "à partir de 100€",
+      "from_price": "A partir de 50€/pers*",
       "tour_type": "Détente et baignade",
       "picture_description": "TODO",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 2:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "boisson et grignotage inclus",
-      "special": "baignade possible en été"
+      "included": "Boissons et plâteau dégustation inclus",
+      "special": "Baignade possible en été"
     },
     "three_hours": {
-      "from_price": "à partir de 140€",
+      "from_price": "A partir de 70€/pers*",
       "tour_type": "Au fil de l'eau",
       "picture_description": "TODO",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 3:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "boisson et grignotage inclus",
-      "special": "baignade, paddle possible en été"
+      "included": "Boissons et plâteau dégustation inclus",
+      "special": "Baignade, paddle possible en été"
     },
     "private": {
       "tour_type": "Promenade sur mesure",
@@ -119,7 +120,7 @@
       "title": "Une région qui reste dans le coeur",
       "content": {
         "first": "Vous aimez les grands espaces, la nature, les villes et villages à taille humaine, le calme et la paix ?  Le centre de l'Alentejo est fait pour vous !",
-        "second": "Découvrez toute la beauté d'Evora et Monsaraz. La singularité des villages  comme Luz ou Estrela. Profitez des plages fluviales d'Amieira ou d'Alqueva. promenez-vous dans les rues de Portel jusqu'au Château, ou dans les rues fleuries de Moura. Dormez dans un logement local. Découvrez la gastronomie  pleine de saveurs incroyables et respirez les parfums d'orangers et d'amandiers. C'est l'ALENTEJO !"
+        "second": "Découvrez toute la beauté d'Evora et Monsaraz. La singularité des villages  comme Luz ou Estrela. Profitez des plages fluviales d'Amieira ou d'Alqueva. Promenez-vous dans les rues de Portel jusqu'au Château, ou dans les rues fleuries de Moura. Dormez dans un logement local. Découvrez la gastronomie  pleine de saveurs incroyables et respirez les parfums d'orangers et d'amandiers. C'est l'ALENTEJO !"
       },
       "picture_description": "TODO"
     },
@@ -127,7 +128,7 @@
       "title": "Evora",
       "content": {
         "first": "Boire un café ou un rafraichissement sur une esplanade de la place du Giraldo, contempler l'église de santo Antão et  la fontaine du Giraldo.",
-        "second": "Visiter la cathédrale d'Evora. Monter sur la terrace de la  cathédrale (3,50€)pour la  vue panoramique sur la ville, ça vaut le coup !",
+        "second": "Visiter la cathédrale d'Evora. Monter sur la terrace de la  cathédrale (3,50€) pour la  vue panoramique sur la ville, ça vaut le coup !",
         "third": "Contempler le temple Romain de \"Diana\", le temple le mieux préservé de la peninsule iberique !",
         "fourth": "Marcher dans la  rua 5 de outubro,avec  ses boutiques  de souvenirs et artisants.",
         "fifth": "Voir l'église de la misericordia, un des monuments les plus anciens d'Evora.",
@@ -138,7 +139,7 @@
     "monsaraz": {
       "title": "Monsaraz",
       "content": {
-        "first": "Passer par une des 4 entrées du Village médiéval( la porte principale est la \"porta da vila\").",
+        "first": "Passer par une des 4 entrées du Village médiéval (la porte principale est la \"porta da vila\").",
         "second": "Marcher le long des murailles jusqu'au Chateau.",
         "third": "Monter sur les murailles et contempler le lac d'Alqueva, Quelle vue incroyable !",
         "fourth": "Marcher dans les rues, entrer dans une boutique d'artisanat( découvrez les couvertures, spécialité de Monsaraz).",
@@ -161,7 +162,7 @@
       "content": {
         "first": "Découvrir la praça Dom Nuno alvares Pereira et la Mairie de Portel.",
         "second": "Visiter l'église da misericordia.",
-        "third": "Monter et faire le tour des murailles du Chateau(l'intérieur est inaccessible).",
+        "third": "Monter et faire le tour des murailles du Chateau (l'intérieur est inaccessible).",
         "fourth": "Descendre les rues jusqu'au  parc da Matriz. Se promener dans le jardin Doutor Santiago. Entrer dans l'église  manueline de São Jão Batista, découvrir à l' interieur des azulejos sevillans du XVII siècle.",
         "fifth": "Monter jusqu'au  Chateau et a sa forteresse maure, ainsi qu'à la tour de la montre.",
         "sixth": "Marcher dans  les rues fleuries et piétonnières. Découvrir la magnifique façade de l'hotel de Moura et de  la casa do azeite."

@@ -18,7 +18,7 @@ import Swimming from "@gallery/swimming.jpg";
 const PictureGallery = () => {
   const { t } = useTranslation();
 
-  const pictures = [
+  const test = [
     {
       id: 1,
       src: Relaxation,
@@ -179,7 +179,7 @@ const PictureGallery = () => {
     <main id="gallery" style={{ backgroundImage: `url(${BgImg})` }}>
       <div className="gallery_container">
         <Gallery
-          images={pictures}
+          images={test}
           enableImageSelection={false}
           rowHeight="250px"
         />
