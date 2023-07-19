@@ -63,8 +63,9 @@
   },
   "tour": {
     "guests": "guests",
+    "precision": "* minimum 2 guests",
     "hour": {
-      "from_price": "from 60€",
+      "from_price": "from 30€*/pers",
       "tour_type": "Discovery tour",
       "picture_description": "TODO",
       "tour_subtype": "Private tour",
@@ -74,7 +75,7 @@
       "included": "1 drink included"
     },
     "hour_and_half": {
-      "from_price": "from 80€",
+      "from_price": "from 40€*/pers",
       "tour_type": "Discovery tour",
       "picture_description": "TODO",
       "tour_subtype": "Private tour",
@@ -84,7 +85,7 @@
       "included": "1 drink included"
     },
     "two_hours": {
-      "from_price": "from 100€",
+      "from_price": "from 50€*/pers",
       "tour_type": "Discovery tour",
       "picture_description": "TODO",
       "tour_subtype": "Private tour",
@@ -95,7 +96,7 @@
       "special": "swimming possible in summer"
     },
     "three_hours": {
-      "from_price": "from 140€",
+      "from_price": "from 70€*/pers",
       "tour_type": "Discovery tour",
       "picture_description": "TODO",
       "tour_subtype": "Private tour",

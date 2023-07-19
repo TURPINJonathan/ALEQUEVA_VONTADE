@@ -63,47 +63,48 @@
   },
   "tour": {
     "guests": "personnes",
+    "precision": "* minimum 2 personnes",
     "hour": {
-      "from_price": "à partir de 60€",
+      "from_price": "A partir de 30€/pers*",
       "tour_type": "Circuit découverte",
       "picture_description": "TODO",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 1:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "1 boisson incluse"
+      "included": "Boisson et grignotages inclus !"
     },
     "hour_and_half": {
-      "from_price": "à partir de 80€",
+      "from_price": "A partir de 40€/pers*",
       "tour_type": "Circuit découverte",
       "picture_description": "TODO",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 1:30",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "1 boisson incluse"
+      "included": "Boisson et grignotages inclus !"
     },
     "two_hours": {
-      "from_price": "à partir de 100€",
+      "from_price": "A partir de 50€/pers*",
       "tour_type": "Détente et baignade",
       "picture_description": "TODO",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 2:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "boisson et grignotage inclus",
-      "special": "baignade possible en été"
+      "included": "Boissons et plâteau dégustation inclus",
+      "special": "Baignade possible en été"
     },
     "three_hours": {
-      "from_price": "à partir de 140€",
+      "from_price": "A partir de 70€/pers*",
       "tour_type": "Au fil de l'eau",
       "picture_description": "TODO",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 3:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "boisson et grignotage inclus",
-      "special": "baignade, paddle possible en été"
+      "included": "Boissons et plâteau dégustation inclus",
+      "special": "Baignade, paddle possible en été"
     },
     "private": {
       "tour_type": "Promenade sur mesure",

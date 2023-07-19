@@ -13,6 +13,8 @@ const Rate = ({
   fromToTour,
   prices = null,
   isPrices = true,
+  included,
+  special = null,
 }) => {
   const { t } = useTranslation();
 
@@ -57,11 +59,7 @@ const Rate = ({
                   <td>
                     {price.personCount} {t("tour.guests")}
                   </td>
-                  <td>
-                    {price.price}&nbsp;
-                    {price.included && <small>{price.included}</small>}
-                    {price.special && <small>{price.special}</small>}
-                  </td>
+                  <td>{price.price}</td>
                 </tr>
               ))}
             </tbody>
@@ -76,9 +74,7 @@ const Rate = ({
                 </tr>
                 <tr>
                   <td>4 {t("tour.guests")}</td>
-                  <td>
-                    80 € <small>{t("tour.hour_and_half.included")}</small>
-                  </td>
+                  <td>80 €</td>
                 </tr>
                 <tr>
                   <td>6 {t("tour.guests")}</td>
@@ -92,6 +88,11 @@ const Rate = ({
             </table>
           )
         )}
+
+        <small>
+          <span>{included}</span>
+          {special !== null && <span>&nbsp;|&nbsp;{special}</span>}
+        </small>
       </div>
     </div>
   );

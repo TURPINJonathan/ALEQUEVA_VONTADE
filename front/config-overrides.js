@@ -54,5 +54,6 @@ module.exports = override(
     "@assets": path.resolve(__dirname, "src/assets"),
     "@fixtures": path.resolve(__dirname, "src/tests/fixtures"),
     "@hooks": path.resolve(__dirname, "src/hooks"),
+    "@gallery": path.resolve(__dirname, "src/gallery"),
   })
 );

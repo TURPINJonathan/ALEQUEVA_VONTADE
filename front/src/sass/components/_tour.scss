@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   padding: 3rem 5rem;
+  position: relative;
 
   #tour_container {
     width: 100%;
@@ -109,14 +110,14 @@
             td {
               vertical-align: middle;
               padding-left: 1rem;
-
-              small {
-                font-size: 0.7rem;
-                font-style: italic;
-              }
             }
           }
         }
+      }
+
+      small {
+        font-size: 0.7rem;
+        text-align: center;
       }
     }
 
@@ -179,6 +180,14 @@
           }
         }
       }
+    }
+
+    .tour_precision {
+      position: absolute;
+      bottom: 0;
+      color: colors.$white-xs--tsp;
+      font-weight: bold;
+      left: 50%;
     }
   }
 }
