@@ -7,9 +7,12 @@ import TranslationProvider from "./TranslationProvider";
 //? STYLES
 import "./sass/index.scss";
 
+//? LAYOUT
+import Navigation from "@components/Layout/navigation";
+import Footer from "@components/Layout/footer";
+
 //? COMPONENTS
 import Main from "@components/Main";
-import Navigation from "@components/Layout/navigation";
 import About from "@components/About";
 import Boat from "@components/Boat";
 import Tour from "@components/Tour";
@@ -38,6 +41,7 @@ root.render(
           <Route path="/cancellation_policy" element={<Legal />} exact />
           <Route path="/" element={<Main />} exact />
         </Routes>
+        <Footer />
       </Router>
     </TranslationProvider>
   </React.StrictMode>
