@@ -12,7 +12,9 @@
     "french": "Afficher le site en français / Mostrar o site em francês",
     "portuguese": "Mostrar o site em português",
     "english": "Show website in english / Mostrar o site em inglês",
-    "boat": "Nosso barco"
+    "boat": "Nosso barco",
+    "cancellation": "Politica de cancelamento",
+    "claim": "Livro de reclamações"
   },
   "home": {
     "title": "Passeios de barco no Alqueva",
@@ -248,6 +250,19 @@
     },
     "map": {
       "where": "Où nous trouver ?"
+    }
+  },
+  "policy": {
+    "title": "Casos de cancelamento dos passeios",
+    "cancellation": {
+      "passenger": "O total dos viajantes nao chega a 4 adultos( passeios publicos).",
+      "weather": "O tempo nao permite a saida do barco(tempestade, forte chuva).",
+      "team": "Um membro da tripulaçao està impedido."
+    },
+    "refund": {
+      "from_team": "Nesse caso o reembolso da reservaçao sera feito dentro 2 ou 3 dias.",
+      "from_customer": "Em caso de cancelamento pelo cliente, o reembolso serà possivel se Alqueva à Vontade estiver avisado pelo menos 5 dias antes da data do passeio.",
+      "delay": "Nesse caso o reembolso sera feito dentro de 2 ou 3 dias."
     }
   }
 }

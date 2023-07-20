@@ -12,7 +12,9 @@
     "french": "Afficher le site en français / Show website in french",
     "portuguese": "Mostrar o site em português / Show website in portuguese",
     "english": "Show website in english",
-    "boat": "Our boat"
+    "boat": "Our boat",
+    "cancellation": "Cancellation policy",
+    "claim": "Claim book"
   },
   "home": {
     "title": "Boat trips on the Alqueva lake",
@@ -248,6 +250,19 @@
     },
     "map": {
       "where": "Where can you find us ?"
+    }
+  },
+  "policy": {
+    "title": "Cas d'annulation de voyages",
+    "cancellation": {
+      "passenger": "Le nombre total de voyageurs n'atteint pas 4 adultes (circuits publics).",
+      "weather": "le temps ne permet pas le départ du bateau (tempête, forte pluie)",
+      "team": "Un membre de l'équipage est n'est pas en mesure de voyager."
+    },
+    "refund": {
+      "from_team": "Dans ce cas, le remboursement de la réservation sera effectué dans les 2 ou 3 jours.",
+      "from_customer": "En cas d'annulation par le client, le remboursement sera possible si Alqueva à Vontade au moins 5 jours avant la date du voyage, jours avant la date de l'excursion.",
+      "delay": "Dans ce cas, le remboursement sera effectué dans les 2 ou 3 jours."
     }
   }
 }

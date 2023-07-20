@@ -12,6 +12,8 @@ import {
   faCamera,
   faSailboat,
   faUtensils,
+  faCircleExclamation,
+  faPowerOff,
 } from "@fortawesome/free-solid-svg-icons";
 import Toggle from "@utils/toggle.js";
 import { NavLink } from "react-router-dom";
@@ -88,6 +90,29 @@ const Navigation = () => {
           <li className={isHovered ? "hovered" : ""}>
             <Toggle isHovered={isHovered} />
           </li>
+          {isHovered && (
+            <>
+              <li className={isHovered ? "hovered" : ""}>
+                <NavLink to={"/cancellation_policy"} end>
+                  <FontAwesomeIcon icon={faPowerOff} className="iconNav" />
+                  {isHovered && <span>{t("nav.cancellation")}</span>}
+                </NavLink>
+              </li>
+              <li className={isHovered ? "hovered" : ""}>
+                <a
+                  href="https://www.livroreclamacoes.pt/Inicio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faCircleExclamation}
+                    className="iconNav"
+                  />
+                  {isHovered && <span>{t("nav.claim")}</span>}
+                </a>
+              </li>
+            </>
+          )}
         </ul>
       </nav>
     </div>

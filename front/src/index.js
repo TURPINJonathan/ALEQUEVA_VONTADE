@@ -18,6 +18,7 @@ import Activities from "@components/Activities";
 import Sleep from "@components/Sleep";
 import Contact from "@components/Contact";
 import PictureGallery from "@components/PictureGallery";
+import Legal from "@components/Legal";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,6 +35,7 @@ root.render(
           <Route path="/activities" element={<Activities />} exact />
           <Route path="/sleep" element={<Sleep />} exact />
           <Route path="/contact" element={<Contact />} exact />
+          <Route path="/cancellation_policy" element={<Legal />} exact />
           <Route path="/" element={<Main />} exact />
         </Routes>
       </Router>
