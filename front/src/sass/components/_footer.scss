@@ -1,0 +1,22 @@
+footer {
+  position: absolute;
+  z-index: 9999;
+  bottom: 0;
+  left: 40vw;
+  right: 40vw;
+  width: 20vw;
+  text-align: center;
+  color: colors.$white-xs--tsp;
+  background-color: colors.$black-lt--tsp;
+
+  .footer_alqueva {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+  }
+
+  .footer_legal {
+    padding-bottom: 0.2rem;
+    font-size: 0.8rem;
+  }
+}

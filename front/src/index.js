@@ -7,9 +7,12 @@ import TranslationProvider from "./TranslationProvider";
 //? STYLES
 import "./sass/index.scss";
 
+//? LAYOUT
+import Navigation from "@components/Layout/navigation";
+import Footer from "@components/Layout/footer";
+
 //? COMPONENTS
 import Main from "@components/Main";
-import Navigation from "@components/Layout/navigation";
 import About from "@components/About";
 import Boat from "@components/Boat";
 import Tour from "@components/Tour";
@@ -18,6 +21,7 @@ import Activities from "@components/Activities";
 import Sleep from "@components/Sleep";
 import Contact from "@components/Contact";
 import PictureGallery from "@components/PictureGallery";
+import Legal from "@components/Legal";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,8 +38,10 @@ root.render(
           <Route path="/activities" element={<Activities />} exact />
           <Route path="/sleep" element={<Sleep />} exact />
           <Route path="/contact" element={<Contact />} exact />
+          <Route path="/cancellation_policy" element={<Legal />} exact />
           <Route path="/" element={<Main />} exact />
         </Routes>
+        <Footer />
       </Router>
     </TranslationProvider>
   </React.StrictMode>

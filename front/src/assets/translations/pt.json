@@ -12,7 +12,9 @@
     "french": "Afficher le site en français / Mostrar o site em francês",
     "portuguese": "Mostrar o site em português",
     "english": "Show website in english / Mostrar o site em inglês",
-    "boat": "Nosso barco"
+    "boat": "Nosso barco",
+    "cancellation": "Politica de cancelamento",
+    "claim": "Livro de reclamações"
   },
   "home": {
     "title": "Passeios de barco no Alqueva",
@@ -26,7 +28,7 @@
   },
   "gallery": {
     "title": {
-      "relaxation": "descando",
+      "relaxation": "descanso",
       "discovery": "descoberta",
       "acostage": "acostagem",
       "escape": "evas\u00E3o",
@@ -162,10 +164,17 @@
       "content": {
         "first": "Descobrir a praça Dom Nuno alvares Pereira e a câmara municipal.",
         "second": "Visitar a igreja da misericordia.",
-        "third": "Subir a dar a volta àa muralhas do Castelo(o interior não è assecivel).",
-        "fourth": "Descer as ruas atè chegar ao parque da Matriz e fazer uma fotografia em frente das letras Portel com vista para o Castelo. Visitar o lindo jardim Doutor Santiago. Entrar na igreja manuelina de São Jão Batista, descobrir no interior azulejos sevillanos do sèculo XVII.",
-        "fifth": "Subir ao Castelo e a sua fortaleza moura, assim que à Torre do relogio.",
-        "sixth": "Percorrer as ruas floridas e pedonais. Ver a magnifica fachada do hotel de Moura e da casa do azeite."
+        "third": "Subir i dar a volta às muralhas do Castelo(o interior não è acessivel).",
+        "fourth": "Descer as ruas atè chegar ao parque da Matriz e fazer uma fotografia em frente das letras Portel com vista para o Castelo."
+      },
+      "picture_description": "TODO"
+    },
+    "moura": {
+      "title": "Moura",
+      "content": {
+        "first": "Visitar o lindo jardim Doutor Santiago. Entrar na igreja manuelina de São Jão Batista, descobrir no interior azulejos sevillanos do sèculo XVII.",
+        "second": "Subir ao Castelo e a sua fortaleza moura, assim que à Torre do relogio.",
+        "third": "Percorrer as ruas floridas e pedonais. Ver a magnifica fachada do hotel de Moura e da casa do azeite."
       },
       "picture_description": "TODO"
     },
@@ -185,7 +194,7 @@
       "title": "Alqueva Predator Fishing",
       "content": {
         "first": "Se procura aventura na sua próxima viagem de pesca predatória a Portugal, este é o lugar dos sonhos e dos excessos, com 25.000 hectares e mais de 1.200 km de costa para brincar.",
-        "second": "With ALQUEVA PREDATOR FISHING you will be alone or almost alone (no fishing pressure as in Spain) on this artificial lake, the largest in Europe, ALQUEVA, also called by some French carnivore anglers already under the spell.",
+        "second": "Com ALQUEVA PREDATOR FISHING estará sozinho ou quase sozinho (sem pressão de pesca como em Espanha) neste lago artificial, o maior da Europa, ALQUEVA, também chamado por alguns pescadores carnívoros franceses já enfeitiçados.",
         "third": "Pescar com a ALQUEVA PREDATOR FISHING é sonhar com uma viagem de pesca de predadores sem paralelo e sem limites !"
       },
       "picture_description": "TODO"
@@ -248,6 +257,18 @@
     },
     "map": {
       "where": "Où nous trouver ?"
+    }
+  },
+  "policy": {
+    "title": "Casos de cancelamento dos passeios",
+    "cancellation": {
+      "weather": "O tempo nao permite a saida do barco(tempestade, forte chuva).",
+      "team": "Um membro da tripulaçao està impedido."
+    },
+    "refund": {
+      "from_team": "Nesse caso o reembolso da reservaçao sera feito dentro 2 ou 3 dias.",
+      "from_customer": "Em caso de cancelamento pelo cliente, o reembolso serà possivel se Alqueva à Vontade estiver avisado pelo menos 2 dias antes da data do passeio.",
+      "delay": "Nesse caso o reembolso sera feito dentro de 2 ou 3 dias."
     }
   }
 }

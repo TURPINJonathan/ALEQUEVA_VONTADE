@@ -12,7 +12,9 @@
     "french": "Afficher le site en français / Show website in french",
     "portuguese": "Mostrar o site em português / Show website in portuguese",
     "english": "Show website in english",
-    "boat": "Our boat"
+    "boat": "Our boat",
+    "cancellation": "Cancellation policy",
+    "claim": "Claim book"
   },
   "home": {
     "title": "Boat trips on the Alqueva lake",
@@ -163,9 +165,16 @@
         "first": "Discover the Praça Dom Nuno alvares Pereira and Portel Town Hall.",
         "second": "Visit the church of misericordia.",
         "third": "Climb up and walk around the castle walls (the inside is inaccessible).",
-        "fourth": "Walk down the streets to Parque da Matriz. Stroll through the Doutor Santiago garden. Enter the Manueline church of São Jão Batista and discover the 17th-century Sevillian azulejos inside.",
-        "fifth": "Climb up to the castle and its Moorish fortress, as well as the watch tower.",
-        "sixth": "Walk along the flower-filled, pedestrianised streets. Discover the magnificent façade of the Hotel de Moura and the Casa do Azeite."
+        "fourth": "Walk down the streets to Parque da Matriz."
+      },
+      "picture_description": "TODO"
+    },
+    "moura": {
+      "title": "Moura",
+      "content": {
+        "first": "Stroll through the Doutor Santiago garden. Enter the Manueline church of São Jão Batista and discover the 17th-century Sevillian azulejos inside.",
+        "second": "Climb up to the castle and its Moorish fortress, as well as the watch tower.",
+        "third": "Walk along the flower-filled, pedestrianised streets. Discover the magnificent façade of the Hotel de Moura and the Casa do Azeite."
       },
       "picture_description": "TODO"
     },
@@ -248,6 +257,18 @@
     },
     "map": {
       "where": "Where can you find us ?"
+    }
+  },
+  "policy": {
+    "title": "Trip cancellations",
+    "cancellation": {
+      "weather": "The weather does not allow the boat to leave (storm, heavy rain)",
+      "team": "One crew member is unable to travel."
+    },
+    "refund": {
+      "from_team": "In this case, the booking will be refunded within 2 or 3 days.",
+      "from_customer": "In the event of cancellation by the customer, a refund will be possible if Alqueva à Vontade at least 2 days before the date of the excursion.",
+      "delay": "In this case, the refund will be made within 2 or 3 days."
     }
   }
 }

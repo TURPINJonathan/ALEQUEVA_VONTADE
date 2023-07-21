@@ -6,12 +6,13 @@ import { useTranslation } from "react-i18next";
 import Country from "@pictures/activities/country.png";
 import Evora from "@pictures/activities/evora.jpg";
 import Monsaraz from "@pictures/activities/monsaraz.jpg";
-import AldeiaDaLuz from "@pictures/activities/aldeia_da_luz.jpg";
+import AldeiaDaLuz from "@pictures/activities/aldeia_da_luz.png";
 import Portel from "@pictures/activities/portel.jpg";
 import Beach from "@pictures/activities/beach.jpg";
 import Museum from "@pictures/activities/museum.jpg";
 import DarkSky from "@pictures/activities/dark_sky.png";
 import AlquevaPredatorFishing from "@pictures/activities/alqueva_predator_fishing.png";
+import Moura from "@pictures/activities/moura.jpg";
 
 const Activities = () => {
   const { t } = useTranslation();
@@ -78,13 +79,23 @@ const Activities = () => {
         t("activities.portel.content.second"),
         t("activities.portel.content.third"),
         t("activities.portel.content.fourth"),
-        t("activities.portel.content.fifth"),
-        t("activities.portel.content.sixth"),
       ],
       picture: Portel,
       pictureDescription: t("activities.portel.picture_description"),
       direction: "right",
       website: "https://www.ville-leportel.fr/",
+    },,
+    {
+      name: "moura",
+      title: t("activities.moura.title"),
+      content: [
+        t("activities.moura.content.first"),
+        t("activities.moura.content.second"),
+        t("activities.moura.content.third"),
+      ],
+      picture: Moura,
+      pictureDescription: t("activities.moura.picture_description"),
+      direction: "left",
     },
     {
       name: "beach",
@@ -99,7 +110,7 @@ const Activities = () => {
       ],
       picture: Beach,
       pictureDescription: t("activities.beach.picture_description"),
-      direction: "left",
+      direction: "right",
     },
     {
       name: "fishing",
@@ -111,7 +122,7 @@ const Activities = () => {
       ],
       picture: AlquevaPredatorFishing,
       pictureDescription: t("activities.fishing.picture_description"),
-      direction: "right",
+      direction: "left",
       website: "https://alqueva-predator-fishing.com/",
     },
     {
@@ -127,7 +138,7 @@ const Activities = () => {
       ],
       picture: Museum,
       pictureDescription: t("activities.museum.picture_description"),
-      direction: "left",
+      direction: "right",
       website: "https://www.museudomedronho.pt/",
     },
     {
@@ -140,7 +151,7 @@ const Activities = () => {
       ],
       picture: DarkSky,
       pictureDescription: t("activities.dark_sky.picture_description"),
-      direction: "right",
+      direction: "left",
       website: "https://darkskyalqueva.com/",
     },
   ];

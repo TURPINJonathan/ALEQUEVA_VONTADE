@@ -12,7 +12,9 @@
     "french": "Afficher le site en français",
     "portuguese": "Mostrar o site em português / Afficher le site en portuguais",
     "english": "Show website in english / Afficher le site en anglais",
-    "boat": "Notre bâteau"
+    "boat": "Notre bateau",
+    "cancellation": "Politique d'annulation",
+    "claim": "Livre de réclamation"
   },
   "home": {
     "title": "Promenades en bateau sur l'Alqueva",
@@ -56,7 +58,7 @@
   },
   "boat": {
     "welcome": "Bienvenue sur le Sam et Jo !",
-    "content": "Notre bâteau est conçu comme une terrasse flottante, destinée à vous faire découvrir toutes les beautés du plus grand lac artificiel d'Europe. Les promenades vous permettront de profiter de la sérénité que procurent l'eau et la nature. Notre objectif principal ? Vous faire vivre un moment inoubliable !",
+    "content": "Notre bateau est conçu comme une terrasse flottante, destinée à vous faire découvrir toutes les beautés du plus grand lac artificiel d'Europe. Les promenades vous permettront de profiter de la sérénité que procurent l'eau et la nature. Notre objectif principal ? Vous faire vivre un moment inoubliable !",
     "sunshade": "Pare-soleil amovible.",
     "change_room": "WC et cabine de change.",
     "front_door": "Porte avant, facilitant l'accès aux personnes à mobilité réduite."
@@ -92,7 +94,7 @@
       "duration": "durée: 2:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "Boissons et plâteau dégustation inclus",
+      "included": "Boissons et plateau dégustation inclus",
       "special": "Baignade possible en été"
     },
     "three_hours": {
@@ -103,7 +105,7 @@
       "duration": "durée: 3:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
       "from_to_tour": "A partir de 11:00 et jusqu'à 20:00 (21:00 l'été)",
-      "included": "Boissons et plâteau dégustation inclus",
+      "included": "Boissons et plateau dégustation inclus",
       "special": "Baignade, paddle possible en été"
     },
     "private": {
@@ -153,7 +155,7 @@
         "first": "Sentir l'atmosphère particulière du village de Luz, l'unique village à avoir disparu sous l'eau lors du remplissage du lac, et reconstruit à l'identique à quelques KM.",
         "second": "Visiter le musée de Luz et apprendre l' histoire du village.",
         "third": "Marcher sur le long ponton au bout du village, et arriver au bord de l'eau !",
-        "fourth": "Observer la nature, profiter de la paix et du  calme ambient !"
+        "fourth": "Observer la nature, profiter de la paix et du  calme ambiant !"
       },
       "picture_description": "TODO"
     },
@@ -163,9 +165,16 @@
         "first": "Découvrir la praça Dom Nuno alvares Pereira et la Mairie de Portel.",
         "second": "Visiter l'église da misericordia.",
         "third": "Monter et faire le tour des murailles du Chateau (l'intérieur est inaccessible).",
-        "fourth": "Descendre les rues jusqu'au  parc da Matriz. Se promener dans le jardin Doutor Santiago. Entrer dans l'église  manueline de São Jão Batista, découvrir à l' interieur des azulejos sevillans du XVII siècle.",
-        "fifth": "Monter jusqu'au  Chateau et a sa forteresse maure, ainsi qu'à la tour de la montre.",
-        "sixth": "Marcher dans  les rues fleuries et piétonnières. Découvrir la magnifique façade de l'hotel de Moura et de  la casa do azeite."
+        "fourth": "Descendre les rues jusqu'au  parc da Matriz."
+      },
+      "picture_description": "TODO"
+    },
+    "moura": {
+      "title": "Moura",
+      "content": {
+        "first": "Se promener dans le jardin Doutor Santiago. Entrer dans l'église  manueline de São Jão Batista, découvrir à l' interieur des azulejos sevillans du XVII siècle.",
+        "second": "Monter jusqu'au  Chateau et a sa forteresse maure, ainsi qu'à la tour de la montre.",
+        "third": "Marcher dans  les rues fleuries et piétonnières. Découvrir la magnifique façade de l'hotel de Moura et de  la casa do azeite."
       },
       "picture_description": "TODO"
     },
@@ -248,6 +257,18 @@
     },
     "map": {
       "where": "Où nous trouver ?"
+    }
+  },
+  "policy": {
+    "title": "Cas d'annulation de voyages",
+    "cancellation": {
+      "weather": "Te temps ne permet pas le départ du bateau (tempête, forte pluie)",
+      "team": "Un membre de l'équipage est n'est pas en mesure de voyager."
+    },
+    "refund": {
+      "from_team": "Dans ce cas, le remboursement de la réservation sera effectué dans les 2 ou 3 jours.",
+      "from_customer": "En cas d'annulation par le client, le remboursement sera possible si Alqueva à Vontade au moins 2 jours avant la date du voyage, jours avant la date de l'excursion.",
+      "delay": "Dans ce cas, le remboursement sera effectué dans les 2 ou 3 jours."
     }
   }
 }
