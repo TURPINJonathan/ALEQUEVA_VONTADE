@@ -165,9 +165,16 @@
         "first": "Discover the Praça Dom Nuno alvares Pereira and Portel Town Hall.",
         "second": "Visit the church of misericordia.",
         "third": "Climb up and walk around the castle walls (the inside is inaccessible).",
-        "fourth": "Walk down the streets to Parque da Matriz. Stroll through the Doutor Santiago garden. Enter the Manueline church of São Jão Batista and discover the 17th-century Sevillian azulejos inside.",
-        "fifth": "Climb up to the castle and its Moorish fortress, as well as the watch tower.",
-        "sixth": "Walk along the flower-filled, pedestrianised streets. Discover the magnificent façade of the Hotel de Moura and the Casa do Azeite."
+        "fourth": "Walk down the streets to Parque da Matriz."
+      },
+      "picture_description": "TODO"
+    },
+    "moura": {
+      "title": "Moura",
+      "content": {
+        "first": "Stroll through the Doutor Santiago garden. Enter the Manueline church of São Jão Batista and discover the 17th-century Sevillian azulejos inside.",
+        "second": "Climb up to the castle and its Moorish fortress, as well as the watch tower.",
+        "third": "Walk along the flower-filled, pedestrianised streets. Discover the magnificent façade of the Hotel de Moura and the Casa do Azeite."
       },
       "picture_description": "TODO"
     },
@@ -253,16 +260,15 @@
     }
   },
   "policy": {
-    "title": "Cas d'annulation de voyages",
+    "title": "Trip cancellations",
     "cancellation": {
-      "passenger": "Le nombre total de voyageurs n'atteint pas 4 adultes (circuits publics).",
-      "weather": "le temps ne permet pas le départ du bateau (tempête, forte pluie)",
-      "team": "Un membre de l'équipage est n'est pas en mesure de voyager."
+      "weather": "The weather does not allow the boat to leave (storm, heavy rain)",
+      "team": "One crew member is unable to travel."
     },
     "refund": {
-      "from_team": "Dans ce cas, le remboursement de la réservation sera effectué dans les 2 ou 3 jours.",
-      "from_customer": "En cas d'annulation par le client, le remboursement sera possible si Alqueva à Vontade au moins 5 jours avant la date du voyage, jours avant la date de l'excursion.",
-      "delay": "Dans ce cas, le remboursement sera effectué dans les 2 ou 3 jours."
+      "from_team": "In this case, the booking will be refunded within 2 or 3 days.",
+      "from_customer": "In the event of cancellation by the customer, a refund will be possible if Alqueva à Vontade at least 2 days before the date of the excursion.",
+      "delay": "In this case, the refund will be made within 2 or 3 days."
     }
   }
 }

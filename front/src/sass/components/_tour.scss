@@ -184,10 +184,11 @@
 
     .tour_precision {
       position: absolute;
-      bottom: 0;
+      top: 0;
       color: colors.$white-xs--tsp;
       font-weight: bold;
       left: 50%;
+      margin-top: 10px;
     }
   }
 }

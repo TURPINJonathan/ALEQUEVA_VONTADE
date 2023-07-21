@@ -9,7 +9,6 @@ const Legal = () => {
         <div className="card_background">
           <h1>{t("policy.title")}</h1>
           <ul>
-            <li>{t("policy.cancellation.passenger")}</li>
             <li>{t("policy.cancellation.weather")}</li>
             <li>{t("policy.cancellation.team")}</li>
           </ul>
