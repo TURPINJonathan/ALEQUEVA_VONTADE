@@ -1,4 +1,5 @@
 const ImageFullScreen = ({ image, description, onClose, title }) => {
+
   return (
     <div className="fullscreen-overlay" onClick={onClose}>
       <div className="fullscreen-content">
