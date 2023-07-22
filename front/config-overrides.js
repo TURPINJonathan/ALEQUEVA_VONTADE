@@ -37,6 +37,14 @@ module.exports = override(
   addBabelPlugin([
     "babel-plugin-root-import",
     {
+      rootPathSuffix: "src/data/data.js",
+      rootPathPrefix: "@data/",
+    },
+    "data",
+  ]),
+  addBabelPlugin([
+    "babel-plugin-root-import",
+    {
       rootPathSuffix: "src/hooks",
       rootPathPrefix: "@hooks/",
     },
@@ -55,5 +63,6 @@ module.exports = override(
     "@fixtures": path.resolve(__dirname, "src/tests/fixtures"),
     "@hooks": path.resolve(__dirname, "src/hooks"),
     "@gallery": path.resolve(__dirname, "src/gallery"),
+    "@data": path.resolve(__dirname, "src/data/data.js"),
   })
 );

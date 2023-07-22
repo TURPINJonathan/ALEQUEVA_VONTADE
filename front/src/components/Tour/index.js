@@ -2,64 +2,13 @@ import React from "react";
 import BgImg from "@gallery/swimming.jpg";
 import { useTranslation } from "react-i18next";
 
-// Pictures
-import OneHourPicure from "@pictures/tours/one_hour.jpg";
+import { rates } from "@data";
 import HourAndHalfPicture from "@pictures/tours/hour_and_half.jpg";
-import TwoHoursPicture from "@pictures/tours/two_hours.jpg";
-import ThreeHoursPicure from "@pictures/tours/three_hours.jpg";
-import PersonnalizedPicure from "@pictures/tours/personnalized.jpg";
 
 import Rate from "@components/Tour/Rate";
 
 const Tour = () => {
   const { t } = useTranslation();
-
-  const rates = [
-    {
-      tour: "hour",
-      key: 1,
-      picture: OneHourPicure,
-      prices: [
-        { personCount: 2, price: "60 €" },
-        { personCount: 4, price: "80 €" },
-        { personCount: 6, price: "100 €" },
-        { personCount: 8, price: "120 €" },
-      ],
-      included: t("tour.hour.included"),
-    },
-    {
-      tour: "two_hours",
-      key: 2,
-      picture: TwoHoursPicture,
-      prices: [
-        { personCount: 2, price: "100 €" },
-        { personCount: 4, price: "120 €" },
-        { personCount: 6, price: "140 €" },
-        { personCount: 8, price: "160 €" },
-      ],
-      included: t("tour.two_hours.included"),
-      special: t("tour.three_hours.special"),
-    },
-    {
-      tour: "three_hours",
-      key: 3,
-      picture: ThreeHoursPicure,
-      prices: [
-        { personCount: 2, price: "40 €" },
-        { personCount: 4, price: "70 €" },
-        { personCount: 6, price: "200 €" },
-        { personCount: 8, price: "230 €" },
-      ],
-      included: t("tour.three_hours.included"),
-      special: t("tour.three_hours.special"),
-    },
-    {
-      tour: "private",
-      key: 4,
-      picture: PersonnalizedPicure,
-      isPrices: false,
-    },
-  ];
 
   return (
     <main id="tour" style={{ backgroundImage: `url(${BgImg})` }}>
@@ -93,8 +42,8 @@ const Tour = () => {
               pictureDescription={t(`tour.${rate.tour}.picture_description`)}
               prices={rate.prices ?? []}
               isPrices={rate.isPrices}
-							included={rate.included}
-							special={rate.special ?? null}
+							included={t(rate.included)}
+							special={t(rate.special) ?? null}
             />
           ))}
         </div>

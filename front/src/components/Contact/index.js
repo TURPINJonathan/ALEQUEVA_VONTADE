@@ -5,7 +5,6 @@ import ContactForm from "@components/Contact/ContactForm";
 import ContactMap from "@components/Contact/ContactMap";
 
 const Contact = () => {
-
   return (
     <main id="contact" style={{ backgroundImage: `url(${BgImg})` }}>
       <div id="contact_container">
