@@ -24,7 +24,7 @@
     "history": "Notre histoire",
     "greetings": "Bonjour, nous sommes Frédéric et Sophie",
     "comment": "Fille d'immigrés, je suis née et j'ai grandi en France, mais j'ai toujours gardé le Portugal dans mon cœur. Amour que Frederic a partagé dès son premier voyage il y a plus de 20 ans. Notre goût pour le calme et les espaces naturels nous a conduit en Alentejo, plus précisement au lac d'Alqueva, le plus grand lac artificiel d'Europe. Avec ses 250km2, ses 1160km de côte, ses 426 iles et ses 7 villages côtiers, l'Alqueva a beaucoup à offrir.Notre objectif est de vous emmener sur le \"Sam and Jo\" ( clin d'oeil à nos jumeaux, samuel et Joana) pour vous faire découvrir les paysages incroyables de cette région du Portugal!",
-    "picture": "Frédéric et Sophie"
+    "picture": "Photo du couple Frédéric et Sophie. Lui: costaud,barbu et jouflu; Elle: jolie et souriante."
   },
   "gallery": {
     "title": {
@@ -57,11 +57,23 @@
     }
   },
   "boat": {
-    "welcome": "Bienvenue sur le Sam et Jo !",
-    "content": "Notre bateau est conçu comme une terrasse flottante, destinée à vous faire découvrir toutes les beautés du plus grand lac artificiel d'Europe. Les promenades vous permettront de profiter de la sérénité que procurent l'eau et la nature. Notre objectif principal ? Vous faire vivre un moment inoubliable !",
-    "sunshade": "Pare-soleil amovible.",
-    "change_room": "WC et cabine de change.",
-    "front_door": "Porte avant, facilitant l'accès aux personnes à mobilité réduite."
+    "welcome": {
+      "title": "Bienvenue sur le Sam et Jo !",
+      "content": "Notre bateau est conçu comme une terrasse flottante, destinée à vous faire découvrir toutes les beautés du plus grand lac artificiel d'Europe. Les promenades vous permettront de profiter de la sérénité que procurent l'eau et la nature. Notre objectif principal ? Vous faire vivre un moment inoubliable !",
+      "alt": "Vue de loin du bateau sur le lac, près de la marina d'Amieira."
+    },    
+    "sunshade": {
+      "title": "Pare-soleil amovible.",
+      "alt": "Vue sur le mobilier du bateau avec un focus sur le pare-soleil réglable en fonction des expositions."
+    },
+    "change_room": {
+      "title": "WC et cabine de change.",
+      "alt": "Vue d'ensemble avec mise en avant des toilettes et échelle de baignade."
+    },
+    "front_door": {
+      "title": "Porte avant, facilitant l'accès aux personnes à mobilité réduite.",
+      "alt": "Vue d'ensemble du bateau à quai avec une mise en avant de la porte d'embarquement permetant un accès plus facile pour les personnes à mobilité réduite."
+    }
   },
   "tour": {
     "guests": "personnes",

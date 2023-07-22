@@ -16,23 +16,27 @@ const Boat = () => {
     <main id="boat" style={{ backgroundImage: `url(${BgImg})` }}>
       <div id="boat_container">
         <HoverableElement
-          title={t('boat.welcome')}
-          content={t('boat.content')}
+          title={t('boat.welcome.title')}
+          content={t('boat..welcome.content')}
+          pictureDescription={t('boat.welcome.alt')}
           picture={Welcome}
           element="boat_welcome"
         />
         <HoverableElement
-          title={t('boat.sunshade')}
+          title={t('boat.sunshade.title')}
+          pictureDescription={t('boat.sunshade.alt')}
           picture={Sunshade}
           element="boat_sunshade"
         />
         <HoverableElement
-          title={t('boat.change_room')}
+          title={t('boat.change_room.title')}
+          pictureDescription={t('boat.change_room.alt')}
           picture={ChangeRoom}
           element="boat_change-room"
         />
         <HoverableElement
-          title={t('boat.front_door')}
+          title={t('boat.front_door.title')}
+          pictureDescription={t('boat.front_door.alt')}
           picture={FrontDoor}
           element="boat_door"
         />

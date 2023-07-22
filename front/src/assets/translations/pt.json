@@ -24,7 +24,7 @@
     "history": "Nossa historia",
     "greetings": "Ola, somos Frederic e Sofia",
     "comment": "Filha de imigrantes, nasci e cresci na França, mas sempre gostei imenso de Portugal. Amor que o Frederic tambem sentiu desde que viajou em terras portuguesas, à mais de 20 anos. Nosso gosto pela calma e pelos espaços naturais levou-nos atè ao Alentejo, e mais precisamente ao lago de Alqueva, o maior lago artificial de Europa! Com os seus 250km2, 1160km de margens, 426 ilhas e 7 aldeias ribeirinas a albufeira de Alqueva tem muito para oferecer! Hoje o nosso objetivo è levar as pessoas à bordo do \"Sam and Jo\" ( nome dos nossos gémeos Samuel e Joana) para que disfrutem da melhor maneira das paisagems deslumbrantes desta região de Portugal!",
-    "picture": "Frederic e Sofia"
+    "picture": "Foto do casal Frédéric e Sofia. Ele: forte, combarba e gordinho; Ela, linda e sorridente."
   },
   "gallery": {
     "title": {
@@ -57,11 +57,23 @@
     }
   },
   "boat": {
-    "welcome": "Bem vindos a bordo !",
-    "content": "O \"Sam and Jo\" foi pensado como um terraço flutuante, destinado a disfrutar de toda a beleza do maior lago artificial de Europa. Nossos passeios permitem sentir toda a calma da natureza ! Nosso objectivo ? Que passem um memento privilegiado !",
-    "sunshade": "Para-sol removivel.",
-    "change_room": "Banheiro e cabine de cambio.",
-    "front_door": "Porta de frente facilitando o acesso para pessoas com mobilidade condicionada."
+    "welcome": {
+      "title": "Bem vindos a bordo !",
+      "content": "O \"Sam and Jo\" foi pensado como um terraço flutuante, destinado a disfrutar de toda a beleza do maior lago artificial de Europa. Nossos passeios permitem sentir toda a calma da natureza ! Nosso objectivo ? Que passem um memento privilegiado !",
+      "alt": "Vista do barco sobre o lago perto da marina de Amieira."
+    },
+    "sunshade": {
+      "title": "Para-sol removivel.",
+      "alt": "Vista sobre a mobilia do barco com destaque sobre o para-sol que se posiciona em função do exposição."
+    },
+    "change_room": {
+      "title": "Banheiro e cabine de cambio.",
+      "alt": "Destoque do banheiro e cabine de cambio."
+    },
+    "front_door": {
+      "title": "Porta de frente facilitando o acesso para pessoas com mobilidade condicionada.",
+      "alt": "Barco encorado e destoque da possibilidade de fager o embarque pela porta de fente para as pessoas com mobilidade condicionada."
+      }
   },
   "tour": {
     "guests": "pessoas",

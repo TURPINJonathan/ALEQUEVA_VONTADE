@@ -24,7 +24,7 @@
     "history": "Our story",
     "greetings": "Hello, we are Frédéric and Sophie",
     "comment": "Daughter of immigrants, I was born and grew up in France, but I have always kept Portugal in my heart. A love that Frederic shared from his first trip over 20 years ago. Our taste for peace and quiet natural spaces led us to the Alentejo, and more specifically to the lake Alqueva, the largest man-made lake in Europe. With its 250 km2; 1160 km of coastline, 426 islands and 7 coastal villages, the Alqueva has a lot to offer. Our aim is to take you on the \"Sam and Jo\" (a nod to our twins, Samuel and Joana) to help you discorver the incredible landscapes of this region of Portugal !",
-    "picture": "Frederic and Sophie"
+    "picture": "Picture of Frédéric and Sophie. He: strong, bearded and chubby; She: pretty and smilling."
   },
   "gallery": {
     "title": {
@@ -57,11 +57,23 @@
     }
   },
   "boat": {
-    "welcome": "Welcome on the Sam et Jo !",
-    "content": "Our boat is designed as a floating terrace, to let you discover all the beauty of Europe's largest man-made lake. Our cruises will let you enjoy the serenity of water and nature. Our main objective? To provide you with an unforgettable experience !",
-    "sunshade": "Removable sunshade.",
-    "change_room": "Toilets and changing room.",
-    "front_door": "Front door for easy access by the disabled."
+    "welcome": {
+      "title": "Welcome on the Sam et Jo !",
+      "content": "Our boat is designed as a floating terrace, to let you discover all the beauty of Europe's largest man-made lake. Our cruises will let you enjoy the serenity of water and nature. Our main objective? To provide you with an unforgettable experience !",
+      "alt": "View from a distance of the boat on the lake, near the Amieira marina."
+    },
+    "sunshade": {
+      "title": "Removable sunshade.",
+      "alt": "View of the boat's furnishings with a focus on the sunshade, which can be adjusted to suit different exposures"
+    },
+    "change_room": {
+      "title": "Toilets and changing room.",
+      "alt": "Overall view, highlighting the toilets and bathing ladder."
+    },
+    "front_door": {
+      "title": "Front door for easy access by the disabled.",
+      "alt": "Overall view of the boat alongside the quay, with the embarkation door highlighted for easier access for people with reduced mobility."
+    }
   },
   "tour": {
     "guests": "guests",
