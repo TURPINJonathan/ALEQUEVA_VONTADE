@@ -91,7 +91,7 @@ const Rate = ({
 
         <small>
           <span>{included}</span>
-          {special !== null && <span>&nbsp;|&nbsp;{special}</span>}
+          {special && <span>&nbsp;|&nbsp;{special}</span>}
         </small>
       </div>
     </div>

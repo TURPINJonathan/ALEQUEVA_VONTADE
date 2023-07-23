@@ -43,7 +43,7 @@ const Tour = () => {
               prices={rate.prices ?? []}
               isPrices={rate.isPrices}
 							included={t(rate.included)}
-							special={t(rate.special) ?? null}
+							special={t(rate.special)}
             />
           ))}
         </div>
