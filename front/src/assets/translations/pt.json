@@ -39,7 +39,11 @@
       "contemplation": "contemplaç\u00E3o",
       "immensity": "imensidade",
       "conviviality": "convivialidade",
-      "made_to_mesure": "Personalisado"
+      "made_to_mesure": "personalisado",
+      "champagne": "champagne",
+      "remember": "recordaçoes para sempre",
+      "diving": "mergulho",
+      "free": "lada qual seu passeio"
     },
     "description": {
       "relaxation": "Disfrute da calma de um Passeio privado.",
@@ -53,7 +57,11 @@
       "contemplation": "Passeios feitos com calma, para contemplar a naturcza.",
       "immensity": "O mais grande lago artificial de Europa.",
       "conviviality": "Prove os nossos petiscos.",
-      "made_to_mesure": "Moveis modulaveis ao seu gosto."
+      "made_to_mesure": "Moveis modulaveis ao seu gosto.",
+      "champagne": "Prato de degustaç\u00e3o, bodos de casamento.",
+      "remember": "Casal filmando e imortalisando o momento.",
+      "diving": "Mergulho em leberdade no meio do lage.",
+      "free": "Pequeno grupo doroute um passeio. Une observ\u00e3o as avec com os binodos, os outros relaxam."
     }
   },
   "boat": {

@@ -39,7 +39,11 @@
       "contemplation": "contemplation",
       "immensity": "immensité",
       "conviviality": "convivialité",
-      "made_to_mesure": "sur mesure"
+      "made_to_mesure": "sur mesure",
+      "champagne": "champagne",
+      "remember": "souvenir pour la vie",
+      "diving": "baignade",
+      "free": "chacun sa promenade"
     },
     "description": {
       "relaxation": "Goutez au calme d'une promenade privée.",
@@ -53,7 +57,11 @@
       "contemplation": "Des promenades propices au calme et à la contemplation.",
       "immensity": "Le plus grand lac artificiel d'Europe.",
       "conviviality": "Dégustez nos spécialités.",
-      "made_to_mesure": "Des aménagements modulables selon vos souhaits."
+      "made_to_mesure": "Des aménagements modulables selon vos souhaits.",
+      "champagne": "Plateau dégustation pour anniversaire de mariage.",
+      "remember": "Couple qui immortalise leur instant en filmant leur promenade.",
+      "diving": "Petit plouf en liberté au milieu du lac.",
+      "free": "Petit groupe au coeur de l'excursion. Pour les uns, observation avec jumelles, pour d'autres une petite sieste."
     }
   },
   "boat": {

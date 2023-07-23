@@ -39,7 +39,11 @@
       "contemplation": "contemplation",
       "immensity": "immensity",
       "conviviality": "conviviality",
-      "made_to_mesure": "made_to_mesure"
+      "made_to_mesure": "made_to_mesure",
+      "champagne": "champagne",
+      "remember": "memory for life",
+      "diving": "diving",
+      "free": "A tour for everyone"
     },
     "description": {
       "relaxation": "Enjoy the peace and quiet of a private road.",
@@ -53,7 +57,11 @@
       "contemplation": "Boat tour for calm and contemplation.",
       "immensity": "The largest artificial lake in Europe.",
       "conviviality": "Enjoy our specialities.",
-      "made_to_mesure": "Modular layouts to suit your needs."
+      "made_to_mesure": "Modular layouts to suit your needs.",
+      "champagne": "Tasting platter for a wedding anniversary",
+      "remember": "Couple immortalise their moment by filming their tour",
+      "diving": "A free splash in the middle of the lake.",
+      "free": "A small group at the heart of the excursion. For some, observation with binoculars, for others a short siesta."
     }
   },
   "boat": {
