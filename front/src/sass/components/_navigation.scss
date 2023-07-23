@@ -115,9 +115,9 @@
           }
 
           .iconNav {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             vertical-align: middle;
-            width: 30px;
+            width: 20px;
           }
 
           span {
@@ -126,5 +126,11 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 400px) {
+  #navigation nav ul .iconNav {
+    width: 15px;
   }
 }

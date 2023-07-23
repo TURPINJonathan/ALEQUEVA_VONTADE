@@ -20,7 +20,7 @@ const Toggle = ({ isHovered }) => {
   return (
     <div id="toggle">
       {isHovered ? (
-        <>
+        <div>
           <img
             src={Fr}
             alt={t("nav.french")}
@@ -39,9 +39,9 @@ const Toggle = ({ isHovered }) => {
             className={`toggle ${activeLang === "en" ? "on" : "off"}`}
             onClick={() => handleToggle("en")}
           />
-        </>
+        </div>
       ) : (
-        <>
+        <div>
           <img
             src={Fr}
             alt={t("nav.french")}
@@ -60,7 +60,7 @@ const Toggle = ({ isHovered }) => {
             className={`toggle ${activeLang === "en" ? "on" : "hidden"}`}
             onClick={() => handleToggle("en")}
           />
-        </>
+        </div>
       )}
     </div>
   );
