@@ -419,8 +419,8 @@ const rates = [
     key: 3,
     picture: require("@pictures/tours/three_hours.jpg"),
     prices: [
-      { personCount: 2, price: "40 €" },
-      { personCount: 4, price: "70 €" },
+      { personCount: 2, price: "140 €" },
+      { personCount: 4, price: "170 €" },
       { personCount: 6, price: "200 €" },
       { personCount: 8, price: "230 €" },
     ],

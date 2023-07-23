@@ -70,19 +70,19 @@ const Rate = ({
               <tbody>
                 <tr>
                   <td>2 {t("tour.guests")}</td>
-                  <td>60 €</td>
-                </tr>
-                <tr>
-                  <td>4 {t("tour.guests")}</td>
                   <td>80 €</td>
                 </tr>
                 <tr>
-                  <td>6 {t("tour.guests")}</td>
+                  <td>4 {t("tour.guests")}</td>
                   <td>100 €</td>
                 </tr>
                 <tr>
-                  <td>8 {t("tour.guests")}</td>
+                  <td>6 {t("tour.guests")}</td>
                   <td>120 €</td>
+                </tr>
+                <tr>
+                  <td>8 {t("tour.guests")}</td>
+                  <td>140 €</td>
                 </tr>
               </tbody>
             </table>
