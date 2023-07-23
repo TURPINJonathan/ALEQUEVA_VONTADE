@@ -43,7 +43,13 @@
       "champagne": "champagne",
       "remember": "memory for life",
       "diving": "diving",
-      "free": "A tour for everyone"
+      "free": "a tour for everyone",
+      "sky": "the sky color",
+      "fauna_flora": "between fauna and flora",
+      "portugal": "Portugal above all",
+      "pleasures": "tasty pleasures",
+      "departure": "the boat",
+      "sunshade": "boat presentation"
     },
     "description": {
       "relaxation": "Enjoy the peace and quiet of a private road.",
@@ -58,10 +64,16 @@
       "immensity": "The largest artificial lake in Europe.",
       "conviviality": "Enjoy our specialities.",
       "made_to_mesure": "Modular layouts to suit your needs.",
-      "champagne": "Tasting platter for a wedding anniversary",
+      "champagne": "Tasting platter for a wedding anniversary.",
       "remember": "Couple immortalise their moment by filming their tour",
       "diving": "A free splash in the middle of the lake.",
-      "free": "A small group at the heart of the excursion. For some, observation with binoculars, for others a short siesta."
+      "free": "A small group at the heart of the excursion. For some, observation with binoculars, for others a short siesta.",
+      "sky": "View of the waves with the reflection of the setting sun.",
+      "fauna_flora": "Young man observing the birds.",
+      "portugal": "Visual of the Portuguese flag on board.",
+      "pleasures": "Surprise tray with cocktail sandwiches and glasses of Alentejo wine.",
+      "departure": "View of the departing boat.",
+      "sunshade": "View of the boat with sunshade."
     }
   },
   "boat": {

@@ -28,40 +28,52 @@
   },
   "gallery": {
     "title": {
-      "relaxation": "descanso",
+      "relaxation": "relaxamento",
       "discovery": "descoberta",
       "acostage": "acostagem",
       "escape": "evas\u00E3o",
       "sunset": "pôr do sol",
       "marina": "marina de amieira",
-      "romantic": "romantismo",
+      "romantic": "rom\u00E3ntico",
       "swimming": "mergulho",
       "contemplation": "contemplaç\u00E3o",
       "immensity": "imensidade",
-      "conviviality": "convivialidade",
+      "conviviality": "convivência",
       "made_to_mesure": "personalisado",
       "champagne": "champagne",
-      "remember": "recordaçoes para sempre",
+      "remember": "recordaç\u00d5es para sempre",
       "diving": "mergulho",
-      "free": "lada qual seu passeio"
+      "free": "cada qual seu passeio",
+      "sky": "a côr do céu",
+      "fauna_flora": "entre fauna e flora",
+      "portugal": "Portugal antes de tudo",
+      "pleasures": "saborear",
+      "departure": "o barco",
+      "sunshade": "apresentac\u00E3o"
     },
     "description": {
-      "relaxation": "Disfrute da calma de um Passeio privado.",
-      "discovery": "Grandes variedades de paisagems.",
-      "acostage": "Muitos ponto\u1EB1s a proximidade das praias.",
-      "escape": "Visite a Africa, a Bretanha pela C\u00F3rsega.",
-      "sunset": "Um aperitivo com cordes magnificas.",
-      "marina": "Um dos pontos de partida dos passeios.",
-      "romantic": "O por do sol s\u00F3 para v\u00F3s.",
-      "swimming": "Equipamentos previstos para as atividades aquaticas.",
-      "contemplation": "Passeios feitos com calma, para contemplar a naturcza.",
-      "immensity": "O mais grande lago artificial de Europa.",
+      "relaxation": "Mulher observando a paisagem.",
+      "discovery": "Margem do lago, vegetação lembrando a Toscana.",
+      "acostage": "Barco acostado sobre o Alqueva.",
+      "escape": "Margem do lago com vegetação lembrando a Africa.",
+      "sunset": "Grupo tomando um aperitivo em frente ao pôr do sol.",
+      "marina": "Barco aproximando da marina.",
+      "romantic": "Passeio com petiscos entre amigos.",
+      "swimming": "Popa do barco, destaque da escada, ideal para dar um mergulho e subir facilmente para o barco.",
+      "contemplation": "Mulher sentada contemplando a paisagem desfilando.",
+      "immensity": "Pôr do sol sobre o lago.",
       "conviviality": "Prove os nossos petiscos.",
       "made_to_mesure": "Moveis modulaveis ao seu gosto.",
-      "champagne": "Prato de degustaç\u00e3o, bodos de casamento.",
+      "champagne": "Prato de degustação, bodas de casamento.",
       "remember": "Casal filmando e imortalisando o momento.",
-      "diving": "Mergulho em leberdade no meio do lage.",
-      "free": "Pequeno grupo doroute um passeio. Une observ\u00e3o as avec com os binodos, os outros relaxam."
+      "diving": "Mergulho em liberdade no meio do lago.",
+      "free": "Pequeno grupo durante um passeio, uns observando as aves com os binoclos, ouros relaxando se.",
+      "sky": "Vista das ondas com o reflexo do sol a descer.",
+      "fauna_flora": "Observação das aves com os binoclos.",
+      "portugal": "Bandeira portuguesa.",
+      "pleasures": "Prato surpresa com sandes coketail e vinho alentejano.",
+      "departure": "Vista do barco em movimento.",
+      "sunshade": "Vista do barco com o para-sol."
     }
   },
   "boat": {
@@ -81,7 +93,7 @@
     "front_door": {
       "title": "Porta de frente facilitando o acesso para pessoas com mobilidade condicionada.",
       "alt": "Barco encorado e destoque da possibilidade de fager o embarque pela porta de fente para as pessoas com mobilidade condicionada."
-      }
+    }
   },
   "tour": {
     "guests": "pessoas",
