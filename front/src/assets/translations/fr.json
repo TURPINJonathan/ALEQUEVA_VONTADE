@@ -24,13 +24,13 @@
     "history": "Notre histoire",
     "greetings": "Bonjour, nous sommes Frédéric et Sophie",
     "comment": "Fille d'immigrés, je suis née et j'ai grandi en France, mais j'ai toujours gardé le Portugal dans mon cœur. Amour que Frederic a partagé dès son premier voyage il y a plus de 20 ans. Notre goût pour le calme et les espaces naturels nous a conduit en Alentejo, plus précisement au lac d'Alqueva, le plus grand lac artificiel d'Europe. Avec ses 250km2, ses 1160km de côte, ses 426 iles et ses 7 villages côtiers, l'Alqueva a beaucoup à offrir.Notre objectif est de vous emmener sur le \"Sam and Jo\" ( clin d'oeil à nos jumeaux, samuel et Joana) pour vous faire découvrir les paysages incroyables de cette région du Portugal!",
-    "picture": "Frédéric et Sophie"
+    "picture": "Photo du couple Frédéric et Sophie. Lui: costaud,barbu et jouflu; Elle: jolie et souriante."
   },
   "gallery": {
     "title": {
       "relaxation": "détente",
       "discovery": "découverte",
-      "acostage": "acostage",
+      "acostage": "accostage",
       "escape": "évasion",
       "sunset": "coucher de soleil",
       "marina": "marina de Amieira",
@@ -39,29 +39,60 @@
       "contemplation": "contemplation",
       "immensity": "immensité",
       "conviviality": "convivialité",
-      "made_to_mesure": "sur mesure"
+      "made_to_mesure": "sur mesure",
+      "champagne": "champagne",
+      "remember": "souvenirs pour la vie",
+      "diving": "baignade",
+      "free": "chacun sa promenade",
+      "sky": "la couleur du ciel",
+      "fauna_flora": "entre faune et flore",
+      "portugal": "le portugal avant tout",
+      "pleasures": "plaisirs gustatifs",
+      "sunshade": "présentation du bateau"
     },
     "description": {
-      "relaxation": "Goutez au calme d'une promenade privée.",
-      "discovery": "Grande variétés de paysages.",
-      "acostage": "De nombreux pontons à proximité des plages.",
-      "escape": "Visitez l'Afrique, la Bretagne en passant par la Corse.",
-      "sunset": "Un apéritif baigné de diverses couleurs.",
-      "marina": "L'un des points de départ des promenades.",
-      "romantic": "Vos couchers de soleil à deux.",
-      "swimming": "Des équipements prévus pour vos activités aquatiques.",
-      "contemplation": "Des promenades propices au calme et à la contemplation.",
-      "immensity": "Le plus grand lac artificiel d'Europe.",
-      "conviviality": "Dégustez nos spécialités.",
-      "made_to_mesure": "Des aménagements modulables selon vos souhaits."
+      "relaxation": "Jeune femme observant les paysages, à l’avant du bateau.",
+      "discovery": "Rivage du lac avec végétation rappelant la Toscane.",
+      "acostage": "Vue du bateau à quai sur l’Alqueva.",
+      "escape": "Rivage du lac avec végétation rappelant l’Afrique.",
+      "sunset": "Groupe de personnes prenant l’apéritif devant le coucher du soleil.",
+      "marina": "Plan large du bateau en approche de la marina.",
+      "romantic": "Grignotage entre amis durant une promenade.",
+      "swimming": "Vue arrière du bateau, focus sur l’échelle du bateau, permettant une remontée facile sur le bateau.",
+      "contemplation": "Jeune femme sur canapé contemplant le paysage qui défile.",
+      "immensity": "Vue du lac au soleil couchant.",
+      "conviviality": "Plateau dégustation sucré/salé et apéritif.",
+      "made_to_mesure": "Une proposition d’aménagement du mobilier de jardin modulable à bord du bateau.",
+      "champagne": "Plateau dégustation pour anniversaire de mariage.",
+      "remember": "Couple qui immortalise leur instant en filmant leur promenade.",
+      "diving": "Petit plouf en liberté au milieu du lac.",
+      "free": "Petit groupe au c\u0153ur de l'excursion. Pour les uns, observation aux jumelles, pour d'autres une petite sieste.",
+      "sky": "Vue des flots avec le reflet du soleul couchant.",
+      "fauna_flora": "Jeune homme observant les oiseaux",
+      "portugal": "Visuel du drapeau portugais à bord du bateau.",
+      "pleasures": "Plateau surprise avec sandwichs cocktail et verres de vin de l'Alentejo.",
+      "departure": "Vue du bateau en partance.",
+      "sunshade": "Vue du bateau avec pare-soleil."
     }
   },
   "boat": {
-    "welcome": "Bienvenue sur le Sam et Jo !",
-    "content": "Notre bateau est conçu comme une terrasse flottante, destinée à vous faire découvrir toutes les beautés du plus grand lac artificiel d'Europe. Les promenades vous permettront de profiter de la sérénité que procurent l'eau et la nature. Notre objectif principal ? Vous faire vivre un moment inoubliable !",
-    "sunshade": "Pare-soleil amovible.",
-    "change_room": "WC et cabine de change.",
-    "front_door": "Porte avant, facilitant l'accès aux personnes à mobilité réduite."
+    "welcome": {
+      "title": "Bienvenue sur le Sam et Jo !",
+      "content": "Notre bateau est conçu comme une terrasse flottante, destinée à vous faire découvrir toutes les beautés du plus grand lac artificiel d'Europe. Les promenades vous permettront de profiter de la sérénité que procurent l'eau et la nature. Notre objectif principal ? Vous faire vivre un moment inoubliable !",
+      "alt": "Vue de loin du bateau sur le lac, près de la marina d'Amieira."
+    },    
+    "sunshade": {
+      "title": "Pare-soleil amovible.",
+      "alt": "Vue sur le mobilier du bateau avec un focus sur le pare-soleil réglable en fonction des expositions."
+    },
+    "change_room": {
+      "title": "WC et cabine de change.",
+      "alt": "Vue d'ensemble avec mise en avant des toilettes et échelle de baignade."
+    },
+    "front_door": {
+      "title": "Porte avant, facilitant l'accès aux personnes à mobilité réduite.",
+      "alt": "Vue d'ensemble du bateau à quai avec une mise en avant de la porte d'embarquement permetant un accès plus facile pour les personnes à mobilité réduite."
+    }
   },
   "tour": {
     "guests": "personnes",
