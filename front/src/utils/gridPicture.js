@@ -1,7 +1,13 @@
 import React from "react";
 import useHoverableElement from "@hooks/useHoverableElement";
 
-const GridPicture = ({ title, content, picture, element, pictureDescription }) => {
+const GridPicture = ({
+  title,
+  content,
+  picture,
+  element,
+  pictureDescription,
+}) => {
   const { isHovered, handleMouseOver, handleMouseOut } = useHoverableElement();
 
   return (

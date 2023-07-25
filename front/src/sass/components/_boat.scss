@@ -2,92 +2,178 @@
   display: flex;
   align-items: center;
   padding: 3rem 5rem;
-}
 
-#boat_container {
-  display: grid;
-  grid-template-columns: repeat(11, 1fr);
-  grid-template-rows: repeat(7, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  width: 100%;
-  height: 100%;
+  #boat_container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 100%;
+    height: 100%;
 
-  & > * {
-    object-fit: cover;
-    object-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border: 1px solid colors.$white-xs--tsp;
-  }
+    & > * {
+      object-fit: cover;
+      object-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border: 1px solid colors.$white-xs--tsp;
+    }
 
-  .hovered {
+    .hovered {
+      .element-content {
+        height: 45%;
+      }
+    }
+
     .element-content {
-      height: 45%;
+      width: 100%;
+      height: 25%;
+      color: colors.$white-xs--tsp;
+      background: colors.$black-lt--tsp;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+
+      h1 {
+        font-size: 3rem;
+        margin: 2rem;
+        font-family: fonts.$h1;
+        width: 100%;
+      }
+
+      h2 {
+        height: 0;
+        font-size: 1.2rem;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        font-family: "Lora", serif;
+        vertical-align: middle;
+        padding: 1.5rem;
+      }
+    }
+
+    #boat_welcome {
+      grid-area: 4 / 1 / 8 / 8;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    #boat_sunshade {
+      grid-area: 4 / 8 / 8 / 12;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    #boat_change-room {
+      grid-area: 1 / 8 / 4 / 12;
+      display: flex;
+      align-items: flex-end;
+    }
+
+    #boat_door {
+      grid-area: 1 / 4 / 4 / 8;
     }
   }
 
-  .element-content {
-    width: 100%;
-    height: 25%;
-    color: colors.$white-xs--tsp;
-    text-align: center;
-    background: colors.$black-lt--tsp;
+  .hoverable-element .element-content h2 {
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: opacity 0.5s, transform 0.5s;
+    height: auto;
+  }
 
+  .hoverable-element.hovered .element-content h2 {
+    opacity: 1;
+    transform: translateY(0);
+    height: auto;
+  }
+
+  .hoverable-element.hovered .element-content {
+    opacity: 1;
+    transform: translateY(0);
+    height: auto;
+  }
+}
+
+@media (max-width: 1150px) {
+  #boat #boat_container .element-content {
     h1 {
-      font-size: 3rem;
-      margin: 2rem;
-      font-family: fonts.$h1;
+      font-size: 2rem;
+      margin: 1rem;
     }
 
     h2 {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     h3 {
-      font-size: 1.5rem;
-      font-family: "Lora", serif;
-      vertical-align: middle;
-      padding: 1.5rem;
+      font-size: 1rem;
+      padding: 1rem;
     }
   }
+}
 
-  #boat_welcome {
-    grid-area: 4 / 1 / 8 / 8;
-    display: flex;
-    align-items: flex-start;
-  }
-
-  #boat_sunshade {
-    grid-area: 4 / 8 / 8 / 12;
-    display: flex;
-    align-items: flex-end;
-  }
-
-  #boat_change-room {
-    grid-area: 1 / 8 / 4 / 12;
-    display: flex;
-    align-items: flex-end;
-  }
-
-  #boat_door {
-    grid-area: 1 / 4 / 4 / 8;
+@media (max-width: 1000px) {
+  #boat {
+    padding-right: 1rem;
   }
 }
 
-.hoverable-element .element-content h2 {
-  opacity: 0;
-  transform: translateY(-100%);
-  transition: opacity 0.5s, transform 0.5s;
+@media (max-width: 1150px) {
+  #boat {
+    padding-left: 1rem;
+    padding-top: 210px;
+
+    #boat_container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      & > * {
+        width: 45%;
+        min-width: 350px;
+      }
+    }
+  }
 }
 
-.hoverable-element.hovered .element-content h2 {
-  opacity: 1;
-  transform: translateY(0);
-}
+@media (max-width: 741px) {
+  #boat {
+    overflow-y: auto;
 
-.hoverable-element.hovered .element-content {
-  opacity: 1;
-  transform: translateY(0);
+    #boat_container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-bottom: 40px;
+
+      & > * {
+        width: 70%;
+        height: 50%;
+        min-width: none;
+      }
+
+      .element-content {
+        h1 {
+          font-size: 1rem;
+          margin: 1rem;
+        }
+
+        h2 {
+          font-size: 1rem;
+        }
+
+        h3 {
+          font-size: 1rem;
+          padding: 1rem;
+        }
+      }
+    }
+  }
 }
