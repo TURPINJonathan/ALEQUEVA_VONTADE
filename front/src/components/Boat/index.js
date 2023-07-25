@@ -17,7 +17,7 @@ const Boat = () => {
       <div id="boat_container">
         <HoverableElement
           title={t('boat.welcome.title')}
-          content={t('boat..welcome.content')}
+          content={t('boat.welcome.content')}
           pictureDescription={t('boat.welcome.alt')}
           picture={Welcome}
           element="boat_welcome"
