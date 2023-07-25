@@ -276,19 +276,19 @@
     "link": {
       "question": "Une question ?",
       "reservation": "Vous souhaitez faire une réservation ?",
-      "contact": "Contactez-nous !",
-      "social": "Retrouvez-nous également sur les réseaux sociaux !"
+      "contact": "Entre em contato conosco !",
+      "social": "Siga as nossas redes sociais !"
     },
     "form": {
       "complete": "Ou complétez le formulaire ci-dessous",
       "lastname": "Nom",
       "firstname": "Prénom",
       "email": "Email",
-      "email_placeholder": "Votre message ...",
-      "submit": "Envoyer"
+      "email_placeholder": "Mensagem ...",
+      "submit": "Enviar"
     },
     "map": {
-      "where": "Où nous trouver ?"
+      "where": "Nossa localisação ?"
     }
   },
   "policy": {
