@@ -1,6 +1,7 @@
 import React from "react";
 import BgImg from "@gallery/discovery.jpg";
 import { useTranslation } from "react-i18next";
+import useResponsive from "@hooks/useResponsive";
 
 // ICONS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -10,6 +11,7 @@ import { restaurants } from "@data";
 
 const Eat = () => {
   const { t } = useTranslation();
+  const isMediaDisplay = useResponsive(570)
 
   return (
     <main id="eat" style={{ backgroundImage: `url(${BgImg})` }}>
@@ -42,11 +44,11 @@ const Eat = () => {
                 </div>
               )}
 
-              <img
+              {!isMediaDisplay && <img
                 src={restaurant.picture}
                 alt={t(restaurant.pictureDescription)}
                 className="picture"
-              />
+              />}
 
               <div className="restaurants_elements">
                 <a
