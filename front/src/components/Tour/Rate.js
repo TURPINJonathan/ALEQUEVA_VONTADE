@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import useResponsive from "@hooks/useResponsive";
 
 const Rate = ({
   fromPrice,
@@ -17,11 +18,13 @@ const Rate = ({
   special = null,
 }) => {
   const { t } = useTranslation();
+  const [isMobile, setIsMobile] = useState(false);
+  const isScreenToDisplay = useResponsive(850)
 
   return (
     <div className="card card_border" id={isMainCard ? "tour_first" : ""}>
-      {isPrices && <span className="tour_fromPrice">{fromPrice}</span>}
-      <img className="tour_picture" src={picture} alt={pictureDescription} />
+      {isPrices || !isMobile && <span className="tour_fromPrice">{fromPrice}</span>}
+      {!isScreenToDisplay && <img className="tour_picture" src={picture} alt={pictureDescription} />}
 
       <div className={`tour_type ${!isMainCard ? "tour_type-small" : ""}`}>
         <div

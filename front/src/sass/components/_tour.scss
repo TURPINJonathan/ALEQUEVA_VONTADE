@@ -192,3 +192,104 @@
     }
   }
 }
+
+@media (max-width: 850px) {
+  #tour {
+    padding: 13rem 1rem 37px;
+
+    #tour_container {
+      padding-bottom: 10rem;
+      display: flex;
+      flex-direction: column;
+
+      #tour_first {
+        .tour_type {
+          position: relative;
+          border: none;
+          width: 100%;
+          height: auto;
+          border-radius: 0;
+          top: 0;
+          left: 0;
+          padding: 0;
+
+          .tour_type-content {
+            width: 100%;
+            height: auto;
+            border-radius: 0;
+            position: relative;
+            transform: none;
+            padding: 0.7rem;
+          }
+        }
+
+        .tour_content {
+          height: auto;
+
+          h1 {
+            margin: auto;
+          }
+        }
+      }
+
+      #tour_second {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+          width: 100%;
+          margin-bottom: 1rem;
+
+          .tour_type {
+            position: relative;
+            border: none;
+            width: 100%;
+            height: auto;
+            border-radius: 0;
+            top: 0;
+            left: 0;
+            padding: 0;
+            transform: none;
+
+            .tour_type-content {
+              width: 100%;
+              height: auto;
+              border-radius: 0;
+              position: relative;
+              transform: none;
+              top: 0;
+              left: 0;
+              font-size: 1.5rem;
+              padding: 0.7rem;
+            }
+          }
+
+          .tour_content-small {
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+
+            .tour_content-title--small {
+              font-size: 2rem !important;
+              margin-bottom: 0.3rem;
+            }
+
+            span {
+              font-size: 1rem;
+            }
+
+            table {
+              width: 98%;
+              margin-top: 0.5rem;
+              margin-bottom: 0.5rem;
+
+              td {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
