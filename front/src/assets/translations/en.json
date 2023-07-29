@@ -285,7 +285,9 @@
       "firstname": "Firstname",
       "email": "Email",
       "email_placeholder": "Your message ...",
-      "submit": "Send"
+      "submit": "Send",
+      "auto_reply_message": "Message de retour en anglais.",
+      "auto_reply_subject": "EN nous accusons la réception de votre message."
     },
     "map": {
       "where": "Where can you find us ?"

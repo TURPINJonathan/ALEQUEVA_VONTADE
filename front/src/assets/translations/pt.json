@@ -285,7 +285,9 @@
       "firstname": "Prénom",
       "email": "Email",
       "email_placeholder": "Mensagem ...",
-      "submit": "Enviar"
+      "submit": "Enviar",
+      "auto_reply_message": "Message de retour en portugais",
+      "auto_reply_subject": " PT nous accusons la réception de votre message."
     },
     "map": {
       "where": "Nossa localisação ?"

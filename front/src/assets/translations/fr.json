@@ -284,7 +284,9 @@
       "firstname": "Prénom",
       "email": "Email",
       "email_placeholder": "Votre message ...",
-      "submit": "Envoyer"
+      "submit": "Envoyer",
+      "auto_reply_message": "Bonjour,\n\nNous vous informons que nous avons bien reçu votre message.\nNous reviendrons vers vous dès que possible.\n\nEn vous souhaitant une excellente journée.\nFrédéric & Sophie.",
+      "auto_reply_subject": "nous accusons la réception de votre message."
     },
     "map": {
       "where": "Où nous trouver ?"
