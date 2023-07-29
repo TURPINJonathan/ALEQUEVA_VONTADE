@@ -28,9 +28,8 @@
           width: 30px;
         }
 
-        h1,
-        h2 {
-          font-size: 2.5rem;
+        .sleep_content-title {
+          font-size: 2rem;
           text-align: center;
           font-family: fonts.$h1;
         }
@@ -51,7 +50,6 @@
           justify-content: space-between;
           align-items: center;
           text-align: center;
-          margin: 0.5rem;
 
           img {
             max-width: 50%;
@@ -71,6 +69,73 @@
 
       .herdade_content {
         height: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #sleep .sleep_element {
+    height: 85%;
+  }
+}
+
+@media (max-width: 1000px) {
+  #sleep .sleep_element .sleep_container {
+    .sleep_content .sleep_content-title {
+      font-size: 1.5rem;
+    }
+    .sleep_pictures .pictures_border .picture_container {
+      flex-direction: column;
+
+      img {
+        max-width: 55%;
+        margin: 0.5rem auto;
+      }
+
+      p {
+        order: 1;
+      }
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  #sleep {
+    justify-content: center;
+
+    .sleep_element {
+      width: 90vw;
+      margin-top: 400px;
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  #sleep {
+    height: 50vh;
+    flex-direction: column;
+
+    .sleep_element {
+      margin-top: 1rem;
+      margin-bottom: 0;
+      height: auto;
+
+      &:first-child {
+        margin-top: 1100px;
+
+        .sleep_pictures {
+          margin-top: 30px;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 50px;
+
+        .sleep_content {
+          margin-top: 40px;
+        }
       }
     }
   }
