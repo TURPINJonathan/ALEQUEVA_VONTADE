@@ -16,7 +16,7 @@ const Sleep = () => {
       <div className="card_border sleep_element">
         <div className="card_background sleep_container">
           <div className="sleep_content">
-            <h1>{t("sleep.casa_da_teresa.title")}</h1>
+            <h1 className="sleep_content-title">{t("sleep.casa_da_teresa.title")}</h1>
             <p>{t("sleep.casa_da_teresa.content")}</p>
             <a href="tel:+33771747277">
               <img src={WhatsApp} alt="TODO" className="social_network-logo" />
@@ -25,7 +25,7 @@ const Sleep = () => {
           </div>
 
           <div className="sleep_pictures">
-            <div className="card_border-blue">
+            <div className="card_border-blue pictures_border">
               <div className="picture_container card_background-blue">
                 <img
                   src={CDTTerrace}
@@ -35,7 +35,7 @@ const Sleep = () => {
               </div>
             </div>
 
-            <div className="card_border-blue">
+            <div className="card_border-blue pictures_border">
               <div className="picture_container card_background-blue">
                 <p>{t("sleep.casa_da_teresa.picture_inside_content")}</p>
                 <img
@@ -51,7 +51,7 @@ const Sleep = () => {
       <div className="card_border sleep_element">
         <div className="card_background sleep_container">
           <div className="sleep_pictures herdade_pictures">
-            <div className="card_border-green">
+            <div className="card_border-green pictures_border">
               <div className="picture_container card_background-green">
                 <img
                   src={HerdadeInside}
@@ -61,7 +61,7 @@ const Sleep = () => {
               </div>
             </div>
 
-            <div className="card_border-green">
+            <div className="card_border-green pictures_border">
               <div className="picture_container card_background-green">
                 <p>{t("sleep.herdade.picture_inside_content")}</p>
                 <img
@@ -73,7 +73,7 @@ const Sleep = () => {
           </div>
 
           <div className="sleep_content herdade_content">
-            <h1>{t("sleep.herdade.title")}</h1>
+            <h2 className="sleep_content-title">{t("sleep.herdade.title")}</h2>
             <p>{t("sleep.herdade.content")}</p>
             <a
               href="https://www.herdaderiotorto.com/"
