@@ -101,7 +101,7 @@
     "hour": {
       "from_price": "A partir de 30€/pessoa*",
       "tour_type": "Passeio de descoberta",
-      "picture_description": "TODO",
+      "picture_description": "Foto da marina de Amieira",
       "tour_subtype": "Passeio privado",
       "duration": "durée: 1:00",
       "itinerary_tour": "Saida da marina de Amieira ou da praia de Amieira.",
@@ -111,7 +111,7 @@
     "hour_and_half": {
       "from_price": "A partir de 40€/pessoa*",
       "tour_type": "Passeio de descoberta",
-      "picture_description": "TODO",
+      "picture_description": "Paisagem vista do barco, paisagem de rocha e erva",
       "tour_subtype": "Passeio privado",
       "duration": "durée: 1:30",
       "itinerary_tour": "Saida da marina de Amieira ou da praia de Amieira.",
@@ -121,7 +121,7 @@
     "two_hours": {
       "from_price": "A partir de 50€/pessoa*",
       "tour_type": "Lazer e mergulho",
-      "picture_description": "TODO",
+      "picture_description": "Paisagem vista do barco, a natureza na primavera",
       "tour_subtype": "Passeio privado",
       "duration": "durée: 2:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
@@ -132,7 +132,7 @@
     "three_hours": {
       "from_price": "A partir de 70€/pessoa*",
       "tour_type": "Ao longo da àgua",
-      "picture_description": "TODO",
+      "picture_description": "Pôr do sol no lago um momento romântico",
       "tour_subtype": "Passeio privado",
       "duration": "durée: 3:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
@@ -168,7 +168,7 @@
         "fifth": "Ver a igreja da misericordia, um dos monumentos mais antigos da cidade.",
         "sixth": "Relaxar no jardim publico de Evora, ver os pavões em liberdade."
       },
-      "picture_description": "TODO"
+      "picture_description": "Vista do templo de Diana"
     },
     "monsaraz": {
       "title": "Monsaraz",
@@ -179,7 +179,7 @@
         "fourth": "Andar pelas ruas, entrar numa loja de artesanato( vejam as mantas, especialidade de Monsaraz).",
         "fifth": "Assistir ao pôr do sol, sentado numa muralha."
       },
-      "picture_description": "TODO"
+      "picture_description": "Vista da Aldeia, ribeirinha do lago, ao pôr do sol"
     },
     "aldeia_da_luz": {
       "title": "Aldeia da Luz",
@@ -189,7 +189,7 @@
         "third": "Caminhar pelo passadiço, atè chegar ao unico pontão.",
         "fourth": "Observar a natureza, disfrutar da paz e calma ambiente !"
       },
-      "picture_description": "TODO"
+      "picture_description": "Vista da unica Aldeia submersa pelo enchimento do lago e reconstruida ao identico"
     },
     "portel": {
       "title": "Portel",
@@ -199,7 +199,7 @@
         "third": "Subir i dar a volta às muralhas do Castelo(o interior não è acessivel).",
         "fourth": "Descer as ruas atè chegar ao parque da Matriz e fazer uma fotografia em frente das letras Portel com vista para o Castelo."
       },
-      "picture_description": "TODO"
+      "picture_description": "Castelo de Portel com vista para a Aldeia e as suas cases brancas"
     },
     "moura": {
       "title": "Moura",
@@ -208,7 +208,7 @@
         "second": "Subir ao Castelo e a sua fortaleza moura, assim que à Torre do relogio.",
         "third": "Percorrer as ruas floridas e pedonais. Ver a magnifica fachada do hotel de Moura e da casa do azeite."
       },
-      "picture_description": "TODO"
+      "picture_description": "Rua florida e piedonal"
     },
     "beach": {
       "title": "Praia de Amieira | Praia de Alqueva",
@@ -220,7 +220,7 @@
         "fifth": "Chapéus de Sol de palha na zona de relvado",
         "sixth": "praias com bandeira azul"
       },
-      "picture_description": "TODO"
+      "picture_description": "Praias artificiais feitas de areia e relva, guarda-sois de palha ou de tecido e restaurantes panoramicos"
     },
     "fishing": {
       "title": "Alqueva Predator Fishing",
@@ -229,7 +229,7 @@
         "second": "Com ALQUEVA PREDATOR FISHING estará sozinho ou quase sozinho (sem pressão de pesca como em Espanha) neste lago artificial, o maior da Europa, ALQUEVA, também chamado por alguns pescadores carnívoros franceses já enfeitiçados.",
         "third": "Pescar com a ALQUEVA PREDATOR FISHING é sonhar com uma viagem de pesca de predadores sem paralelo e sem limites !"
       },
-      "picture_description": "TODO"
+      "picture_description": "Logótipo Alqueva Predator Fishing"
     },
     "museum": {
       "title": "Museu do Medronho",
@@ -241,7 +241,7 @@
         "fifth": "O Brandy :",
         "sixth": "As aguardentes de medronho produzidas na destilaria do museu estão à venda na loja durante todo o ano. Pode, no entanto, prová-las e certificar-se da qualidade da aguardente antes de a comprar."
       },
-      "picture_description": "TODO"
+      "picture_description": "Frente do Museu do Medronho"
     },
     "dark_sky": {
       "title": "Dark Sky",
@@ -250,7 +250,7 @@
         "second": "A sensação é indescritível e normalmente apenas possível de forma artificial, num planetário, onde nos sentamos confortavelmente para uma lição sobre as estrelas. Em Portugal, temos a sorte de ter essa sensação ao ar livre.",
         "third": "No meio do Alentejo, o maravilhoso céu do Alqueva parece um veludo escuro revestido por um imenso manto de estrelas. É uma área protegida e certificada internacionalmente, registada como uma reserva Dark Sky, ou “Starlight Tourism Destination”, que se estende por uma área de cerca de 10.000 quilómetros quadrados."
       },
-      "picture_description": "TODO"
+      "picture_description": "Logótipo Dark Sky"
     }
   },
   "sleep": {
@@ -259,8 +259,8 @@
       "content": "Situada em Portel, no Alentejo, a casa da Teresa è uma fantastica opçao para descobrir a regiao. Tem todo o conforto para 4-5 pessoas, e tem um terraço com vista deslumbrante sobre Portel ! Nao perca.",
       "picture_terrace_content": "Vista do terraço",
       "picture_inside_content": "Interior da casa",
-      "picture_terrace_description": "TODO",
-      "picture_inside_description": "TODO"
+      "picture_terrace_description": "Agradavel terraso ideal para o lazer e almoços ao sol",
+      "picture_inside_description": "Iterior tipico do Alentejo com o teto de madeira e as paredes brancas"
     },
     "herdade": {
       "title": "Herdade Do Rio Torto",
@@ -268,24 +268,32 @@
       "link": "Visitar Herdade Do Rio Torto sítio Web",
       "picture_terrace_content": "Vista de um dos terraços",
       "picture_inside_content": "Interior de um dos alugueres disponíveis",
-      "picture_terrace_description": "TODO",
-      "picture_inside_description": "TODO"
+      "picture_terrace_description": "Terraço com vista sobre os pinheiros",
+      "picture_inside_description": "Interior de um quarto confortavel"
     }
   },
   "contact": {
     "link": {
-      "question": "Une question ?",
-      "reservation": "Vous souhaitez faire une réservation ?",
+      "question": "Ume pregunta ?",
+      "reservation": "Quer reservar ?",
       "contact": "Entre em contato conosco !",
       "social": "Siga as nossas redes sociais !"
     },
     "form": {
-      "complete": "Ou complétez le formulaire ci-dessous",
-      "lastname": "Nom",
-      "firstname": "Prénom",
+      "complete": "Ou preencha este formulario",
+      "lastName": "Apelido",
+      "firstName": "Nome",
       "email": "Email",
+      "invalid_email": "O seu e-mail não é válido.",
+      "message": "Mensagem",
       "email_placeholder": "Mensagem ...",
-      "submit": "Enviar"
+      "submit": "Enviar",
+      "sucess_submit": "A sua mensagem foi enviada !",
+      "error_submit": "Ocorreu um erro, repita o seu pedido.",
+      "waiting_submit": "A sua mensagem está a ser enviada",
+      "missing_submit": "Os seguintes campos estão em falta ou incorrectos",
+      "auto_reply_message": "Olá,\n\nObrigado pela mensagem.\nA mensagem foi recepcionada, recebera uma resposta em breve. Atenciosamente.\nFrédéric & Sophie.",
+      "auto_reply_subject": "Obrigado pela mensagem."
     },
     "map": {
       "where": "Nossa localisação ?"

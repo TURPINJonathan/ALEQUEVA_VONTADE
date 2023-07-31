@@ -100,7 +100,7 @@
     "hour": {
       "from_price": "A partir de 30€/pers*",
       "tour_type": "Circuit découverte",
-      "picture_description": "TODO",
+      "picture_description": "Photo de la marina d'Amieira",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 1:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
@@ -110,7 +110,7 @@
     "hour_and_half": {
       "from_price": "A partir de 40€/pers*",
       "tour_type": "Circuit découverte",
-      "picture_description": "TODO",
+      "picture_description": "Paysage vu du bateau, paysage rocailleux et verdoyant",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 1:30",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
@@ -120,7 +120,7 @@
     "two_hours": {
       "from_price": "A partir de 50€/pers*",
       "tour_type": "Détente et baignade",
-      "picture_description": "TODO",
+      "picture_description": "Paysage vu du bateau, la nature au printemps",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 2:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
@@ -131,7 +131,7 @@
     "three_hours": {
       "from_price": "A partir de 70€/pers*",
       "tour_type": "Au fil de l'eau",
-      "picture_description": "TODO",
+      "picture_description": "Coucher du soleil sur le lac, moment romantique",
       "tour_subtype": "Promenade privée",
       "duration": "durée: 3:00",
       "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
@@ -167,7 +167,7 @@
         "fifth": "Voir l'église de la misericordia, un des monuments les plus anciens d'Evora.",
         "sixth": "Se relaxer dans le  jardin publique d' Evora, voir les paons en liberté."
       },
-      "picture_description": "TODO"
+      "picture_description": "Vue du temple de Diane"
     },
     "monsaraz": {
       "title": "Monsaraz",
@@ -178,7 +178,7 @@
         "fourth": "Marcher dans les rues, entrer dans une boutique d'artisanat( découvrez les couvertures, spécialité de Monsaraz).",
         "fifth": "Assister au coucher de soleil, assis sur une  muraille."
       },
-      "picture_description": "TODO"
+      "picture_description": "Vue du village au bord du lac avec coucher de soleil"
     },
     "aldeia_da_luz": {
       "title": "Aldeia da Luz",
@@ -188,7 +188,7 @@
         "third": "Marcher sur le long ponton au bout du village, et arriver au bord de l'eau !",
         "fourth": "Observer la nature, profiter de la paix et du  calme ambiant !"
       },
-      "picture_description": "TODO"
+      "picture_description": "Vue aérienne du villiage inondé par le lac et reconstruit au bord de l'eau"
     },
     "portel": {
       "title": "Portel",
@@ -198,7 +198,7 @@
         "third": "Monter et faire le tour des murailles du Chateau (l'intérieur est inaccessible).",
         "fourth": "Descendre les rues jusqu'au  parc da Matriz."
       },
-      "picture_description": "TODO"
+      "picture_description": "Vue du château de Portel dominant le village aux maisons blanches"
     },
     "moura": {
       "title": "Moura",
@@ -207,7 +207,7 @@
         "second": "Monter jusqu'au  Chateau et a sa forteresse maure, ainsi qu'à la tour de la montre.",
         "third": "Marcher dans  les rues fleuries et piétonnières. Découvrir la magnifique façade de l'hotel de Moura et de  la casa do azeite."
       },
-      "picture_description": "TODO"
+      "picture_description": "Rue fleurie et piétonnière"
     },
     "beach": {
       "title": "Plages d' Amieira | Plages d' Alqueva",
@@ -219,7 +219,7 @@
         "fifth": "Parasols en paille sur la pelouse.",
         "sixth": "Plages drapeau bleu."
       },
-      "picture_description": "TODO"
+      "picture_description": "Plages artificielles entre sable et gazon, parasols de paille ou en toile et restaurants panoramiques"
     },
     "fishing": {
       "title": "Alqueva Predator Fishing",
@@ -228,7 +228,7 @@
         "second": "Avec ALQUEVA PREDATOR FISHING vous serez seul ou presque (aucune pression de pêche comme en Espagne) sur ce lac artificiel, le plus grand d’Europe, ALQUEVA, appelé aussi par certains pécheurs français de carnassiers déjà sous le charme.",
         "third": "Pêcher avec ALQUEVA PREDATOR FISHING c’est rêver un voyage de pêche des carnassiers hors normes et sans limites !"
       },
-      "picture_description": "TODO"
+      "picture_description": "Logo de Alqueva Predator Fishing"
     },
     "museum": {
       "title": "Musée de Medronho",
@@ -240,7 +240,7 @@
         "fifth": "Le Cognac :",
         "sixth": "Les eaux-de-vie de Medronho produites dans la distillerie du musée sont en vente à la boutique toute l'année. Vous pouvez cependant les goûter et certifier la qualité des spiritueux avant de l'acheter."
       },
-      "picture_description": "TODO"
+      "picture_description": "Façade du musée de Medronho"
     },
     "dark_sky": {
       "title": "Dark Sky",
@@ -249,7 +249,7 @@
         "second": "Au coeur de l'Alentejo, le merveilleux ciel d'Alqueva ressemble à un immense manteau en velours foncé parsemé d'étoiles. C'est une zone protégée et certifiée internationalement, inscrite comme réserve Dark Sky, ou « Starlight Tourism Destination », qui s'étend sur une surface d'environ 10 000 kilomètres carrés.",
         "third": "Cet endroit ayant été reconnu comme destination préférentielle pour observer le ciel, les municipalités qui entourent le lac d'Alqueva – Alandroal, Reguengos de Monsaraz, Portel, Mourão, Moura et Barrancos - ont joint leurs efforts pour préserver cette caractéristique spéciale et, par conséquent, réduisent le plus possible l'éclairage public la nuit, pour que tout le monde puisse profiter au maximum de ce phénomène de la nature."
       },
-      "picture_description": "TODO"
+      "picture_description": "Logo de Dark Sky"
     }
   },
   "sleep": {
@@ -258,8 +258,8 @@
       "content": "Située à Portel,en Alentejo, la maison de Teresa est une super alternative de séjour pour découvrir la région. Elle offre tout le confort pour 4-5 personnes, et sa terrasse surplombant le village de Portel est un enchantement ! Pensez-y pour votre prochain séjour.",
       "picture_terrace_content": "Vue depuis la terrasse",
       "picture_inside_content": "Intérrieur de la maison",
-      "picture_terrace_description": "TODO",
-      "picture_inside_description": "TODO"
+      "picture_terrace_description": "Agréable terrasse idéale pour la détente et les déjeuners au soleil",
+      "picture_inside_description": "Intérieur typique de l'Alentejo avec son plafond en bois et ses murs blancs"
     },
     "herdade": {
       "title": "Herdade Do Rio Torto",
@@ -267,8 +267,8 @@
       "link": "Rendez-vous sur Herdade Do Rio Torto",
       "picture_terrace_content": "Vue depuis l'une des terrasses",
       "picture_inside_content": "Intérrieur d'une des locations disponible",
-      "picture_terrace_description": "TODO",
-      "picture_inside_description": "TODO"
+      "picture_terrace_description": "Terrasse donnant sur un champ de pins parasol",
+      "picture_inside_description": "Intérieur d'une chambre cosy"
     }
   },
   "contact": {
@@ -280,11 +280,19 @@
     },
     "form": {
       "complete": "Ou complétez le formulaire ci-dessous",
-      "lastname": "Nom",
-      "firstname": "Prénom",
+      "lastName": "Nom",
+      "firstName": "Prénom",
       "email": "Email",
+      "invalid_email": "Votre email n'est pas valide.",
+      "message": "Message",
       "email_placeholder": "Votre message ...",
-      "submit": "Envoyer"
+      "submit": "Envoyer",
+      "sucess_submit": "Votre message à bien été envoyé !",
+      "error_submit": "Une erreur est survenue, veuillez réitérer votre demande.",
+      "waiting_submit": "Votre message est en cours d'envoi",
+      "missing_submit": "Les champs suivants sont manquants ou incorrects",
+      "auto_reply_message": "Olá,\n\nMerci pour votre message.\nNous avons bien pris en compte votre demande, nous y répondrons dans les plus brefs délais.\nCordialement.\nFrédéric & Sophie.",
+      "auto_reply_subject": "Merci pour votre message."
     },
     "map": {
       "where": "Où nous trouver ?"

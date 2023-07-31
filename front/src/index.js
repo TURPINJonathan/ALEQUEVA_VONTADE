@@ -23,6 +23,10 @@ import Contact from "@components/Contact";
 import PictureGallery from "@components/PictureGallery";
 import Legal from "@components/Legal";
 
+//? TOASTIFY
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -42,6 +46,18 @@ root.render(
           <Route path="/" element={<Main />} exact />
         </Routes>
         <Footer />
+        <ToastContainer
+          position="bottom-center"
+          autoClose={5000}
+          hideProgressBar={false}
+          newestOnTop
+          closeOnClick
+          rtl
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="colored"
+        />
       </Router>
     </TranslationProvider>
   </React.StrictMode>
