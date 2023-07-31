@@ -1,5 +1,9 @@
 {
   "logo": "Logo de Alqueva à Vontage",
+  "turismo_de_portugal": {
+    "logo":"Logo de Turismo de Portugal",
+    "certified": "Certifié par Turismo de Portugal"
+  },
   "restaurants": "Notre sélection de restaurants",
   "nav": {
     "about": "A propos",
