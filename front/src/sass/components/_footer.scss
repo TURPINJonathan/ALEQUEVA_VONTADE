@@ -3,12 +3,25 @@ footer {
   z-index: 9999;
   bottom: 0;
   margin-bottom: 0;
-  left: 40vw;
-  right: 40vw;
-  width: 20vw;
+  left: 0;
+  right: 0;
+  width: 100vw;
   text-align: center;
   color: colors.$white-xs--tsp;
   background-color: colors.$black-lt--tsp;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    img {
+      max-width: 20px;
+      margin: 0 1rem;
+    }
+  }
 
   .footer_alqueva {
     font-weight: bold;
@@ -23,37 +36,24 @@ footer {
 }
 
 @media (max-width: 1040px) {
-  footer {
-    width: 30vw;
-    left: 35vw;
-    right: 35vw;
-
-    .footer_alqueva {
-      font-size: 0.8rem;
-      margin-bottom: 0;
-    }
+  footer .footer_alqueva {
+    font-size: 0.8rem;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 850px) {
-  footer {
-    width: 40vw;
-    left: 30vw;
-    right: 30vw;
-
-    .footer_alqueva {
-      font-size: 0.8rem;
-      margin-bottom: 0;
-    }
+  footer .footer_alqueva {
+    font-size: 0.8rem;
+    margin-bottom: 0;
   }
 }
 
 @media (max-width: 530px) {
   footer {
-    width: 100vw;
-    left: 0;
-    right: 0;
-
+    .footer_legal {
+      font-size: 0.5rem;
+    }
     .footer_alqueva {
       font-size: 0.8rem;
       margin-bottom: 0;

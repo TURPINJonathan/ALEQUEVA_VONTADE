@@ -1,5 +1,9 @@
 {
   "logo": "Logotipo Alqueva à vontade",
+  "turismo_de_portugal": {
+    "logo":"Logotipo Turismo de Portugal",
+    "certified": "Certificado Turismo de Portugal"
+  },
   "restaurants": "A nossa seleção de restaurantes",
   "nav": {
     "about": "Quem somos",
