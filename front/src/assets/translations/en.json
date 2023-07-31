@@ -101,7 +101,7 @@
     "hour": {
       "from_price": "from 30€*/pers",
       "tour_type": "Discovery tour",
-      "picture_description": "TODO",
+      "picture_description": "Picture of the Amieira marina",
       "tour_subtype": "Private tour",
       "duration": "duration: 1:00",
       "itinerary_tour": "Departure from Amieira marina or Amieira beach.",
@@ -111,7 +111,7 @@
     "hour_and_half": {
       "from_price": "from 40€*/pers",
       "tour_type": "Discovery tour",
-      "picture_description": "TODO",
+      "picture_description": "Landscape seen from the boat, rocky and green landscape",
       "tour_subtype": "Private tour",
       "duration": "duration: 1:30",
       "itinerary_tour": "Departure from Amieira marina or Amieira beach.",
@@ -121,7 +121,7 @@
     "two_hours": {
       "from_price": "from 50€*/pers",
       "tour_type": "Discovery tour",
-      "picture_description": "TODO",
+      "picture_description": "Landscape seen from the boat, nature in springtime",
       "tour_subtype": "Private tour",
       "duration": "duration: 2:00",
       "itinerary_tour": "Departure from Amieira marina or Amieira beach.",
@@ -132,7 +132,7 @@
     "three_hours": {
       "from_price": "from 70€*/pers",
       "tour_type": "Discovery tour",
-      "picture_description": "TODO",
+      "picture_description": "A romantic moment as the sun sets over the lake",
       "tour_subtype": "Private tour",
       "duration": "duration: 3:00",
       "itinerary_tour": "Departure from Amieira marina or Amieira beach.",
@@ -168,7 +168,7 @@
         "fifth": "See the Church of the Misericordia, one of Evora's oldest monuments.",
         "sixth": "Relax in Evora's public garden and see the peacocks in the wild."
       },
-      "picture_description": "TODO"
+      "picture_description": "View from the Temple of Diana"
     },
     "monsaraz": {
       "title": "Monsaraz",
@@ -179,7 +179,7 @@
         "fourth": "Walking through the streets, entering a craft shop (discover the blankets, a speciality of Monsaraz).",
         "fifth": "Watching the sun go down, sitting on a wall."
       },
-      "picture_description": "TODO"
+      "picture_description": "View of the village by the lake with sunset"
     },
     "aldeia_da_luz": {
       "title": "Aldeia da Luz",
@@ -189,7 +189,7 @@
         "third": "Walk along the long pontoon at the end of the village to the water's edge !",
         "fourth": "Observing nature, enjoying the peace and quiet of the surroundings !"
       },
-      "picture_description": "TODO"
+      "picture_description": "Aerial view of the village flooded by the lake and rebuilt on the water's edge"
     },
     "portel": {
       "title": "Portel",
@@ -199,7 +199,7 @@
         "third": "Climb up and walk around the castle walls (the inside is inaccessible).",
         "fourth": "Walk down the streets to Parque da Matriz."
       },
-      "picture_description": "TODO"
+      "picture_description": "View from Portel castle overlooking the village with its white houses"
     },
     "moura": {
       "title": "Moura",
@@ -208,7 +208,7 @@
         "second": "Climb up to the castle and its Moorish fortress, as well as the watch tower.",
         "third": "Walk along the flower-filled, pedestrianised streets. Discover the magnificent façade of the Hotel de Moura and the Casa do Azeite."
       },
-      "picture_description": "TODO"
+      "picture_description": "A flower-filled, pedestrianised street"
     },
     "beach": {
       "title": "Beaches of Amieira | Beaches of Alqueva",
@@ -220,7 +220,7 @@
         "fifth": "Straw parasols on the lawn.",
         "sixth": "Blue Flag beaches."
       },
-      "picture_description": "TODO"
+      "picture_description": "Artificial beaches between sand and grass, straw or canvas parasols and panoramic restaurants"
     },
     "fishing": {
       "title": "Alqueva Predator Fishing",
@@ -229,7 +229,7 @@
         "second": "With ALQUEVA PREDATOR FISHING you will be alone or almost alone (no fishing pressure as in Spain) on this artificial lake, the largest in Europe, ALQUEVA, also called by some French carnivore anglers already under the spell.",
         "third": "To fish with ALQUEVA PREDATOR FISHING is to dream of an unparalleled and limitless fishing trip for predators !"
       },
-      "picture_description": "TODO"
+      "picture_description": "Alqueva Predator Fishing's logo"
     },
     "museum": {
       "title": "Medronho museum",
@@ -241,7 +241,7 @@
         "fifth": "The Brandy :",
         "sixth": "Medronho brandies produced in the museum's distillery are on sale at the store year-round. You can, however, taste them and certify the quality of the spirits before buying it."
       },
-      "picture_description": "TODO"
+      "picture_description": "Front of the Medronho Museum"
     },
     "dark_sky": {
       "title": "Dark Sky",
@@ -250,7 +250,7 @@
         "second": "The feeling is indescribable, and usually only possible artificially, in a planetarium, where we sit comfortably for a lesson on the stars. In Portugal, we are lucky to have that feeling in the open air.",
         "third": "Right in the middle of Alentejo, the wonderful Alqueva sky is like dark velvet cloaked by a huge blanket of stars. It is a protected area and internationally certified as a Dark Sky Reserve, or \"Starlight Tourism Destination\", which extends over an area of about 10.000 square kilometres."
       },
-      "picture_description": "TODO"
+      "picture_description": "Dark Sky's logo"
     }
   },
   "sleep": {
@@ -281,13 +281,19 @@
     },
     "form": {
       "complete": "Or complete the form below",
-      "lastname": "Lastname",
-      "firstname": "Firstname",
+      "lastName": "Lastname",
+      "firstName": "Firstname",
+      "message": "Message",
       "email": "Email",
+      "invalid_email": "Your email is invalid. Please check it",
       "email_placeholder": "Your message ...",
       "submit": "Send",
-      "auto_reply_message": "Message de retour en anglais.",
-      "auto_reply_subject": "EN nous accusons la réception de votre message."
+      "sucess_submit": "Your message has been successfully sent !",
+      "error_submit": "An error has occurred, please repeat your request.",
+      "waiting_submit": "Your message is being sent",
+      "missing_submit": "The following fields are missing or incorrect",
+      "auto_reply_message": "Olá,\nThank you for your message.\nWe have taken your request into account and will reply as soon as possible.\nSincerely.\nFrédéric & Sophie.",
+      "auto_reply_subject": "Thank you for your message."
     },
     "map": {
       "where": "Where can you find us ?"
