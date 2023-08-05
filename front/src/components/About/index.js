@@ -1,5 +1,5 @@
 import BgImg from "@pictures/about.jpg";
-import FS from "@pictures/fred_so.png";
+import FS from "@pictures/fred_so.jpg";
 import { useTranslation } from "react-i18next";
 
 const About = () => {
