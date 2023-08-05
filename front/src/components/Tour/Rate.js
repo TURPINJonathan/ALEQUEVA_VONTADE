@@ -17,12 +17,17 @@ const Rate = ({
   special = null,
 }) => {
   const { t } = useTranslation();
-  const isScreenToDisplay = useResponsive(850)
+  const isScreenToDisplay = useResponsive(850);
 
   return (
     <div className="card card_border" id={isMainCard ? "tour_first" : ""}>
-      {!isPrices || (!isScreenToDisplay && <span className="tour_fromPrice">{fromPrice}</span>)}
-      {!isScreenToDisplay && <img className="tour_picture" src={picture} alt={pictureDescription} />}
+      {!isPrices ||
+        (!isScreenToDisplay && (
+          <span className="tour_fromPrice">{fromPrice}</span>
+        ))}
+      {!isScreenToDisplay && (
+        <img className="tour_picture" src={picture} alt={pictureDescription} />
+      )}
 
       <div className={`tour_type ${!isMainCard ? "tour_type-small" : ""}`}>
         <div
@@ -39,14 +44,21 @@ const Rate = ({
           !isMainCard ? "tour_content-small" : ""
         }`}
       >
-        <h1
-          className={`tour_content-title ${
-            !isMainCard ? "tour_content-title--small" : ""
-          }`}
-        >
-          {tourSubType}
-          {duration !== null && <span className="duration">({duration})</span>}
-        </h1>
+        {isMainCard ? (
+          <h1 className="tour_content-title">
+            {tourSubType}
+            {duration !== null && (
+              <span className="duration">({duration})</span>
+            )}
+          </h1>
+        ) : (
+          <h2 className="tour_content-title tour_content-title--small">
+            {tourSubType}
+            {duration !== null && (
+              <span className="duration">({duration})</span>
+            )}
+          </h2>
+        )}
 
         <span>{itineraryTour}</span>
 

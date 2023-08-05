@@ -4,6 +4,7 @@
   align-items: center;
 
   .eat_container {
+    overflow-y: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -178,7 +179,9 @@
 @media (max-width: 850px) {
   #eat .eat_container {
     width: 95%;
+    max-height: 95vh;
     margin-top: 370px;
+    padding-bottom: 13rem;
   }
 }
 

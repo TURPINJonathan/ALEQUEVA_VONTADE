@@ -305,8 +305,8 @@
   "policy": {
     "title": "Cas d'annulation de voyages",
     "cancellation": {
-      "weather": "Te temps ne permet pas le départ du bateau (tempête, forte pluie)",
-      "team": "Un membre de l'équipage est n'est pas en mesure de voyager."
+      "weather": "Le temps ne permet pas le départ du bateau (tempête, forte pluie)",
+      "team": "Un membre de l'équipage n'est pas en mesure de voyager."
     },
     "refund": {
       "from_team": "Dans ce cas, le remboursement de la réservation sera effectué dans les 2 ou 3 jours.",

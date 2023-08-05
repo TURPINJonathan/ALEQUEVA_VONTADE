@@ -1,5 +1,6 @@
 import BgImg from "@pictures/about.jpg";
 import { useTranslation } from "react-i18next";
+import useResponsive from "@hooks/useResponsive";
 
 // PICTURES
 import CDTTerrace from "@pictures/sleep/casa_da_teresa_terrace.jpg";
@@ -10,6 +11,8 @@ import WhatsApp from "@pictures/WhatsApp.png";
 
 const Sleep = () => {
   const { t } = useTranslation();
+  const isResponsive = useResponsive(680);
+  const smallResponsive = useResponsive(430);
 
   return (
     <main id="sleep" style={{ backgroundImage: `url(${BgImg})` }}>
@@ -27,21 +30,21 @@ const Sleep = () => {
           <div className="sleep_pictures">
             <div className="card_border-blue pictures_border">
               <div className="picture_container card_background-blue">
-                <img
+                {!smallResponsive && <img
                   src={CDTTerrace}
                   alt={"sleep.casa_da_teresa.picture_terrace_description"}
-                />
-                <p>{t("sleep.casa_da_teresa.picture_terrace_content")}</p>
+                />}
+                {!isResponsive && <p>{t("sleep.casa_da_teresa.picture_terrace_content")}</p>}
               </div>
             </div>
 
             <div className="card_border-blue pictures_border">
               <div className="picture_container card_background-blue">
-                <p>{t("sleep.casa_da_teresa.picture_inside_content")}</p>
-                <img
+                {!isResponsive && <p>{t("sleep.casa_da_teresa.picture_inside_content")}</p>}
+                {!smallResponsive && <img
                   src={CDTInside}
                   alt={"sleep.casa_da_teresa.picture_inside_description"}
-                />
+                />}
               </div>
             </div>
           </div>
@@ -49,25 +52,25 @@ const Sleep = () => {
       </div>
 
       <div className="card_border sleep_element">
-        <div className="card_background sleep_container">
+        <div className="card_background sleep_container sleep_container-herdade">
           <div className="sleep_pictures herdade_pictures">
             <div className="card_border-green pictures_border">
               <div className="picture_container card_background-green">
-                <img
+                {!smallResponsive && <img
                   src={HerdadeInside}
                   alt={"sleep.casa_da_teresa.picture_terrace_description"}
-                />
-                <p>{t("sleep.herdade.picture_terrace_content")}</p>
+                />}
+                {!isResponsive && <p>{t("sleep.herdade.picture_terrace_content")}</p>}
               </div>
             </div>
 
             <div className="card_border-green pictures_border">
               <div className="picture_container card_background-green">
-                <p>{t("sleep.herdade.picture_inside_content")}</p>
-                <img
+                {!isResponsive && <p>{t("sleep.herdade.picture_inside_content")}</p>}
+                {!smallResponsive && <img
                   src={HerdadeTerrace}
                   alt={"sleep.casa_da_teresa.picture_inside_description"}
-                />
+                />}
               </div>
             </div>
           </div>

@@ -102,33 +102,11 @@
 }
 
 @media (max-width: 1150px) {
-  #boat #boat_container .element-content {
-    h1 {
-      font-size: 2rem;
-      margin: 1rem;
-    }
-
-    h2 {
-      font-size: 1rem;
-    }
-
-    h3 {
-      font-size: 1rem;
-      padding: 1rem;
-    }
-  }
-}
-
-@media (max-width: 1000px) {
   #boat {
-    padding-right: 1rem;
-  }
-}
-
-@media (max-width: 1150px) {
-  #boat {
-    padding-left: 1rem;
-    padding-top: 210px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem  0 1rem 20rem ;
 
     #boat_container {
       display: flex;
@@ -139,15 +117,43 @@
         width: 45%;
         min-width: 350px;
       }
+
+      .element-content {
+        h1 {
+          font-size: 2rem;
+          margin: 1rem;
+        }
+    
+        h2 {
+          font-size: 1rem;
+        }
+    
+        h3 {
+          font-size: 1rem;
+          padding: 1rem;
+        }
+      }
+    }
+    
+  }
+}
+
+@media (max-width: 1030px) {
+  #boat {
+    padding-right: 1rem;
+
+    #boat_container .element-content h1 {
+      font-size: 1.3rem;
     }
   }
 }
 
-@media (max-width: 741px) {
+@media (max-width: 850px) {
   #boat {
-    overflow-y: auto;
+    padding: 20vh 0 0 0;
 
     #boat_container {
+    overflow-y: auto;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
