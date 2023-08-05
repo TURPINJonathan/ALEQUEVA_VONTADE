@@ -7,7 +7,7 @@ import HoverableElement from '@utils/gridPicture';
 import Welcome from '@gallery/marina.jpg';
 import Sunshade from '@gallery/inside_boat-crop.jpg';
 import ChangeRoom from '@gallery/boat.jpg';
-import FrontDoor from '@pictures/boat.png';
+import FrontDoor from '@pictures/boat.jpg';
 
 const Boat = () => {
   const { t } = useTranslation();
