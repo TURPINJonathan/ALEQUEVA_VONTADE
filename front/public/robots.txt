@@ -1,3 +1,13 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: 
+Allow: /
+Allow: /about
+Allow: /boat
+Allow: /tour
+Allow: /activities
+Allow: /eat
+Allow: /sleep
+Allow: /gallery
+Allow: /contact
+Allow: /cancellation_policy

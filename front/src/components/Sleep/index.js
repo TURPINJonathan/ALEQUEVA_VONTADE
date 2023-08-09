@@ -1,6 +1,7 @@
 import BgImg from "@pictures/about.jpg";
 import { useTranslation } from "react-i18next";
 import useResponsive from "@hooks/useResponsive";
+import { Helmet } from "react-helmet";
 
 // PICTURES
 import CDTTerrace from "@pictures/sleep/casa_da_teresa_terrace.jpg";
@@ -16,6 +17,18 @@ const Sleep = () => {
 
   return (
     <main id="sleep" style={{ backgroundImage: `url(${BgImg})` }}>
+    <Helmet>
+      <title>{t("meta.sleep.title")}</title>
+      <meta property="og:title" content={t("meta.sleep.title")} />
+      <meta name="description" content={t("meta.sleep.description")} />
+      <meta property="og:description" content={t("meta.sleep.description")} />
+      <meta name="keyword" content={"meta.sleep.keywords"} />
+      <meta name="twitter:title" content={t("meta.sleep.title")} />
+      <meta
+        name="twitter:description"
+        content={t("meta.sleep.description")}
+      />
+    </Helmet>
       <div className="card_border sleep_element">
         <div className="card_background sleep_container">
           <div className="sleep_content">

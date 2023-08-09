@@ -1,6 +1,7 @@
 import React from "react";
 import BgImg from "@gallery/discovery.jpg";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
 
 import { activities } from "@data";
 
@@ -9,6 +10,18 @@ const Activities = () => {
 
   return (
     <main id="activities" style={{ backgroundImage: `url(${BgImg})` }}>
+      <Helmet>
+        <title>{t("meta.activities.title")}</title>
+        <meta property="og:title" content={t("meta.activities.title")} />
+        <meta name="description" content={t("meta.activities.description")} />
+        <meta property="og:description" content={t("meta.activities.description")} />
+        <meta name="keyword" content={"meta.activities.keywords"} />
+        <meta name="twitter:title" content={t("meta.activities.title")} />
+        <meta
+          name="twitter:description"
+          content={t("meta.activities.description")}
+        />
+      </Helmet>
       <div id="activities_container">
         {activities.map((activitie, index) => (
           <div key={index} className="activities_element card_border">

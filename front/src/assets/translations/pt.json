@@ -314,5 +314,57 @@
       "from_customer": "Em caso de cancelamento pelo cliente, o reembolso serà possivel se Alqueva à Vontade estiver avisado pelo menos 2 dias antes da data do passeio.",
       "delay": "Nesse caso o reembolso sera feito dentro de 2 ou 3 dias."
     }
+  },
+  "meta": {
+    "main": {
+      "title": "Alqueva à Vontade",
+      "description": "Procura uma atividade de descanso, calma e convivial, venha a bordo do nosso barco e desfrute de um momento de laser excepcional !",
+      "keywords": "excurção, lago, portugal, barco, fèrias,  aquàtico"
+    },
+    "about": {
+      "title": "Alqueva à Vontade - Quem somos ",
+      "description": "Falamos de nós !",
+      "keywords": "barco, privado, alqueva à vontade, lago, alentejo, alqueva"
+    },
+    "boat": {
+      "title": "Alqueva à Vontade - Nosso barco ",
+      "description": "Descubra nosso barco !",
+      "keywords": "passeio, excurção, lago, barco, aquàtico,calma, tranquilidade, natureza, portugal, alentejo, alqueva"
+    },
+    "tour": {
+      "title": "Alqueva à Vontade - Nossos passeios ",
+      "description": "Propomos excursões inesqueciveis !",
+      "keywords": "passeio, excursão, lago, barco, aquàtico, calma, natureza, portugal, alentejo, alqueva"
+    },
+    "activities": {
+      "title": "Alqueva à Vontade - Que fazer ?",
+      "description": "Uma região para não esquecer, onde poderá descobrir atividades diversas !",
+      "keywords": "descoberta, natureza, atividades, festa, tour, evento, privativo, natural, para não perder, fèrias"
+    },
+    "eat": {
+      "title": "Alqueva à Vontade - Onde comer ?",
+      "description": "Eis alguns endereços a não perder !",
+      "keywords": "descoberta, alentejo, alqueva, relaxamento, especialidade, privado, tranquilidade, férias"
+    },
+    "sleep": {
+      "title": "Alqueva à Vontade - Onde dormir ?",
+      "description": "Sugestão de alojamentos para repouso e descanso total.",
+      "keywords": "descanso, calma, barato, acessível, privativo, tranquilidade, fèrias"
+    },
+    "gallery": {
+      "title": "Alqueva à Vontade - Galeria fotos ",
+      "description": "Dé uma vista ao ambiente à bordo do Sam and Jo !",
+      "keywords": "passeio, excursão, lago, Portugal, Alentejo, Alqueva, barco, lazer, aquàtico, privativo, natural, calma, fèrias"
+    },
+    "contacts": {
+      "title": "Alqueva à Vontade - Contate-nos ",
+      "description": "Organisamos o seu passeio",
+      "keywords": "telefone, e-mail, contato, agendamento"
+    },
+    "cancellation": {
+      "title": "Alqueva à Vontade - Política de cancelamento ",
+      "description": "Um impedimento  ?",
+      "keywords": "telefone, e-mail, contato, cancelamento"
+    }
   }
 }
