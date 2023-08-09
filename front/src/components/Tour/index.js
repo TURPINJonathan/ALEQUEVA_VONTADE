@@ -1,6 +1,7 @@
 import React from "react";
 import BgImg from "@gallery/swimming.jpg";
 import { useTranslation } from "react-i18next";
+import { Helmet } from "react-helmet";
 
 import { rates } from "@data";
 import HourAndHalfPicture from "@pictures/tours/hour_and_half.jpg";
@@ -12,6 +13,18 @@ const Tour = () => {
 
   return (
     <main id="tour" style={{ backgroundImage: `url(${BgImg})` }}>
+    <Helmet>
+      <title>{t("meta.tour.title")}</title>
+      <meta property="og:title" content={t("meta.tour.title")} />
+      <meta name="description" content={t("meta.tour.description")} />
+      <meta property="og:description" content={t("meta.tour.description")} />
+      <meta name="keyword" content={"meta.tour.keywords"} />
+      <meta name="twitter:title" content={t("meta.tour.title")} />
+      <meta
+        name="twitter:description"
+        content={t("meta.tour.description")}
+      />
+    </Helmet>
       <div id="tour_container">
         <Rate
           id="tour_first"

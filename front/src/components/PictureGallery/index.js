@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Gallery } from "react-grid-gallery";
 import ImageFullScreen from "@components/PictureGallery/PictureFullScreen";
 import { pictures as Pictures } from "@data";
+import { Helmet } from "react-helmet";
 
 const PictureGallery = () => {
   const { t } = useTranslation();
@@ -58,6 +59,18 @@ const PictureGallery = () => {
 
   return (
     <main id="gallery" style={{ backgroundImage: `url(${BgImg})` }}>
+    <Helmet>
+      <title>{t("meta.gallery.title")}</title>
+      <meta property="og:title" content={t("meta.gallery.title")} />
+      <meta name="description" content={t("meta.gallery.description")} />
+      <meta property="og:description" content={t("meta.gallery.description")} />
+      <meta name="keyword" content={"meta.gallery.keywords"} />
+      <meta name="twitter:title" content={t("meta.gallery.title")} />
+      <meta
+        name="twitter:description"
+        content={t("meta.gallery.description")}
+      />
+    </Helmet>
       <div className="gallery_container">
         <Gallery
           images={shuffledPictures.map(translateImageInfo)}

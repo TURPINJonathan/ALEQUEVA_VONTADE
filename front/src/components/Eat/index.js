@@ -2,6 +2,7 @@ import React from "react";
 import BgImg from "@gallery/discovery.jpg";
 import { useTranslation } from "react-i18next";
 import useResponsive from "@hooks/useResponsive";
+import { Helmet } from "react-helmet";
 
 // ICONS
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -15,6 +16,18 @@ const Eat = () => {
 
   return (
     <main id="eat" style={{ backgroundImage: `url(${BgImg})` }}>
+    <Helmet>
+      <title>{t("meta.eat.title")}</title>
+      <meta property="og:title" content={t("meta.eat.title")} />
+      <meta name="description" content={t("meta.eat.description")} />
+      <meta property="og:description" content={t("meta.eat.description")} />
+      <meta name="keyword" content={"meta.eat.keywords"} />
+      <meta name="twitter:title" content={t("meta.eat.title")} />
+      <meta
+        name="twitter:description"
+        content={t("meta.eat.description")}
+      />
+    </Helmet>
       <div className="eat_container">
         {restaurants.map((restaurant, index) => (
           <div className={`card_border ${restaurant.class}`} key={index}>
