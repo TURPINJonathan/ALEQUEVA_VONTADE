@@ -16,7 +16,7 @@ const Contact = () => {
         <meta property="og:title" content={t("meta.contacts.title")} />
         <meta name="description" content={t("meta.contacts.description")} />
         <meta property="og:description" content={t("meta.contacts.description")} />
-        <meta name="keyword" content={"meta.contacts.keywords"} />
+        <meta name="keyword" content={t("meta.contacts.keywords")} />
         <meta name="twitter:title" content={t("meta.contacts.title")} />
         <meta
           name="twitter:description"

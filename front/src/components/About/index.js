@@ -14,7 +14,7 @@ const About = () => {
         <meta property="og:title" content={t("meta.about.title")} />
         <meta name="description" content={t("meta.about.description")} />
         <meta property="og:description" content={t("meta.about.description")} />
-        <meta name="keyword" content={"meta.about.keywords"} />
+        <meta name="keyword" content={t("meta.about.keywords")} />
         <meta name="twitter:title" content={t("meta.about.title")} />
         <meta
           name="twitter:description"

@@ -21,7 +21,7 @@ const Eat = () => {
       <meta property="og:title" content={t("meta.eat.title")} />
       <meta name="description" content={t("meta.eat.description")} />
       <meta property="og:description" content={t("meta.eat.description")} />
-      <meta name="keyword" content={"meta.eat.keywords"} />
+      <meta name="keyword" content={t("meta.eat.keywords")} />
       <meta name="twitter:title" content={t("meta.eat.title")} />
       <meta
         name="twitter:description"

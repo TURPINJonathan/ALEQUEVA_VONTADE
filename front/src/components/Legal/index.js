@@ -11,7 +11,7 @@ const Legal = () => {
       <meta property="og:title" content={t("meta.cancellation.title")} />
       <meta name="description" content={t("meta.cancellation.description")} />
       <meta property="og:description" content={t("meta.cancellation.description")} />
-      <meta name="keyword" content={"meta.cancellation.keywords"} />
+      <meta name="keyword" content={t("meta.cancellation.keywords")} />
       <meta name="twitter:title" content={t("meta.cancellation.title")} />
       <meta
         name="twitter:description"

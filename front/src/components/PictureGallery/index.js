@@ -64,7 +64,7 @@ const PictureGallery = () => {
       <meta property="og:title" content={t("meta.gallery.title")} />
       <meta name="description" content={t("meta.gallery.description")} />
       <meta property="og:description" content={t("meta.gallery.description")} />
-      <meta name="keyword" content={"meta.gallery.keywords"} />
+      <meta name="keyword" content={t("meta.gallery.keywords")} />
       <meta name="twitter:title" content={t("meta.gallery.title")} />
       <meta
         name="twitter:description"

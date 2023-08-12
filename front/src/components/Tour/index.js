@@ -18,7 +18,7 @@ const Tour = () => {
       <meta property="og:title" content={t("meta.tour.title")} />
       <meta name="description" content={t("meta.tour.description")} />
       <meta property="og:description" content={t("meta.tour.description")} />
-      <meta name="keyword" content={"meta.tour.keywords"} />
+      <meta name="keyword" content={t("meta.tour.keywords")} />
       <meta name="twitter:title" content={t("meta.tour.title")} />
       <meta
         name="twitter:description"

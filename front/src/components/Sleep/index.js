@@ -22,7 +22,7 @@ const Sleep = () => {
       <meta property="og:title" content={t("meta.sleep.title")} />
       <meta name="description" content={t("meta.sleep.description")} />
       <meta property="og:description" content={t("meta.sleep.description")} />
-      <meta name="keyword" content={"meta.sleep.keywords"} />
+      <meta name="keyword" content={t("meta.sleep.keywords")} />
       <meta name="twitter:title" content={t("meta.sleep.title")} />
       <meta
         name="twitter:description"
