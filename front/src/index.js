@@ -34,6 +34,7 @@ root.render(
       <Router>
         <Navigation />
         <Routes>
+          <Route path="/" element={<Main />} exact />
           <Route path="/about" element={<About />} exact />
           <Route path="/gallery" element={<PictureGallery />} exact />
           <Route path="/boat" element={<Boat />} exact />
@@ -43,7 +44,6 @@ root.render(
           <Route path="/sleep" element={<Sleep />} exact />
           <Route path="/contact" element={<Contact />} exact />
           <Route path="/cancellation_policy" element={<Legal />} exact />
-          <Route path="/" element={<Main />} exact />
         </Routes>
         <Footer />
         <ToastContainer
