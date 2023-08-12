@@ -1,5 +1,4 @@
 import React from "react";
-import useHoverableElement from "@hooks/useHoverableElement";
 
 const GridPicture = ({
   title,
@@ -8,13 +7,9 @@ const GridPicture = ({
   element,
   pictureDescription,
 }) => {
-  const { isHovered, handleMouseOver, handleMouseOut } = useHoverableElement();
-
   return (
     <article
-      className={`hoverable-element ${isHovered && content ? "hovered" : ""}`}
-      onMouseOver={handleMouseOver}
-      onMouseOut={handleMouseOut}
+      className="hoverable-element"
       id={element}
       style={{ backgroundImage: `url(${picture})` }}
       title={pictureDescription}

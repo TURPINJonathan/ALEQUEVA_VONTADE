@@ -14,7 +14,10 @@ const Activities = () => {
         <title>{t("meta.activities.title")}</title>
         <meta property="og:title" content={t("meta.activities.title")} />
         <meta name="description" content={t("meta.activities.description")} />
-        <meta property="og:description" content={t("meta.activities.description")} />
+        <meta
+          property="og:description"
+          content={t("meta.activities.description")}
+        />
         <meta name="keyword" content={t("meta.activities.keywords")} />
         <meta name="twitter:title" content={t("meta.activities.title")} />
         <meta

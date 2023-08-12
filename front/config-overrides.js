@@ -34,14 +34,14 @@ module.exports = override(
     },
     "gallery",
   ]),
-  addBabelPlugin([
-    "babel-plugin-root-import",
-    {
-      rootPathSuffix: "src/data/data.js",
-      rootPathPrefix: "@data/",
-    },
-    "data",
-  ]),
+  // addBabelPlugin([
+  //   "babel-plugin-root-import",
+  //   {
+  //     rootPathSuffix: "src/data/data.js",
+  //     rootPathPrefix: "@data/",
+  //   },
+  //   "data",
+  // ]),
   addBabelPlugin([
     "babel-plugin-root-import",
     {
@@ -59,10 +59,10 @@ module.exports = override(
     "utils",
   ]),
   addWebpackAlias({
-    "@assets": path.resolve(__dirname, "src/assets"),
-    "@fixtures": path.resolve(__dirname, "src/tests/fixtures"),
-    "@hooks": path.resolve(__dirname, "src/hooks"),
-    "@gallery": path.resolve(__dirname, "src/gallery"),
+    // "@assets": path.resolve(__dirname, "src/assets"),
+    // "@fixtures": path.resolve(__dirname, "src/tests/fixtures"),
+    // "@hooks": path.resolve(__dirname, "src/hooks"),
+    // "@gallery": path.resolve(__dirname, "src/gallery"),
     "@data": path.resolve(__dirname, "src/data/data.js"),
   })
 );

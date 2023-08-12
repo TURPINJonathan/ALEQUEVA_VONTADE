@@ -21,15 +21,9 @@
       border: 1px solid colors.$white-xs--tsp;
     }
 
-    .hovered {
-      .element-content {
-        height: 45%;
-      }
-    }
-
     .element-content {
       width: 100%;
-      height: 25%;
+      height: auto;
       color: colors.$white-xs--tsp;
       background: colors.$black-lt--tsp;
       display: flex;
@@ -39,19 +33,20 @@
       text-align: center;
 
       h1 {
-        font-size: 3rem;
-        margin: 2rem;
+        font-size: 2.3rem;
+        margin: 1rem auto;
         font-family: fonts.$h1;
         width: 100%;
       }
 
       h2 {
-        height: 0;
         font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        width: 90%;
       }
 
       h3 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-family: "Lora", serif;
         vertical-align: middle;
         padding: 1.5rem;
@@ -79,25 +74,6 @@
     #boat_door {
       grid-area: 1 / 4 / 4 / 8;
     }
-  }
-
-  .hoverable-element .element-content h2 {
-    opacity: 0;
-    transform: translateY(-100%);
-    transition: opacity 0.5s, transform 0.5s;
-    height: auto;
-  }
-
-  .hoverable-element.hovered .element-content h2 {
-    opacity: 1;
-    transform: translateY(0);
-    height: auto;
-  }
-
-  .hoverable-element.hovered .element-content {
-    opacity: 1;
-    transform: translateY(0);
-    height: auto;
   }
 }
 
