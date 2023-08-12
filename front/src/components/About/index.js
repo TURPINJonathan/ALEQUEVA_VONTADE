@@ -21,18 +21,18 @@ const About = () => {
           content={t("meta.about.description")}
         />
       </Helmet>
-      <div id="about_container" className="card_border">
-        <div id="about_subcontainer" className="card_background">
+      <section id="about_container" className="card_border">
+        <article id="about_subcontainer" className="card_background">
           <h1>{t("about.history")}</h1>
           <img src={FS} alt={t("about.picture")} />
           <h2>{t("about.greetings")}</h2>
-          <div>
+          <aside>
             {contents.map((content, index) => (
               <p key={index}>{content}</p>
             ))}
-          </div>
-        </div>
-      </div>
+          </aside>
+        </article>
+      </section>
     </main>
   );
 };

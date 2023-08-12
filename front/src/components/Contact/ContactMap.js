@@ -31,26 +31,28 @@ const ContactMap = () => {
   const centerLng = positions.reduce((sum, position) => sum + position.lng, 0) / totalPositions;
 
   return (
-    <div id="contact_visual-map" className="card_border">
+    <article id="contact_visual-map" className="card_border">
       <div className="card_background visual_map-content">
         <div className="contact_find">
           <h2>{t("contact.map.where")}</h2>
           {positions.map((position) => (
-            <a
-              href={position.googleURL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="contact_location"
-            >
-              <FontAwesomeIcon
-                icon={faLocationPin}
-                className="social_network-logo"
-              />
-              <p>
-                <span>{position.street}</span>
-                <span>{position.city}</span>
-              </p>
-            </a>
+            <h3>
+              <a
+                href={position.googleURL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact_location"
+              >
+                <FontAwesomeIcon
+                  icon={faLocationPin}
+                  className="social_network-logo"
+                />
+                <p>
+                  <span>{position.street}</span>
+                  <span>{position.city}</span>
+                </p>
+              </a>
+            </h3>
           ))}
         </div>
 
@@ -91,7 +93,7 @@ const ContactMap = () => {
           </MapContainer>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 export default ContactMap;

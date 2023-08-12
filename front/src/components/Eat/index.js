@@ -28,19 +28,21 @@ const Eat = () => {
         content={t("meta.eat.description")}
       />
     </Helmet>
-      <div className="eat_container">
+      <section className="eat_container">
         {restaurants.map((restaurant, index) => (
-          <div className={`card_border ${restaurant.class}`} key={index}>
+          <article className={`card_border ${restaurant.class}`} key={index}>
             <div className="restaurant card_background">
-              <div className="restaurant_name">{restaurant.name}</div>
+              <h2 className="restaurant_name">{restaurant.name}</h2>
 
-              <a
-                href={restaurant.googlePosition}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="restaurants_elements">{restaurant.address}</div>
-              </a>
+              <h3>
+                <a
+                  href={restaurant.googlePosition}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="restaurants_elements">{restaurant.address}</div>
+                </a>
+              </h3>
 
               {restaurant.phone !== null && (
                 <a
@@ -77,10 +79,10 @@ const Eat = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </article>
         ))}
         <h1 className="eat_title">{t("restaurants")}</h1>
-      </div>
+      </section>
     </main>
   );
 };

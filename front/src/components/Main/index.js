@@ -15,12 +15,12 @@ const Main = () => {
         <meta name="twitter:title" content={t("meta.main.title")} />
         <meta name="twitter:description" content={t("meta.main.description")} />
       </Helmet>
-      <div id="home_container" className="card_border">
-        <div id="home_subcontainer" className="card_background">
+      <section id="home_container" className="card_border">
+        <article id="home_subcontainer" className="card_background">
           <h1>{t("home.title")}</h1>
           <h2>{t("home.subtitle")}</h2>
-        </div>
-      </div>
+        </article>
+      </section>
     </main>
   );
 };

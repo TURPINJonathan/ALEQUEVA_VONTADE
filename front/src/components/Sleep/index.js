@@ -29,18 +29,18 @@ const Sleep = () => {
         content={t("meta.sleep.description")}
       />
     </Helmet>
-      <div className="card_border sleep_element">
-        <div className="card_background sleep_container">
-          <div className="sleep_content">
+      <section className="card_border sleep_element">
+        <article className="card_background sleep_container">
+          <aside className="sleep_content">
             <h1 className="sleep_content-title">{t("sleep.casa_da_teresa.title")}</h1>
             <p>{t("sleep.casa_da_teresa.content")}</p>
             <a href="tel:+33771747277">
               <img src={WhatsApp} alt="TODO" className="social_network-logo" />
               <span>+33 7 71 74 72 77</span>
             </a>
-          </div>
+          </aside>
 
-          <div className="sleep_pictures">
+          <aside className="sleep_pictures">
             <div className="card_border-blue pictures_border">
               <div className="picture_container card_background-blue">
                 {!smallResponsive && <img
@@ -60,13 +60,13 @@ const Sleep = () => {
                 />}
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+          </aside>
+        </article>
+      </section>
 
-      <div className="card_border sleep_element">
-        <div className="card_background sleep_container sleep_container-herdade">
-          <div className="sleep_pictures herdade_pictures">
+      <section className="card_border sleep_element">
+        <article className="card_background sleep_container sleep_container-herdade">
+          <aside className="sleep_pictures herdade_pictures">
             <div className="card_border-green pictures_border">
               <div className="picture_container card_background-green">
                 {!smallResponsive && <img
@@ -86,9 +86,9 @@ const Sleep = () => {
                 />}
               </div>
             </div>
-          </div>
+          </aside>
 
-          <div className="sleep_content herdade_content">
+          <aside className="sleep_content herdade_content">
             <h2 className="sleep_content-title">{t("sleep.herdade.title")}</h2>
             <p>{t("sleep.herdade.content")}</p>
             <a
@@ -98,9 +98,9 @@ const Sleep = () => {
             >
               {t("sleep.herdade.link")}
             </a>
-          </div>
-        </div>
-      </div>
+          </aside>
+        </article>
+      </section>
     </main>
   );
 };

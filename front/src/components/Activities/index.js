@@ -22,15 +22,15 @@ const Activities = () => {
           content={t("meta.activities.description")}
         />
       </Helmet>
-      <div id="activities_container">
+      <section id="activities_container">
         {activities.map((activitie, index) => (
-          <div key={index} className="activities_element card_border">
+          <article key={index} className="activities_element card_border">
             <div
               className={`inside_element card_background ${
                 activitie.direction === "left" ? "picture_left" : ""
               }`}
             >
-              <div className="element_content">
+              <aside className="element_content">
                 {activitie.name === "main" ? (
                   <h1>{t(activitie.title)}</h1>
                 ) : (
@@ -53,15 +53,15 @@ const Activities = () => {
                     </a>
                   </p>
                 )}
-              </div>
+              </aside>
               <img
                 src={activitie.picture}
                 alt={t(activitie.pictureDescription)}
               />
             </div>
-          </div>
+          </article>
         ))}
-      </div>
+      </section>
     </main>
   );
 };

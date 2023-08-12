@@ -10,13 +10,11 @@ const Links = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="card_border">
+    <article className="card_border">
       <div className="card_background">
-        <h1>
-          <span>{t('contact.link.question')}</span>
-          <span>{t('contact.link.reservation')}</span>
-          <span>{t('contact.link.contact')}</span>
-        </h1>
+        <h1>{t("contact.link.question")}</h1>
+        <h2>{t("contact.link.reservation")}</h2>
+        <h2>{t("contact.link.contact")}</h2>
 
         <div id="contact_links">
           <p>
@@ -32,7 +30,7 @@ const Links = () => {
             </a>
           </p>
           <p className="social_links">
-            <span>{t('contact.link.social')}</span>
+            <h3>{t("contact.link.social")}</h3>
             <span>
               <a
                 href="https://www.facebook.com/profile.php?id=100089961169106"
@@ -60,7 +58,7 @@ const Links = () => {
           </p>
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 export default Links;

@@ -18,20 +18,20 @@ const Legal = () => {
         content={t("meta.cancellation.description")}
       />
     </Helmet>
-      <div className="card_border">
-        <div className="card_background">
+      <section className="card_border">
+        <article className="card_background">
           <h1>{t("policy.title")}</h1>
           <ul>
             <li>{t("policy.cancellation.weather")}</li>
             <li>{t("policy.cancellation.team")}</li>
           </ul>
-          <div>
+          <aside>
             <p>{t("policy.refund.from_team")}</p>
             <p>{t("policy.refund.from_customer")}</p>
-          </div>
+          </aside>
           <p>{t("policy.refund.delay")}</p>
-        </div>
-      </div>
+        </article>
+      </section>
     </main>
   );
 };

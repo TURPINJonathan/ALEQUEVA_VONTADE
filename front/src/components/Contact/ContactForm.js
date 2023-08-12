@@ -133,7 +133,7 @@ const ContactForm = () => {
   }, [isFormSubmit, t, toastOptions]);
 
   return (
-    <div className="card_border">
+    <article className="card_border">
       <div className="card_background form_card">
         <h2>{t("contact.form.complete")}</h2>
         <form id="form" onSubmit={handleSubmit}>
@@ -191,7 +191,7 @@ const ContactForm = () => {
           />
         </form>
       </div>
-    </div>
+    </article>
   );
 };
 export default ContactForm;

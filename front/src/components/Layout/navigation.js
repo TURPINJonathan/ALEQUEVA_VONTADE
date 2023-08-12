@@ -31,7 +31,7 @@ const Navigation = () => {
     setIsHovered(false);
   };
   return (
-    <div id="navigation">
+    <header id="navigation">
       <NavLink to="/" end>
         <div id="logo">
           <img src={Logo} alt={t("logo")} />
@@ -115,7 +115,7 @@ const Navigation = () => {
           </li>
         </ul>
       </nav>
-    </div>
+    </header>
   );
 };
 export default Navigation;

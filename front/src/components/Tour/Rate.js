@@ -20,7 +20,7 @@ const Rate = ({
   const isScreenToDisplay = useResponsive(850);
 
   return (
-    <div className="card card_border" id={isMainCard ? "tour_first" : ""}>
+    <article className="card card_border" id={isMainCard ? "tour_first" : ""}>
       {!isPrices ||
         (!isScreenToDisplay && (
           <span className="tour_fromPrice">{fromPrice}</span>
@@ -107,7 +107,7 @@ const Rate = ({
           {special && <span>&nbsp;|&nbsp;{special}</span>}
         </small>
       </div>
-    </div>
+    </article>
   );
 };
 
