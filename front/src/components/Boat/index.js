@@ -27,7 +27,7 @@ const Boat = () => {
           content={t("meta.boat.description")}
         />
       </Helmet>
-      <div id="boat_container">
+      <section id="boat_container">
         <HoverableElement
           title={t("boat.welcome.title")}
           content={t("boat.welcome.content")}
@@ -53,7 +53,7 @@ const Boat = () => {
           picture={FrontDoor}
           element="boat_door"
         />
-      </div>
+      </section>
     </main>
   );
 };

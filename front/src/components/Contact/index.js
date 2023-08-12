@@ -23,7 +23,7 @@ const Contact = () => {
           content={t("meta.contacts.description")}
         />
       </Helmet>
-      <div id="contact_container">
+      <section id="contact_container">
         <div id="contact_content">
           <Links />
 
@@ -31,7 +31,7 @@ const Contact = () => {
         </div>
 
         <ContactMap />
-      </div>
+      </section>
     </main>
   );
 };

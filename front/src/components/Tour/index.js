@@ -25,11 +25,12 @@ const Tour = () => {
         content={t("meta.tour.description")}
       />
     </Helmet>
-      <div id="tour_container">
+      <section id="tour_container">
         <Rate
           id="tour_first"
           fromPrice={t("tour.hour_and_half.from_price")}
           picture={HourAndHalfPicture}
+          pictureDescription={t("tour.hour_and_half.picture_description")}
           isMainCard={true}
           tourType={t("tour.hour_and_half.tour_type")}
           tourSubType={t("tour.hour_and_half.tour_subtype")}
@@ -39,7 +40,7 @@ const Tour = () => {
 					included={t("tour.hour_and_half.included")}
         />
 
-        <div id="tour_second">
+        <section id="tour_second">
           {rates.map((rate, index) => (
             <Rate
               key={index}
@@ -59,12 +60,12 @@ const Tour = () => {
 							special={t(rate.special)}
             />
           ))}
-        </div>
+        </section>
 
-				<div className="tour_precision">
+				<aside className="tour_precision">
 					<small>{t("tour.precision")}</small>
-				</div>
-      </div>
+				</aside>
+      </section>
     </main>
   );
 };

@@ -11,7 +11,7 @@ const GridPicture = ({
   const { isHovered, handleMouseOver, handleMouseOut } = useHoverableElement();
 
   return (
-    <div
+    <article
       className={`hoverable-element ${isHovered && content ? "hovered" : ""}`}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
@@ -19,7 +19,7 @@ const GridPicture = ({
       style={{ backgroundImage: `url(${picture})` }}
       title={pictureDescription}
     >
-      <div className="element-content">
+      <aside className="element-content">
         {content ? (
           <>
             <h1>{title}</h1>
@@ -28,8 +28,8 @@ const GridPicture = ({
         ) : (
           <h3>{title}</h3>
         )}
-      </div>
-    </div>
+      </aside>
+    </article>
   );
 };
 

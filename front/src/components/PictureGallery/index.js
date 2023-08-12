@@ -71,14 +71,14 @@ const PictureGallery = () => {
         content={t("meta.gallery.description")}
       />
     </Helmet>
-      <div className="gallery_container">
+      <section className="gallery_container">
         <Gallery
           images={shuffledPictures.map(translateImageInfo)}
           enableImageSelection={false}
           rowHeight="250px"
           onClick={(index) => handleImageClick(index)}
         />
-      </div>
+      </section>
 
       {fullscreenImage && (
         <ImageFullScreen
