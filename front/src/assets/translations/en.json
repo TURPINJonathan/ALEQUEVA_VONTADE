@@ -366,5 +366,10 @@
       "description": "An impediment ?",
       "keywords": "telephone, e-mail, support, contact, cancellation"
     }
+  },
+  "not_found": {
+    "title": "The page you were looking is not available.",
+    "contact": "Please contact us if an information you need is missing.",
+    "button": "Back to the main menu"
   }
 }

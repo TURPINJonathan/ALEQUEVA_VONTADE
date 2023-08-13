@@ -22,6 +22,7 @@ import Sleep from "@components/Sleep";
 import Contact from "@components/Contact";
 import PictureGallery from "@components/PictureGallery";
 import Legal from "@components/Legal";
+import NotFound from "@components/NotFound";
 
 //? TOASTIFY
 import { ToastContainer } from "react-toastify";
@@ -44,6 +45,7 @@ root.render(
           <Route path="/sleep" element={<Sleep />} exact />
           <Route path="/contact" element={<Contact />} exact />
           <Route path="/cancellation_policy" element={<Legal />} exact />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
         <ToastContainer
