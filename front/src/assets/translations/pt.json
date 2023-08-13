@@ -366,5 +366,10 @@
       "description": "Um impedimento  ?",
       "keywords": "telefone, e-mail, contato, cancelamento"
     }
+  },
+  "not_found": {
+    "title": "Não encontramos esta página.",
+    "contact": "Por favor entre em contato para qualquer informação.",
+    "button": "Menu inicial"
   }
 }

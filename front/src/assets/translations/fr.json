@@ -365,5 +365,10 @@
       "description": "Un empêchement ?",
       "keywords": "téléphone, mail, support, contact, annulation"
     }
+  },
+  "not_found": {
+    "title": "La page que vous recherchez n'a pas été trouvée.",
+    "contact": "Nous vous invitons à nous contacter si une information vous est manquante.",
+    "button": "Retour au menu principal"
   }
 }
