@@ -1,21 +1,55 @@
 #!/bin/bash
 
+# Colors
+YELLOW='\033[1;33m'
+BLUE='\033[1;36m'
+NC='\033[0m'
+
+echo -e "${YELLOW}======================================================================="
+echo -e "============               REPOSITORY UPDATE               ============"
+echo -e "=======================================================================${NC}"
 # Clean git repository
 git reset --hard HEAD~
 
 # Update git repository
 git pull
+echo -e "${BLUE}----------------------------- UPDATE DONE -----------------------------${NC}"
 
 # Go to "front" folder
 cd front
 
-# Execute the complete build
-npm run complete-build
+# Install Library
+echo -e "${YELLOW}======================================================================="
+echo -e "============              DELETED NODE MODULE              ============"
+echo -e "=======================================================================${NC}"
+sudo rm -rf ./node_modules
+echo -e "${BLUE}------------------------- NODE MODULE DELETED -------------------------${NC}"
 
-# Create the .htaccess
-sudo nano build/.htaccess
+# Install Library
+echo -e "${YELLOW}======================================================================="
+echo -e "============                LIBRARY INSTALL                ============"
+echo -e "=======================================================================${NC}"
+npm i
+echo -e "${BLUE}------------------------- LIBRARY ARE INSTALL -------------------------${NC}"
 
-# Write the .htaccess
+# GENERATE SITEMAP
+echo -e "${YELLOW}======================================================================="
+echo -e "============               SITEMAP GENERATOR               ============"
+echo -e "=======================================================================${NC}"
+npm run generate-sitemap
+echo -e "${BLUE}------------------------- SITEMAP IS GENERATE -------------------------${NC}"
+
+# Build project
+echo -e "${YELLOW}======================================================================="
+echo -e "============                 BUILD PROJECT                 ============"
+echo -e "=======================================================================${NC}"
+npm run generate-sitemap
+echo -e "${BLUE}---------------------------- PROJECT BUILD ----------------------------${NC}"
+
+# Create and Write the .htaccess
+echo -e "${YELLOW}======================================================================="
+echo -e "============              WRITE NEW .HTACCESS              ============"
+echo -e "=======================================================================${NC}"
 htaccess_content="
 <IfModule mod_rewrite.c>
   RewriteEngine On
@@ -32,6 +66,19 @@ htaccess_content="
 
 # Écrire le contenu dans le fichier .htaccess
 echo "$htaccess_content" | sudo tee build/.htaccess
+echo -e "${BLUE}-------------------------- HTACCESS COMPLETE --------------------------${NC}"
 
 # Restart Apache
+echo -e "${YELLOW}======================================================================="
+echo -e "============                RESTART APACHE2                ============"
+echo -e "=======================================================================${NC}"
 sudo service apache2 restart
+echo -e "${BLUE}---------------------------- APACHE2 RESTART --------------------------${NC}"
+
+# deploy.sh autorisations
+echo -e "${YELLOW}======================================================================="
+echo -e "============                 AUTORIZATIONS                 ============"
+echo -e "=======================================================================${NC}"
+cd ..
+sudo chmod +x deploy.sh
+echo -e "${BLUE}-------------------------- AUTORIZATION DONE --------------------------${NC}"
