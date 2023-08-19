@@ -9,6 +9,18 @@
     width: 80%;
     max-height: 100vh;
     overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+
+    & > * {
+      max-height: 200px;
+      margin: 0.2rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
 
     .custom-overlay_caption {
       background: rgb(0, 0, 0);
@@ -34,11 +46,24 @@
       justify-content: center;
       align-items: center;
 
-      img {
-        padding: 0.3rem;
-        border: colors.$white-xs--tsp solid 1px;
-        max-height: 80vh;
-        max-width: 80vw;
+      .fullscreen_picture {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+          padding: 0.3rem;
+          border: colors.$white-xs--tsp solid 1px;
+          max-height: 80vh;
+          max-width: 60vw;
+        }
+      }
+
+      .fullscreen-icons {
+        color: colors.$white-xs--tsp;
+        margin: 2rem;
+        font-size: 2rem;
+        cursor: pointer;
       }
 
       .fullscreen-description {
@@ -90,7 +115,6 @@
   #gallery {
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 40px;
 
     .gallery_container {
       width: 100%;
@@ -99,8 +123,19 @@
 
     .fullscreen-overlay .fullscreen-content {
       padding-top: 250px;
-      img {
-        max-width: 90vw;
+
+      .fullscreen_picture {
+        width: 100vw;
+        justify-content: center;
+        img {
+          max-width: 80vw;
+          max-height: 60vh;
+        }
+      }
+
+      .fullscreen-icons {
+        font-size: 1.4rem;
+        margin: 1rem;
       }
     }
   }

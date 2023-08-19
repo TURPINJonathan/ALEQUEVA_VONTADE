@@ -175,7 +175,7 @@ const pictures = [
   {
     src: require("@gallery/inside_boat.jpg"),
     caption: "gallery.title.sunshade",
-    alt: "gallery.description.Phrase descriptive",
+    alt: "boat.sunshade.alt",
     key: "sunshade",
   },
 ];
