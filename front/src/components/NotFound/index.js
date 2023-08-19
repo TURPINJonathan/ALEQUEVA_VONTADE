@@ -1,10 +1,6 @@
 import BgImg from "@pictures/about.jpg";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
-
-import Links from "@components/Contact/Links";
-import ContactForm from "@components/Contact/ContactForm";
-import ContactMap from "@components/Contact/ContactMap";
 import { NavLink } from "react-router-dom";
 
 const NotFound = () => {
@@ -27,7 +23,7 @@ const NotFound = () => {
           content={t("meta.contacts.description")}
         />
       </Helmet>
-      
+
       <section id="notfound_container">
         <article className="card_border">
           <section className="card_background">
