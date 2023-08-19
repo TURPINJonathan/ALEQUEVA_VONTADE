@@ -18,7 +18,7 @@ echo -e "${BLUE}----------------------------- UPDATE DONE ----------------------
 # Go to "front" folder
 cd front
 
-# Install Library
+# Remove node_module
 echo -e "${YELLOW}======================================================================="
 echo -e "============              DELETED NODE MODULE              ============"
 echo -e "=======================================================================${NC}"
@@ -43,7 +43,7 @@ echo -e "${BLUE}------------------------- SITEMAP IS GENERATE ------------------
 echo -e "${YELLOW}======================================================================="
 echo -e "============                 BUILD PROJECT                 ============"
 echo -e "=======================================================================${NC}"
-npm run generate-sitemap
+npm run build
 echo -e "${BLUE}---------------------------- PROJECT BUILD ----------------------------${NC}"
 
 # Create and Write the .htaccess
