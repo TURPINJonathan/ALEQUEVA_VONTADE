@@ -62,6 +62,12 @@ const Navigation = () => {
             </NavLink>
           </li>
           <li className={isHovered ?? "hovered"}>
+            <NavLink activeClassName="menu_selected" to={"/gallery"} end>
+              <FontAwesomeIcon icon={faCamera} className="iconNav" />
+              {isHovered && <span>{t("nav.gallery")}</span>}
+            </NavLink>
+          </li>
+          <li className={isHovered ?? "hovered"}>
             <NavLink activeClassName="menu_selected" to="/activities" end>
               <FontAwesomeIcon icon={faBinoculars} className="iconNav" />
               {isHovered && <span>{t("nav.doing")}</span>}
@@ -77,12 +83,6 @@ const Navigation = () => {
             <NavLink activeClassName="menu_selected" to={"/sleep"} end>
               <FontAwesomeIcon icon={faBed} className="iconNav" />
               {isHovered && <span>{t("nav.sleeping")}</span>}
-            </NavLink>
-          </li>
-          <li className={isHovered ?? "hovered"}>
-            <NavLink activeClassName="menu_selected" to={"/gallery"} end>
-              <FontAwesomeIcon icon={faCamera} className="iconNav" />
-              {isHovered && <span>{t("nav.gallery")}</span>}
             </NavLink>
           </li>
           <li className={isHovered ?? "hovered"}>
