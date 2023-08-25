@@ -104,7 +104,7 @@ const PictureGallery = () => {
         />
       </Helmet>
       <section className="gallery_container">
-        {shuffledPictures.map((picture, index) => (
+        {shuffledPictures.map((picture, index) => picture.isActive && (
           <img
             src={picture.src}
             alt={picture.alt}

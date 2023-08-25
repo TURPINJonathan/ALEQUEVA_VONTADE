@@ -52,7 +52,15 @@
       "fauna_flora": "entre faune et flore",
       "portugal": "le portugal avant tout",
       "pleasures": "plaisirs gustatifs",
-      "sunshade": "présentation du bateau"
+      "sunshade": "présentation du bateau",
+      "baignade_dans_le_lac": "baignade dans le lac",
+      "paddle": "paddle",
+      "promenade_fin_de_journee": "promenade fin de journée",
+      "baignade": "baignade",
+      "homme_heureux": "paddle",
+      "balade_en_fin_daprem": "balade en fin d'après-midi",
+      "jeune_femme_detendue": "contemplation",
+      "retour_de_promenade": "retour de promenade"
     },
     "description": {
       "relaxation": "Jeune femme observant les paysages, à l’avant du bateau.",
@@ -72,11 +80,19 @@
       "diving": "Petit plouf en liberté au milieu du lac.",
       "free": "Petit groupe au c\u0153ur de l'excursion. Pour les uns, observation aux jumelles, pour d'autres une petite sieste.",
       "sky": "Vue des flots avec le reflet du soleul couchant.",
-      "fauna_flora": "Jeune homme observant les oiseaux",
+      "fauna_flora": "Jeune homme observant les oiseaux.",
       "portugal": "Visuel du drapeau portugais à bord du bateau.",
       "pleasures": "Plateau surprise avec sandwichs cocktail et verres de vin de l'Alentejo.",
       "departure": "Vue du bateau en partance.",
-      "sunshade": "Vue du bateau avec pare-soleil."
+      "sunshade": "Vue du bateau avec pare-soleil.",
+      "baignade_dans_le_lac": "Moments privilégiés en famille dans une eau à 26° !",
+      "paddle": "Enfant faisant une initiation au paddle avec son papa.",
+      "promenade_fin_de_journee": "Couple profitant d'un magnifique coucher de soleil.",
+      "baignade": "Famille profitant d'une eau à 26° !",
+      "homme_heureux": "Homme heureux d'avoir réussi à tenir debout sur le paddle.",
+      "balade_en_fin_daprem": "Retour de baignade et grignotage sur le bateau.",
+      "jeune_femme_detendue": "Jeune femme détendue, regardant le soleil couchant.",
+      "retour_de_promenade": "Le bateau revient à la marina au soleil couchant."
     }
   },
   "boat": {

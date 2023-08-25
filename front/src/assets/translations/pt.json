@@ -53,7 +53,15 @@
       "portugal": "Portugal antes de tudo",
       "pleasures": "saborear",
       "departure": "o barco",
-      "sunshade": "apresentac\u00E3o"
+      "sunshade": "apresentac\u00E3o",
+      "baignade_dans_le_lac": "mergulho no lago",
+      "paddle": "paddle",
+      "promenade_fin_de_journee": "passeio fim do dia",
+      "baignade": "banho",
+      "homme_heureux": "paddle",
+      "balade_en_fin_daprem": "passeio no fim da tarde",
+      "jeune_femme_detendue": "contemplation",
+      "retour_de_promenade": "regresso de passeio"
     },
     "description": {
       "relaxation": "Mulher observando a paisagem.",
@@ -77,7 +85,15 @@
       "portugal": "Bandeira portuguesa.",
       "pleasures": "Prato surpresa com sandes coketail e vinho alentejano.",
       "departure": "Vista do barco em movimento.",
-      "sunshade": "Vista do barco com o para-sol."
+      "sunshade": "Vista do barco com o para-sol.",
+      "baignade_dans_le_lac": "Momentos privilegiados em familia, numa àgua a 26° !",
+      "paddle": "Menina fazendo uma iniciação ao paddle com o pai.",
+      "promenade_fin_de_journee": "Casal disfrutando dum magnifico pôr do sol.",
+      "baignade": "Familia disfrutando de um àgua a 26° !",
+      "homme_heureux": "Homem feliz de ter ficado de pè no paddle.",
+      "balade_en_fin_daprem": "De volta ao barco depois do mergulho para petiscar.",
+      "jeune_femme_detendue": "Jovem mulher relaxada à contemplar o pôr do sol",
+      "retour_de_promenade": "O barco regressa à marina, o sol jà desapareceu"
     }
   },
   "boat": {

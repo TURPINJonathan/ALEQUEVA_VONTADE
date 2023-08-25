@@ -53,7 +53,15 @@
       "portugal": "Portugal above all",
       "pleasures": "tasty pleasures",
       "departure": "the boat",
-      "sunshade": "boat presentation"
+      "sunshade": "boat presentation",
+      "baignade_dans_le_lac": "swimming in the lake",
+      "paddle": "paddle",
+      "promenade_fin_de_journee": "walk at the end of the day",
+      "baignade": "baignade",
+      "homme_heureux": "paddle",
+      "balade_en_fin_daprem": "late afternoon walk",
+      "jeune_femme_detendue": "contemplation",
+      "retour_de_promenade": "back from a walk"
     },
     "description": {
       "relaxation": "Enjoy the peace and quiet of a private road.",
@@ -69,7 +77,7 @@
       "conviviality": "Enjoy our specialities.",
       "made_to_mesure": "Modular layouts to suit your needs.",
       "champagne": "Tasting platter for a wedding anniversary.",
-      "remember": "Couple immortalise their moment by filming their tour",
+      "remember": "Couple immortalise their moment by filming their tour.",
       "diving": "A free splash in the middle of the lake.",
       "free": "A small group at the heart of the excursion. For some, observation with binoculars, for others a short siesta.",
       "sky": "View of the waves with the reflection of the setting sun.",
@@ -77,7 +85,15 @@
       "portugal": "Visual of the Portuguese flag on board.",
       "pleasures": "Surprise tray with cocktail sandwiches and glasses of Alentejo wine.",
       "departure": "View of the departing boat.",
-      "sunshade": "View of the boat with sunshade."
+      "sunshade": "View of the boat with sunshade.",
+      "baignade_dans_le_lac": "Special family moments in water at 26°!",
+      "paddle": "Child learning to paddle with his dad.",
+      "promenade_fin_de_journee": "Couple enjoying a magnificent sunset.",
+      "baignade": "Family enjoying water at 26°C !",
+      "homme_heureux": "Man happy to have managed to stand up on the paddle.",
+      "balade_en_fin_daprem": "Back from swimming and snacking on the boat.",
+      "jeune_femme_detendue": "Relaxed young woman, watching the sun set.",
+      "retour_de_promenade": "The boat returns to the marina at sunset."
     }
   },
   "boat": {
