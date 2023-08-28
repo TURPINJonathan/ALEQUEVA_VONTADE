@@ -455,6 +455,43 @@ const restaurants = [
   },
 ];
 
+const sleeps = [
+  {
+    name: "Herdade do Rio Torto",
+    title: "sleep.herdade.title",
+    googlePosition: null,
+    address: null,
+    phone: null,
+    website: "https://www.herdaderiotorto.com/",
+    mail: null,
+    picture: require("@pictures/sleep/herdade_terrace.jpg"),
+    pictureDescription: "sleep.herdade.picture_inside_description",
+    facebookLink: null,
+    content: [
+      "sleep.herdade.content",
+    ],
+    class: "herdade-inside",
+    direction: 'right'
+  },
+  {
+    name: "Casa da Teresa",
+    title: "sleep.casa_da_teresa.title",
+    googlePosition: null,
+    address: null,
+    phone: null,
+    whatsapp: "+337 71 74 72 77",
+    mail: null,
+    picture: require("@pictures/sleep/casa_da_teresa_inside.jpg"),
+    pictureDescription: "sleep.casa_da_teresa.picture_inside_description",
+    facebookLink: null,
+    class: "casa_da_teresa-inside",
+    content: [
+      "sleep.casa_da_teresa.content",
+    ],
+    direction: 'left'
+  },
+]
+
 // Use for Tour page
 const rates = [
   {
@@ -503,4 +540,4 @@ const rates = [
   },
 ];
 
-export { pictures, activities, restaurants, rates };
+export { pictures, activities, restaurants, rates, sleeps };

@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { activities } from "@data";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faSquareFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const ActivitiesAround = ({ data }) => {
   const { t } = useTranslation();
@@ -40,9 +40,16 @@ const ActivitiesAround = ({ data }) => {
                 )}
 
                 {item.phone !== null && (
-                  <a href={`tel:${item.phone}`}>
-                    {item.phone}
-                  </a>
+                  <a href={`tel:${item.phone}`}>{item.phone}</a>
+                )}
+
+                {item.whatsapp && (
+                  <a href={`tel:${item.whatsapp}`}>
+                  <FontAwesomeIcon
+                    icon={faWhatsapp}
+                    style={{ color: "#008D2E", marginLeft: '1rem', marginRight: '0.5rem' }}
+                  />
+                  {item.whatsapp}</a>
                 )}
 
                 {item.mail !== null && (
@@ -65,18 +72,18 @@ const ActivitiesAround = ({ data }) => {
               )}
 
               {item.facebookLink && (
-                            <div>
-                            <a
-                              href={item.facebookLink}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                            >
-                              <FontAwesomeIcon
-                                icon={faSquareFacebook}
-                                style={{ color: "#3982e4" }}
-                              />
-                            </a>
-                          </div>
+                <div>
+                  <a
+                    href={item.facebookLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faSquareFacebook}
+                      style={{ color: "#3982e4" }}
+                    />
+                  </a>
+                </div>
               )}
             </aside>
             <img src={item.picture} alt={t(item.pictureDescription)} />

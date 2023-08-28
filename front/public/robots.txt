@@ -6,8 +6,6 @@ Allow: /about
 Allow: /boat
 Allow: /tour
 Allow: /activities
-Allow: /eat
-Allow: /sleep
 Allow: /gallery
 Allow: /contact
 Allow: /cancellation_policy

@@ -4,8 +4,7 @@ import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
 import ActivitiesAround from "@components/Activities/activitiesAround";
-import Eat from "@components/Eat";
-import { activities, restaurants } from "@data";
+import { activities, restaurants, sleeps } from "@data";
 
 const Activities = () => {
   const { t } = useTranslation();
@@ -91,49 +90,8 @@ const Activities = () => {
       )}
 
       {sleep && (
-        <ActivitiesAround data={restaurants} />
+        <ActivitiesAround data={sleeps} />
       )}
-
-      {/* <section id="activities_container">
-        {activities.map((activitie, index) => (
-          <article key={index} className="activities_element card_border">
-            <div
-              className={`inside_element card_background ${
-                activitie.direction === "left" ? "picture_left" : ""
-              }`}
-            >
-              <aside className="element_content">
-                {activitie.name === "main" ? (
-                  <h1>{t(activitie.title)}</h1>
-                ) : (
-                  <h2>{t(activitie.title)}</h2>
-                )}
-                <div>
-                  {activitie.content.map((content, index) => (
-                    <p key={index}>{t(content)}</p>
-                  ))}
-                </div>
-                {activitie.website && (
-                  <p>
-                    <a
-                      href={activitie.website}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span>{t("activities.website")}</span>
-                      <span>{t(activitie.title)}</span>
-                    </a>
-                  </p>
-                )}
-              </aside>
-              <img
-                src={activitie.picture}
-                alt={t(activitie.pictureDescription)}
-              />
-            </div>
-          </article>
-        ))}
-      </section> */}
     </main>
   );
 };
