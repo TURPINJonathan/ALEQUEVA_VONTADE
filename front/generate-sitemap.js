@@ -9,9 +9,7 @@ const pages = [
   '/gallery',
   '/boat',
   '/tour',
-  '/eat',
   '/activities',
-  '/sleep',
   '/contact',
   '/cancellation_policy',
 ];

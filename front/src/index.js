@@ -16,9 +16,7 @@ import Main from "@components/Main";
 import About from "@components/About";
 import Boat from "@components/Boat";
 import Tour from "@components/Tour";
-import Eat from "@components/Eat";
 import Activities from "@components/Activities";
-import Sleep from "@components/Sleep";
 import Contact from "@components/Contact";
 import PictureGallery from "@components/PictureGallery";
 import Legal from "@components/Legal";
@@ -40,9 +38,7 @@ root.render(
           <Route path="/gallery" element={<PictureGallery />} exact />
           <Route path="/boat" element={<Boat />} exact />
           <Route path="/tour" element={<Tour />} exact />
-          <Route path="/eat" element={<Eat />} exact />
           <Route path="/activities" element={<Activities />} exact />
-          <Route path="/sleep" element={<Sleep />} exact />
           <Route path="/contact" element={<Contact />} exact />
           <Route path="/cancellation_policy" element={<Legal />} exact />
           <Route path="*" element={<NotFound />} />
