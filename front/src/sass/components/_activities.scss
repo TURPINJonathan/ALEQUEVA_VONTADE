@@ -15,7 +15,7 @@
       font-weight: bold;
     }
 
-    &>* {
+    & > * {
       width: 33%;
       height: 1.6rem;
       text-align: center;
@@ -107,10 +107,26 @@
     justify-content: center;
     margin-top: 100px;
 
-    #activities_container {
+    #activities_container-nav {
       margin-top: 220px;
+      width: 100%;
+
+      & > * {
+        border-top: 1px solid colors.$white-xs;
+      }
+    }
+
+    #activities_container {
       width: 95%;
       padding-bottom: 2rem;
+      margin: auto;
     }
+  }
+}
+
+@media (max-width: 520px) {
+  #activities #activities_container-nav > * {
+    font-size: 0.8rem;
+    letter-spacing: normal;
   }
 }
