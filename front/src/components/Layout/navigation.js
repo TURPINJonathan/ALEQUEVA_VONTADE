@@ -7,11 +7,9 @@ import {
   faUser,
   faAnchor,
   faAt,
-  faBed,
   faBinoculars,
   faCamera,
   faSailboat,
-  faUtensils,
   faCircleExclamation,
   faPowerOff,
 } from "@fortawesome/free-solid-svg-icons";
@@ -71,18 +69,6 @@ const Navigation = () => {
             <NavLink activeClassName="menu_selected" to="/activities" end>
               <FontAwesomeIcon icon={faBinoculars} className="iconNav" />
               {isHovered && <span>{t("nav.doing")}</span>}
-            </NavLink>
-          </li>
-          <li className={isHovered ?? "hovered"}>
-            <NavLink activeClassName="menu_selected" to="/eat" end>
-              <FontAwesomeIcon icon={faUtensils} className="iconNav" />
-              {isHovered && <span>{t("nav.eat")}</span>}
-            </NavLink>
-          </li>
-          <li className={isHovered ?? "hovered"}>
-            <NavLink activeClassName="menu_selected" to={"/sleep"} end>
-              <FontAwesomeIcon icon={faBed} className="iconNav" />
-              {isHovered && <span>{t("nav.sleeping")}</span>}
             </NavLink>
           </li>
           <li className={isHovered ?? "hovered"}>

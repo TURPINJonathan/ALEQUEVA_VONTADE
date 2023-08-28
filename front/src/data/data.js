@@ -398,6 +398,7 @@ const activities = [
 const restaurants = [
   {
     name: "Restaurante o Sao Pedro em Portel",
+    title: "Restaurante o Sao Pedro em Portel",
     googlePosition:
       "https://www.google.com/maps/place/Largo+5+D'outubro+6,+7220-363+Portel,+Portugal/@38.3078311,-7.7068383,17z/data=!3m1!4b1!4m6!3m5!1s0xd10a95184a30f93:0x25ac2c5d14966341!8m2!3d38.3078269!4d-7.7042634!16s%2Fg%2F11c27m1ckr?entry=ttu",
     address: "Largo 5 de outubro n6, Portel, Portugal",
@@ -407,9 +408,11 @@ const restaurants = [
     pictureDescription: "TODO",
     facebookLink: "https://www.facebook.com/S.Pedro.Restaurante/",
     class: "restaurant_sao-pedro",
+    direction: 'right'
   },
   {
     name: "Restaurante O Xarès em Monsaraz",
+    title: "Restaurante O Xarès em Monsaraz",
     googlePosition:
       "https://www.google.com/maps/place/Xarez/@38.4443037,-7.3830528,17z/data=!3m1!4b1!4m6!3m5!1s0xd1735dee4e0299b:0xb16065c0379e20f3!8m2!3d38.4442995!4d-7.3804725!16s%2Fg%2F11ry7rmdfr",
     address: "Rua de Santiago 33, 7200-175, Portugal",
@@ -419,9 +422,11 @@ const restaurants = [
     pictureDescription: "TODO",
     facebookLink: "https://www.facebook.com/Monsaraz.Xarez/",
     class: "restaurant_xares-monsarez",
+    direction: 'left',
   },
   {
     name: "Taberna do liberato em Moura",
+    title: "Taberna do liberato em Moura",
     googlePosition:
       "https://www.google.com/maps/place/Tv.+de+Mouraria,+Moura,+Portugal/@38.1422109,-7.4548336,17z/data=!3m1!4b1!4m10!1m2!2m1!1s2%C2%AA+Rua+da+Mouraria,+3,+Moura,+Portugal!3m6!1s0xd10bf69b64798db:0xea03b091a662fe1b!8m2!3d38.1422067!4d-7.4522587!15sCicywqogUnVhIGRhIE1vdXJhcmlhLCAzLCBNb3VyYSwgUG9ydHVnYWySAQVyb3V0ZeABAA!16s%2Fg%2F119w0nzfq?entry=ttu",
     address: "2ª Rua da Mouraria, 3, Moura, Portugal",
@@ -432,9 +437,11 @@ const restaurants = [
     facebookLink:
       "https://www.facebook.com/people/Taberna-do-Liberato/100063849437648/",
     class: "restaurant_liberato-moura",
+    direction: 'right'
   },
   {
     name: "Restaurante o aficionado em Amieira",
+    title: "Restaurante o aficionado em Amieira",
     googlePosition:
       "https://www.google.com/maps/place/O+Aficionado/@38.2850629,-7.5590862,15z/data=!4m6!3m5!1s0xd10b102eddbfe6b:0x208ad87200e90b6e!8m2!3d38.2850629!4d-7.5590862!16s%2Fg%2F11c30tngkf?entry=ttu",
     address: "rua de evora, Portel, Portugal",
@@ -444,6 +451,7 @@ const restaurants = [
     pictureDescription: "TODO",
     facebookLink: "https://www.facebook.com/OAficionado/",
     class: "restaurant_aficionado-amieira",
+    direction: 'left',
   },
 ];
 

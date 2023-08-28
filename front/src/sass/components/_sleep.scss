@@ -1,7 +1,6 @@
 #sleep {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 
   .sleep_element {
     width: 33vw;
@@ -195,7 +194,8 @@
           h2 {
             font-size: 1.3rem !important;
           }
-          p, a {
+          p,
+          a {
             font-size: 0.8rem;
           }
         }
