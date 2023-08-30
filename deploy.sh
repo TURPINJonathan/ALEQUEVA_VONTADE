@@ -58,6 +58,9 @@ htaccess_content="
   # Handle requests for files that exist
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # Redirect to /pt for default language
+  RewriteRule ^(fr|en)?$ /pt [R=301,L]
 
   # Redirect all other requests to index.html
   RewriteRule ^(.*)$ /index.html [L]
