@@ -4,9 +4,11 @@ import En from "@pictures/flag_england.png";
 import { useState } from "react";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 const Toggle = ({ isHovered }) => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   const [activeLang, setActiveLang] = useState("pt");
 
@@ -14,7 +16,13 @@ const Toggle = ({ isHovered }) => {
     if (lang !== activeLang) {
       setActiveLang(lang);
       i18n.changeLanguage(lang);
+      updateUrl(lang);
     }
+  };
+
+  const updateUrl = (lang) => {
+    const newPath = `/${lang}`;
+    navigate(newPath);
   };
 
   return (

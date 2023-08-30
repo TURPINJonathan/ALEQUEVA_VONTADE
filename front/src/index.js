@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import TranslationProvider from "./TranslationProvider";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 
 //? STYLES
 import "./sass/index.scss";
@@ -27,39 +29,61 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <TranslationProvider>
-      <Router>
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<Main />} exact />
-          <Route path="/about" element={<About />} exact />
-          <Route path="/gallery" element={<PictureGallery />} exact />
-          <Route path="/boat" element={<Boat />} exact />
-          <Route path="/tour" element={<Tour />} exact />
-          <Route path="/activities" element={<Activities />} exact />
-          <Route path="/contact" element={<Contact />} exact />
-          <Route path="/cancellation_policy" element={<Legal />} exact />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
-        <ToastContainer
-          position="bottom-center"
-          autoClose={5000}
-          hideProgressBar={false}
-          newestOnTop
-          closeOnClick
-          rtl
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="colored"
-        />
-      </Router>
-    </TranslationProvider>
-  </React.StrictMode>
-);
+
+const App = () => {
+  // Catch language from the URL
+  const langFromUrl = window.location.pathname.split("/")[1];
+
+  useEffect(() => {
+    // If the URL's language is different of the active language, change language
+    if (langFromUrl && langFromUrl !== i18n.language) {
+      i18n.changeLanguage(langFromUrl);
+    }
+  }, [langFromUrl]);
+
+  // If no language on the URL, redirect to /pt
+  if (!langFromUrl) {
+    window.location.href = "/pt";
+  }
+
+  return (
+    <React.StrictMode>
+      <I18nextProvider>
+        <TranslationProvider i18n={i18n}>
+          <Router>
+            <Navigation />
+            <Routes>
+              <Route path="/:lang/" element={<Main />} exact />
+              <Route path="/:lang/about" element={<About />} exact />
+              <Route path="/:lang/gallery" element={<PictureGallery />} exact />
+              <Route path="/:lang/boat" element={<Boat />} exact />
+              <Route path="/:lang/tour" element={<Tour />} exact />
+              <Route path="/:lang/activities" element={<Activities />} exact />
+              <Route path="/:lang/contact" element={<Contact />} exact />
+              <Route path="/:lang/cancellation_policy" element={<Legal />} exact />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Footer />
+            <ToastContainer
+              position="bottom-center"
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop
+              closeOnClick
+              rtl
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="colored"
+            />
+          </Router>
+        </TranslationProvider>
+      </I18nextProvider>
+    </React.StrictMode>
+  );
+};
+
+root.render(<App />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
