@@ -39,45 +39,45 @@ const Navigation = () => {
         <ul
           onMouseEnter={handleMouseEnter}
           onMouseLeave={handleMouseLeave}
-          onClick={handleMouseLeave}
+          onClick={handleMouseEnter || handleMouseLeave}
         >
-          <li className={isHovered ?? "hovered"}>
+          <li>
             <NavLink activeclassname="menu_selected" to="/about" end>
               <FontAwesomeIcon icon={faUser} className="iconNav" />
               {isHovered && <span>{t("nav.about")}</span>}
             </NavLink>
           </li>
-          <li className={isHovered ?? "hovered"}>
+          <li>
             <NavLink activeclassname="menu_selected" to="/boat" end>
               <FontAwesomeIcon icon={faAnchor} className="iconNav" />
               {isHovered && <span>{t("nav.boat")}</span>}
             </NavLink>
           </li>
-          <li className={isHovered ?? "hovered"}>
+          <li>
             <NavLink activeclassname="menu_selected" to="/tour" end>
               <FontAwesomeIcon icon={faSailboat} className="iconNav" />
               {isHovered && <span>{t("nav.tour")}</span>}
             </NavLink>
           </li>
-          <li className={isHovered ?? "hovered"}>
+          <li>
             <NavLink activeclassname="menu_selected" to={"/gallery"} end>
               <FontAwesomeIcon icon={faCamera} className="iconNav" />
               {isHovered && <span>{t("nav.gallery")}</span>}
             </NavLink>
           </li>
-          <li className={isHovered ?? "hovered"}>
+          <li>
             <NavLink activeclassname="menu_selected" to="/activities" end>
               <FontAwesomeIcon icon={faBinoculars} className="iconNav" />
               {isHovered && <span>{t("nav.doing")}</span>}
             </NavLink>
           </li>
-          <li className={isHovered ?? "hovered"}>
+          <li>
             <NavLink activeclassname="menu_selected" to={"/contact"} end>
               <FontAwesomeIcon icon={faAt} className="iconNav" />
               {isHovered && <span>{t("nav.contacts")}</span>}
             </NavLink>
           </li>
-          <li className={isHovered ?? "hovered"}>
+          <li>
             <NavLink
               activeclassname="menu_selected"
               to={"/cancellation_policy"}
@@ -87,7 +87,7 @@ const Navigation = () => {
               {isHovered && <span>{t("nav.cancellation")}</span>}
             </NavLink>
           </li>
-          <li className={isHovered ?? "hovered"}>
+          <li>
             <a
               href="https://www.livroreclamacoes.pt/Inicio/"
               target="_blank"
@@ -97,8 +97,8 @@ const Navigation = () => {
               {isHovered && <span>{t("nav.claim")}</span>}
             </a>
           </li>
-          <li className={isHovered ?? "hovered"}>
-            <Toggle isHovered={isHovered} />
+          <li>
+            <Toggle isHovered={isHovered} setIsHovered={setIsHovered} />
           </li>
         </ul>
       </nav>

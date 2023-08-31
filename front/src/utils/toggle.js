@@ -5,21 +5,24 @@ import { useState } from "react";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
 
-const Toggle = ({ isHovered }) => {
+const Toggle = ({ setIsHovered }) => {
   const { t } = useTranslation();
 
   const [activeLang, setActiveLang] = useState("pt");
+  const [showFlags, setShowFlags] = useState(false);
 
   const handleToggle = (lang) => {
     if (lang !== activeLang) {
       setActiveLang(lang);
       i18n.changeLanguage(lang);
     }
+    setShowFlags(!showFlags);
+    setIsHovered(false);
   };
 
   return (
     <div id="toggle">
-      {isHovered ? (
+      {showFlags ? (
         <div>
           <img
             src={Fr}
