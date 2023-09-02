@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useParams } from "react-router";
 import BgImg from "@gallery/discovery.jpg";
 import { useTranslation } from "react-i18next";
 import HoverableElement from "@utils/gridPicture";
@@ -11,7 +12,14 @@ import ChangeRoom from "@gallery/boat.jpg";
 import FrontDoor from "@pictures/boat.jpg";
 
 const Boat = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lang } = useParams();
+
+  useEffect(() => {
+    if (lang && lang !== i18n.language) {
+      i18n.changeLanguage(lang); // Définissez la langue dans i18next
+    }
+  }, [lang, i18n]);
 
   return (
     <main id="boat" style={{ backgroundImage: `url(${BgImg})` }}>

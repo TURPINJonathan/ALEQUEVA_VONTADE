@@ -1,10 +1,18 @@
+import { useTranslation } from "react-i18next";
+import { NavLink, useParams } from "react-router-dom";
+import { useEffect } from "react";
 import BgImg from "@pictures/about.jpg";
 import { Helmet } from "react-helmet";
-import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
 
 const NotFound = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lang } = useParams();
+
+  useEffect(() => {
+    if (lang && lang !== i18n.language) {
+      i18n.changeLanguage(lang); // Définissez la langue dans i18next
+    }
+  }, [lang, i18n]);
 
   return (
     <main id="notFound" style={{ backgroundImage: `url(${BgImg})` }}>

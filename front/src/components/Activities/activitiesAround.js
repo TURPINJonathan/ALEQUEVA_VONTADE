@@ -7,8 +7,6 @@ import { faSquareFacebook, faWhatsapp } from "@fortawesome/free-brands-svg-icons
 const ActivitiesAround = ({ data }) => {
   const { t } = useTranslation();
 
-  console.log(data);
-
   return (
     <section id="activities_container">
       {data.map((item, index) => (

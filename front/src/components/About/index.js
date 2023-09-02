@@ -1,10 +1,19 @@
+import { useParams } from "react-router";
+import { useEffect } from "react";
 import BgImg from "@pictures/about.jpg";
 import FS from "@pictures/fred_so.jpg";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
 
 const About = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lang } = useParams();
+
+  useEffect(() => {
+    if (lang && lang !== i18n.language) {
+      i18n.changeLanguage(lang); // Définissez la langue dans i18next
+    }
+  }, [lang, i18n]);
 
   const contents = t("about.comment").split(".");
   return (

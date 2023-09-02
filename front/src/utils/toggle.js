@@ -5,11 +5,19 @@ import { useEffect, useState } from "react";
 import i18n from "../i18n";
 import { useTranslation } from "react-i18next";
 import useResponsive from "@hooks/useResponsive";
+import { useLocation, useNavigate } from "react-router";
 
 const Toggle = ({ isHovered, setIsHovered }) => {
-  const { t } = useTranslation();
 
-  const [activeLang, setActiveLang] = useState("pt");
+  const path = window.location.pathname.split('/')[1]
+  const validLangs = ["fr", "en", "pt"];
+  const currentLang = validLangs.includes(path) ? path : "pt";
+
+  const { t } = useTranslation();
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const [activeLang, setActiveLang] = useState(currentLang);
   const [showFlags, setShowFlags] = useState(false);
   const isMobile = useResponsive(850);
 
@@ -18,6 +26,14 @@ const Toggle = ({ isHovered, setIsHovered }) => {
     if (lang !== activeLang) {
       setActiveLang(lang);
       i18n.changeLanguage(lang);
+
+      // Récupérez le slug de l'URL actuelle
+      const pathname = location.pathname;
+      const slugIndex = pathname.indexOf("/", 1); // Recherchez le deuxième "/" dans l'URL
+      const slug = slugIndex !== -1 ? pathname.substr(slugIndex + 1) : "";
+
+      // Mettez à jour l'URL avec la nouvelle langue tout en conservant le slug
+      navigate(`/${lang}/${slug}`);
     }
     if (isMobile) {
       setShowFlags(!showFlags);

@@ -1,9 +1,18 @@
+import { useParams } from "react-router";
+import { useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import BgImg from "@pictures/main.jpg";
 import { Helmet } from "react-helmet";
 
 const Main = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lang } = useParams();
+
+  useEffect(() => {
+    if (lang && lang !== i18n.language) {
+      i18n.changeLanguage(lang); // Définissez la langue dans i18next
+    }
+  }, [lang, i18n]);
   return (
     <main id="home" style={{ backgroundImage: `url(${BgImg})` }}>
       <Helmet>

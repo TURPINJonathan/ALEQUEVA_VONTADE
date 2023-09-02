@@ -19,6 +19,11 @@ import { NavLink } from "react-router-dom";
 const Navigation = () => {
   const { t } = useTranslation();
 
+  const path = window.location.pathname.split('/')[1]
+
+  const validLangs = ["fr", "en", "pt"];
+  const currentLang = validLangs.includes(path) ? path : "pt";
+
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -30,7 +35,7 @@ const Navigation = () => {
   };
   return (
     <header id="navigation">
-      <NavLink to="/" end>
+      <NavLink to={`/${currentLang}/`} end>
         <div id="logo">
           <img src={Logo} alt={t("logo")} />
         </div>
@@ -42,37 +47,37 @@ const Navigation = () => {
           onClick={handleMouseEnter || handleMouseLeave}
         >
           <li>
-            <NavLink activeclassname="menu_selected" to="/about" end>
+            <NavLink activeclassname="menu_selected" to={`/${currentLang}/about`} end>
               <FontAwesomeIcon icon={faUser} className="iconNav" />
               {isHovered && <span>{t("nav.about")}</span>}
             </NavLink>
           </li>
           <li>
-            <NavLink activeclassname="menu_selected" to="/boat" end>
+            <NavLink activeclassname="menu_selected" to={`/${currentLang}/boat`} end>
               <FontAwesomeIcon icon={faAnchor} className="iconNav" />
               {isHovered && <span>{t("nav.boat")}</span>}
             </NavLink>
           </li>
           <li>
-            <NavLink activeclassname="menu_selected" to="/tour" end>
+            <NavLink activeclassname="menu_selected" to={`/${currentLang}/tour`} end>
               <FontAwesomeIcon icon={faSailboat} className="iconNav" />
               {isHovered && <span>{t("nav.tour")}</span>}
             </NavLink>
           </li>
           <li>
-            <NavLink activeclassname="menu_selected" to={"/gallery"} end>
+            <NavLink activeclassname="menu_selected" to={`/${currentLang}/gallery`} end>
               <FontAwesomeIcon icon={faCamera} className="iconNav" />
               {isHovered && <span>{t("nav.gallery")}</span>}
             </NavLink>
           </li>
           <li>
-            <NavLink activeclassname="menu_selected" to="/activities" end>
+            <NavLink activeclassname="menu_selected" to={`/${currentLang}/activities`} end>
               <FontAwesomeIcon icon={faBinoculars} className="iconNav" />
               {isHovered && <span>{t("nav.doing")}</span>}
             </NavLink>
           </li>
           <li>
-            <NavLink activeclassname="menu_selected" to={"/contact"} end>
+            <NavLink activeclassname="menu_selected" to={`/${currentLang}/contact`} end>
               <FontAwesomeIcon icon={faAt} className="iconNav" />
               {isHovered && <span>{t("nav.contacts")}</span>}
             </NavLink>
@@ -80,7 +85,7 @@ const Navigation = () => {
           <li>
             <NavLink
               activeclassname="menu_selected"
-              to={"/cancellation_policy"}
+              to={`/${currentLang}/cancellation_policy`}
               end
             >
               <FontAwesomeIcon icon={faPowerOff} className="iconNav" />

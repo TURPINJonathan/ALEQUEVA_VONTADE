@@ -30,7 +30,7 @@ const Links = () => {
             </a>
           </p>
           <p className="social_links">
-            <h3>{t("contact.link.social")}</h3>
+            <span>{t("contact.link.social")}</span>
             <span>
               <a
                 href="https://www.facebook.com/profile.php?id=100089961169106"

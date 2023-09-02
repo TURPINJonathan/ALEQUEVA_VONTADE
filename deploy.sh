@@ -59,9 +59,16 @@ htaccess_content="
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
 
-  # Redirect all other requests to index.html
-  RewriteRule ^(.*)$ /index.html [L]
+  # Handle explicit language requests (e.g., /fr/...)
+  RewriteRule ^(fr|en)/(.*)$ /$2 [L]
+
+  # Redirect the root URL to the default language (pt)
+  RewriteRule ^$ /pt/ [R=301,L]
+
+  # Redirect requests for language slugs to index.html (e.g., /fr/boat)
+  RewriteRule ^(fr|en|pt)/(.*)$ /index.html [L]
 </IfModule>
+
 "
 
 # Écrire le contenu dans le fichier .htaccess
