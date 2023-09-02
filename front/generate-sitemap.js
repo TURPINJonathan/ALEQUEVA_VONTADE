@@ -19,7 +19,9 @@ const pages = [
   const stream = new SitemapStream({ hostname: baseUrl });
 
   pages.forEach((page) => {
-    stream.write({ url: `/${languages}${page}`, changefreq: 'weekly', priority: 0.7 });
+    languages.forEach((language) => {
+      stream.write({ url: `/${language}${page}`, changefreq: 'weekly', priority: 0.7 });
+    })
   });
 
   stream.end();

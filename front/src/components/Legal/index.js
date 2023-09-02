@@ -26,6 +26,9 @@ const Legal = () => {
         name="twitter:description"
         content={t("meta.cancellation.description")}
       />
+      <meta property="og:locale" content="pt_PT" />
+      <meta property="og:locale:alternate" content="fr_FR" />
+      <meta property="og:locale:alternate" content="en_US" />
     </Helmet>
       <section className="card_border">
         <article className="card_background">

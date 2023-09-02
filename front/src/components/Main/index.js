@@ -23,6 +23,9 @@ const Main = () => {
         <meta name="keyword" content={t("meta.main.keywords")} />
         <meta name="twitter:title" content={t("meta.main.title")} />
         <meta name="twitter:description" content={t("meta.main.description")} />
+        <meta property="og:locale" content="pt_PT" />
+        <meta property="og:locale:alternate" content="fr_FR" />
+        <meta property="og:locale:alternate" content="en_US" />
       </Helmet>
       <section id="home_container" className="card_border">
         <article id="home_subcontainer" className="card_background">

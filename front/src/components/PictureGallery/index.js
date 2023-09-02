@@ -110,6 +110,9 @@ const PictureGallery = () => {
           name="twitter:description"
           content={t("meta.gallery.description")}
         />
+        <meta property="og:locale" content="pt_PT" />
+        <meta property="og:locale:alternate" content="fr_FR" />
+        <meta property="og:locale:alternate" content="en_US" />
       </Helmet>
       <section className="gallery_container">
         {shuffledPictures.map((picture, index) => picture.isActive && (

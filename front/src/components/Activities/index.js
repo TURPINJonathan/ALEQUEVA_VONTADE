@@ -55,6 +55,9 @@ const Activities = () => {
           name="twitter:description"
           content={t("meta.activities.description")}
         />
+        <meta property="og:locale" content="pt_PT" />
+        <meta property="og:locale:alternate" content="fr_FR" />
+        <meta property="og:locale:alternate" content="en_US" />
       </Helmet>
       <section id="activities_container-nav">
         {activity ? (

@@ -55,20 +55,20 @@ htaccess_content="
   RewriteEngine On
   RewriteBase /
 
-  # Handle requests for files that exist
+  # Redirect to HTTPS
+  RewriteCond %{HTTPS} off
+  RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
+
+  # Serve the application without index.html
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
 
-  # Handle explicit language requests (e.g., /fr/...)
-  RewriteRule ^(fr|en)/(.*)$ /$2 [L]
-
-  # Redirect the root URL to the default language (pt)
-  RewriteRule ^$ /pt/ [R=301,L]
-
-  # Redirect requests for language slugs to index.html (e.g., /fr/boat)
-  RewriteRule ^(fr|en|pt)/(.*)$ /index.html [L]
+  # Ajoutez une règle pour gérer les routes React
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ /index.html [L]
 </IfModule>
-
 "
 
 # Écrire le contenu dans le fichier .htaccess

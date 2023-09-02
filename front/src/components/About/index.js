@@ -29,6 +29,9 @@ const About = () => {
           name="twitter:description"
           content={t("meta.about.description")}
         />
+        <meta property="og:locale" content="pt_PT" />
+        <meta property="og:locale:alternate" content="fr_FR" />
+        <meta property="og:locale:alternate" content="en_US" />
       </Helmet>
       <section id="about_container" className="card_border">
         <article id="about_subcontainer" className="card_background">

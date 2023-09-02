@@ -118,6 +118,9 @@
   "tour": {
     "guests": "pessoas",
     "precision": "* mínimo 2 pessoas",
+    "two_pax": "para 2 pessoas",
+    "more_passengers": "10 € por passageiros supplémentares",
+    "max_passengers": "8 passageiros máximo",
     "hour": {
       "from_price": "A partir de 30€/pessoa*",
       "tour_type": "Passeio de descoberta",

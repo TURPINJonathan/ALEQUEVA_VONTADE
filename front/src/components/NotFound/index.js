@@ -30,6 +30,9 @@ const NotFound = () => {
           name="twitter:description"
           content={t("meta.contacts.description")}
         />
+        <meta property="og:locale" content="pt_PT" />
+        <meta property="og:locale:alternate" content="fr_FR" />
+        <meta property="og:locale:alternate" content="en_US" />
       </Helmet>
 
       <section id="notfound_container">

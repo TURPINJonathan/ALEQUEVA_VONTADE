@@ -117,6 +117,9 @@
   "tour": {
     "guests": "personnes",
     "precision": "* minimum 2 personnes",
+    "two_pax": "pour deux personnes",
+    "more_passengers": "10 € par passagers supplémentaires",
+    "max_passengers": "Equipage maximum de 8 personnes",
     "hour": {
       "from_price": "A partir de 30€/pers*",
       "tour_type": "Circuit découverte",

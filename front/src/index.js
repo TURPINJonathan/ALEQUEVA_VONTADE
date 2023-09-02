@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router, Route, Routes, useParams } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 // Language manager
 import TranslationProvider from "./TranslationProvider";
@@ -39,7 +39,7 @@ const App = () => {
 
   useEffect(() => {
     // If 'lang' is not present in the URL, set it to 'pt'
-    if (!currentLang) {
+    if (!currentLang || !validLangs.includes(currentLang)) {
       window.history.replaceState(null, null, '/pt');
     }
   }, [currentLang]);
@@ -48,7 +48,7 @@ const App = () => {
     <React.StrictMode>
       <I18nextProvider i18n={i18n}>
         <TranslationProvider>
-          <Router>
+          <Router basename="/">
             <Navigation />
             <Routes>
               <Route path="/:lang/" element={<Main />} exact />
