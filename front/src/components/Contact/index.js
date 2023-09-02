@@ -1,3 +1,5 @@
+import { useParams } from "react-router";
+import { useEffect } from "react";
 import BgImg from "@pictures/about.jpg";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
@@ -7,7 +9,14 @@ import ContactForm from "@components/Contact/ContactForm";
 import ContactMap from "@components/Contact/ContactMap";
 
 const Contact = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lang } = useParams();
+
+  useEffect(() => {
+    if (lang && lang !== i18n.language) {
+      i18n.changeLanguage(lang); // Définissez la langue dans i18next
+    }
+  }, [lang, i18n]);
   
   return (
     <main id="contact" style={{ backgroundImage: `url(${BgImg})` }}>

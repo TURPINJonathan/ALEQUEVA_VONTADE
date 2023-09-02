@@ -1,12 +1,20 @@
 import React, { useEffect, useState } from "react";
-import BgImg from "@pictures/about.jpg";
 import { useTranslation } from "react-i18next";
-import ImageFullScreen from "@components/PictureGallery/PictureFullScreen";
-import { pictures as Pictures } from "@data";
+import { useParams } from "react-router";
 import { Helmet } from "react-helmet";
+import { pictures as Pictures } from "@data";
+import BgImg from "@pictures/about.jpg";
+import ImageFullScreen from "@components/PictureGallery/PictureFullScreen";
 
 const PictureGallery = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lang } = useParams();
+
+  useEffect(() => {
+    if (lang && lang !== i18n.language) {
+      i18n.changeLanguage(lang); // Définissez la langue dans i18next
+    }
+  }, [lang, i18n]);
 
   const [fullscreenImage, setFullscreenImage] = useState(null);
   const [shuffledPictures, setShuffledPictures] = useState([]);

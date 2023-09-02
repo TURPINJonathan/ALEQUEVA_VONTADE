@@ -1,7 +1,8 @@
-import React from "react";
-import BgImg from "@gallery/swimming.jpg";
+import React, { useEffect } from "react";
+import { useParams } from "react-router";
 import { useTranslation } from "react-i18next";
 import { Helmet } from "react-helmet";
+import BgImg from "@gallery/swimming.jpg";
 
 import { rates } from "@data";
 import HourAndHalfPicture from "@pictures/tours/hour_and_half.jpg";
@@ -9,7 +10,14 @@ import HourAndHalfPicture from "@pictures/tours/hour_and_half.jpg";
 import Rate from "@components/Tour/Rate";
 
 const Tour = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const { lang } = useParams();
+
+  useEffect(() => {
+    if (lang && lang !== i18n.language) {
+      i18n.changeLanguage(lang); // Définissez la langue dans i18next
+    }
+  }, [lang, i18n]);
 
   return (
     <main id="tour" style={{ backgroundImage: `url(${BgImg})` }}>

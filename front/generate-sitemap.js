@@ -3,6 +3,7 @@ const path = require('path');
 const { SitemapStream, streamToPromise } = require('sitemap');
 
 const baseUrl = 'https://alquevavontade.com'; // Remplacez par l'URL de votre application
+const languages = ['pt', 'fr', 'en']; // Liste des langues disponibles
 const pages = [
   '/',
   '/about',
@@ -18,7 +19,7 @@ const pages = [
   const stream = new SitemapStream({ hostname: baseUrl });
 
   pages.forEach((page) => {
-    stream.write({ url: page, changefreq: 'weekly', priority: 0.7 });
+    stream.write({ url: `/${languages}${page}`, changefreq: 'weekly', priority: 0.7 });
   });
 
   stream.end();

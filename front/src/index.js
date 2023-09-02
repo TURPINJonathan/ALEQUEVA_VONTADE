@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useParams } from "react-router-dom";
+
+// Language manager
 import TranslationProvider from "./TranslationProvider";
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n";
 
 //? STYLES
 import "./sass/index.scss";
@@ -26,42 +30,58 @@ import NotFound from "@components/NotFound";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <TranslationProvider>
-      <Router>
-        <Navigation />
-        <Routes>
-          <Route path="/" element={<Main />} exact />
-          <Route path="/about" element={<About />} exact />
-          <Route path="/gallery" element={<PictureGallery />} exact />
-          <Route path="/boat" element={<Boat />} exact />
-          <Route path="/tour" element={<Tour />} exact />
-          <Route path="/activities" element={<Activities />} exact />
-          <Route path="/contact" element={<Contact />} exact />
-          <Route path="/cancellation_policy" element={<Legal />} exact />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-        <Footer />
-        <ToastContainer
-          position="bottom-center"
-          autoClose={5000}
-          hideProgressBar={false}
-          newestOnTop
-          closeOnClick
-          rtl
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="colored"
-        />
-      </Router>
-    </TranslationProvider>
-  </React.StrictMode>
-);
+const App = () => {
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+  const path = window.location.pathname.split('/')[1]
+
+  const validLangs = ["fr", "en", "pt"];
+  const currentLang = validLangs.includes(path) ? path : "pt";
+
+  useEffect(() => {
+    // If 'lang' is not present in the URL, set it to 'pt'
+    if (!currentLang) {
+      window.history.replaceState(null, null, '/pt');
+    }
+  }, [currentLang]);
+
+  return (
+    <React.StrictMode>
+      <I18nextProvider i18n={i18n}>
+        <TranslationProvider>
+          <Router>
+            <Navigation />
+            <Routes>
+              <Route path="/:lang/" element={<Main />} exact />
+              <Route path="/:lang/about" element={<About />} exact />
+              <Route path="/:lang/gallery" element={<PictureGallery />} exact />
+              <Route path="/:lang/boat" element={<Boat />} exact />
+              <Route path="/:lang/tour" element={<Tour />} exact />
+              <Route path="/:lang/activities" element={<Activities />} exact />
+              <Route path="/:lang/contact" element={<Contact />} exact />
+              <Route path="/:lang/cancellation_policy" element={<Legal />} exact />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+            <Footer />
+            <ToastContainer
+              position="bottom-center"
+              autoClose={5000}
+              hideProgressBar={false}
+              newestOnTop
+              closeOnClick
+              rtl
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              theme="colored"
+            />
+          </Router>
+        </TranslationProvider>
+      </I18nextProvider>
+    </React.StrictMode>
+  );
+};
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App />);
+
 reportWebVitals();

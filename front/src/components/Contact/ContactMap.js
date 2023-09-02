@@ -36,7 +36,7 @@ const ContactMap = () => {
         <div className="contact_find">
           <h2>{t("contact.map.where")}</h2>
           {positions.map((position) => (
-            <h3>
+            <h3 key={position.id}>
               <a
                 href={position.googleURL}
                 target="_blank"
