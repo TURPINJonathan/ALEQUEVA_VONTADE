@@ -118,6 +118,9 @@
   "tour": {
     "guests": "guests",
     "precision": "* minimum 2 guests",
+    "two_pax": "for two pax",
+    "more_passengers": "10 € per additional passenger",
+    "max_passengers": "Maximum crew of 8 persons",
     "hour": {
       "from_price": "from 30€*/pers",
       "tour_type": "Discovery tour",
@@ -161,7 +164,7 @@
       "special": "swimming and paddling possible in summer"
     },
     "private": {
-      "tour_type": "Discovery tour",
+      "tour_type": "Customize tour",
       "picture_description": "TODO",
       "tour_subtype": "On quotation only *",
       "itinerary_tour": "Family, friends or colleagues? We will help you to imagine and create a unique, made-to-measure event: itineraries, duration, activities, music - you will be the protagonist of an event that reflects your image!",
