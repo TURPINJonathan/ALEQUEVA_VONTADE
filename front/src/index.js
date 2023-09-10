@@ -32,7 +32,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
 
-  const path = window.location.pathname.split('/')[1]
+  const path = window.location.pathname.split('/')[1];
 
   const validLangs = ["fr", "en", "pt"];
   const currentLang = validLangs.includes(path) ? path : "pt";
