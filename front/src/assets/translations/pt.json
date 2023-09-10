@@ -147,9 +147,9 @@
       "picture_description": "Paisagem vista do barco, a natureza na primavera",
       "tour_subtype": "Passeio privado",
       "duration": "durée: 2:00",
-      "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
+      "itinerary_tour": "Saida da marina de Amieira ou da praia de Amieira.",
       "from_to_tour": "A partir das 11:00 e atè as 20:00 (21:00 no verão)",
-      "included": "Bebidas e bolo de degustação incluídos",
+      "included": "Bebidas e tabua de degustaçao incluídos",
       "special": "Mergulho possivel no verão"
     },
     "three_hours": {
@@ -158,9 +158,9 @@
       "picture_description": "Pôr do sol no lago um momento romântico",
       "tour_subtype": "Passeio privado",
       "duration": "durée: 3:00",
-      "itinerary_tour": "Départ de la marina d'Amieira ou de la plage d'Amieira.",
+      "itinerary_tour": "Saida da marina de Amieira ou da praia de Amieira.",
       "from_to_tour": "A partir das 11:00 e atè as 20:00 (21:00 no verão)",
-      "included": "Bebidas e bolo de degustação incluídos",
+      "included": "Bebidas e tabua de degustaçao incluídos",
       "special": "Mergulho e paddle possivel no verão"
     },
     "private": {

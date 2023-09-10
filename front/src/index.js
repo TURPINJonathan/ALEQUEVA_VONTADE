@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -35,16 +35,15 @@ const App = () => {
   const path = window.location.pathname.split('/')[1];
   const pathNamePt = window.location.pathname;
 
-  const validLangs = ["fr", "en", "pt"];
+  const validLangs = useMemo(() => ["fr", "en", "pt"], []) ;
   const currentLang = validLangs.includes(path) ? path : "pt";
 
   useEffect(() => {
     // If 'lang' is not present in the URL, set it to 'pt'
     if (!currentLang || !validLangs.includes(currentLang) || pathNamePt === '/') {
-      // window.history.replaceState(null, null, '/pt');
       window.location.href = '/pt';
     }
-  }, [currentLang]);
+  }, [currentLang, pathNamePt, validLangs]);
 
   return (
     <React.StrictMode>

@@ -43,7 +43,14 @@ const Tour = () => {
                 rate.direction === "left" ? "picture_left" : ""
               }`}
             >
-              <div className="tour_inside">
+              <div
+                className="tour_inside"
+                style={
+                  rate.tour === "private"
+                    ? { justifyContent: "space-between" }
+                    : {}
+                }
+              >
                 <div className="tour_type">{t(rate.type)}</div>
 
                 {rate.master ? (
@@ -55,15 +62,24 @@ const Tour = () => {
                   <p className="tour_duration">({t(rate.duration)})</p>
                 )}
                 <p className="tour_content">{t(rate.itinerary)}</p>
-                <p className="tour_content">{t(rate.timer)}</p>
-
-                <p className="tour_price">
-                  <span>
-                    {rate.price} {t("tour.two_pax")}
-                  </span>
-                  <span>{t("tour.more_passengers")}</span>
-                  <span>{t("tour.max_passengers")}</span>
+                <p
+                  className="tour_content"
+                  style={
+                    rate.tour === "private" ? { marginBottom: "1rem" } : {}
+                  }
+                >
+                  {t(rate.timer)}
                 </p>
+
+                {rate.tour !== "private" && (
+                  <p className="tour_price">
+                    <span>
+                      {rate.price} {t("tour.two_pax")}
+                    </span>
+                    <span>{t("tour.more_passengers")}</span>
+                    <span>{t("tour.max_passengers")}</span>
+                  </p>
+                )}
 
                 {rate.included && (
                   <p className="tour_included">{t(rate.included)}</p>
