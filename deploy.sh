@@ -55,6 +55,10 @@ htaccess_content="
   RewriteEngine On
   RewriteBase /
 
+  # Redirect www to non-www
+  RewriteCond %{HTTP_HOST} ^www\.alquevavontade\.com [NC]
+  RewriteRule ^(.*)$ https://alquevavontade.com/$1 [L,R=301]
+
   # Redirect to HTTPS
   RewriteCond %{HTTPS} off
   RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L]
@@ -63,12 +67,8 @@ htaccess_content="
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^ index.html [L]
-
-  # Ajoutez une règle pour gérer les routes React
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^(.*)$ /index.html [L]
 </IfModule>
+
 "
 
 # Écrire le contenu dans le fichier .htaccess

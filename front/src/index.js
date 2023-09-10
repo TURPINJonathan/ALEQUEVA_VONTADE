@@ -33,14 +33,16 @@ import "react-toastify/dist/ReactToastify.css";
 const App = () => {
 
   const path = window.location.pathname.split('/')[1];
+  const pathNamePt = window.location.pathname;
 
   const validLangs = ["fr", "en", "pt"];
   const currentLang = validLangs.includes(path) ? path : "pt";
 
   useEffect(() => {
     // If 'lang' is not present in the URL, set it to 'pt'
-    if (!currentLang || !validLangs.includes(currentLang)) {
-      window.history.replaceState(null, null, '/pt');
+    if (!currentLang || !validLangs.includes(currentLang) || pathNamePt === '/') {
+      // window.history.replaceState(null, null, '/pt');
+      window.location.href = '/pt';
     }
   }, [currentLang]);
 
